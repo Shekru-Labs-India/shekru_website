@@ -1,24 +1,29 @@
-import logo from './logo.svg';
 import './App.css';
+import Home from './component/Home';
+import Contact from './component/Contact';
+import HireDeveloper from './component/HireDeveloper';
+import Services from './component/Services';
+import Career from './component/Career';
+import CaseStudies from './component/CaseStudies';
+import AboutUs from './component/AboutUs';
+import Navbar from './component/Navbar';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      {/* Or Navbar2 based on your requirement */}
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<AboutUs />} />
+        <Route path="/services" element={<Services />} />
+        <Route path="/hire-developer" element={<HireDeveloper />} />
+        <Route path="/case-studies" element={<CaseStudies />} />
+        <Route path="/career" element={<Career />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
+      
+    </Router>
   );
 }
 
