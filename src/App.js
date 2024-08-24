@@ -7,7 +7,7 @@ import Career from './component/Career';
 import CaseStudies from './component/CaseStudies';
 import AboutUs from './component/AboutUs';
 import Navbar from './component/Navbar';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
