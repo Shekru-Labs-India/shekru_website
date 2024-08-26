@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shekru_website/static/css/main.f855e6bc.css",
-    "main.js": "/shekru_website/static/js/main.428fe420.js",
+    "main.js": "/shekru_website/static/js/main.4ca20fe2.js",
     "static/js/453.8eb38b72.chunk.js": "/shekru_website/static/js/453.8eb38b72.chunk.js",
     "static/media/s-3(copy).jpg": "/shekru_website/static/media/s-3(copy).61d51fe51c3f825384c9.jpg",
     "static/media/s-6(copy).jpg": "/shekru_website/static/media/s-6(copy).dbde10e2c201d2cd0a43.jpg",
@@ -40,11 +40,11 @@
     "static/media/t-5.jpg": "/shekru_website/static/media/t-5.6dbd2d32e82745e47525.jpg",
     "index.html": "/shekru_website/index.html",
     "main.f855e6bc.css.map": "/shekru_website/static/css/main.f855e6bc.css.map",
-    "main.428fe420.js.map": "/shekru_website/static/js/main.428fe420.js.map",
+    "main.4ca20fe2.js.map": "/shekru_website/static/js/main.4ca20fe2.js.map",
     "453.8eb38b72.chunk.js.map": "/shekru_website/static/js/453.8eb38b72.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.428fe420.js"
+    "static/js/main.4ca20fe2.js"
   ]
 }
