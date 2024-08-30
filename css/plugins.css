@@ -24893,17 +24893,23 @@ fieldset:disabled .btn {
     content: "\e00d"
 }
 
-.icon-presentation:before {
-    content: "\e00e"
+.icon-presentation::before {
+    content: "\f0c0"; /* Presentation icon */
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
 }
+
 
 .icon-picture:before {
     content: "\e00f"
 }
 
 .icon-pictures:before {
-    content: "\e010"
+    content: "\f19c"; /* Money bill icon representing finance */
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
 }
+
 
 .icon-video:before {
     content: "\e011"
@@ -24921,13 +24927,19 @@ fieldset:disabled .btn {
     content: "\e014"
 }
 
-.icon-briefcase:before {
-    content: "\e015"
+.icon-briefcase::before {
+    content: "\f0b1"; /* Unicode for the Briefcase icon */
+    font-family: "Font Awesome 6 Free"; /* Ensure this matches the Font Awesome version you are using */
+    font-weight: 900; /* Font Awesome Solid icons use font-weight 900 */
 }
 
-.icon-wallet:before {
-    content: "\e016"
+
+.icon-wallet::before {
+    content: "\f555"; /* Unicode for the Wallet icon */
+    font-family: "Font Awesome 6 Free"; /* Ensure this matches the Font Awesome version you are using */
+    font-weight: 900; /* Font Awesome Solid icons use font-weight 900 */
 }
+
 
 .icon-gift:before {
     content: "\e017"
@@ -24937,9 +24949,12 @@ fieldset:disabled .btn {
     content: "\e018"
 }
 
-.icon-grid:before {
-    content: "\e019"
+.icon-grid::before {
+    content: "\f201"; /* Unicode for the Chart Line icon */
+    font-family: "Font Awesome 6 Free"; /* Ensure this matches the Font Awesome version you are using */
+    font-weight: 900; /* Font Awesome Solid icons use font-weight 900 */
 }
+
 
 .icon-expand:before {
     content: "\e01a"
@@ -24954,7 +24969,9 @@ fieldset:disabled .btn {
 }
 
 .icon-adjustments:before {
-    content: "\e01d"
+    content: "\f080"; /* Cogs icon */
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
 }
 
 .icon-ribbon:before {
@@ -25033,17 +25050,23 @@ fieldset:disabled .btn {
     content: "\e030"
 }
 
-.icon-layers:before {
-    content: "\e031"
+.icon-layers::before {
+    content: "\f19c"; /* Unicode for the Bank icon */
+    font-family: "Font Awesome 6 Free"; /* Ensure this matches the Font Awesome version you are using */
+    font-weight: 900; /* Font Awesome Solid icons use font-weight 900 */
 }
+
 
 .icon-pencil:before {
     content: "\e032"
 }
 
-.icon-tools:before {
-    content: "\e033"
-}
+.icon-tools::before {
+    content: "\f5ae"; /* Unicode for Font Awesome pen ruler icon */
+    font-family: "Font Awesome 6 Free"; /* Ensure this matches the Font Awesome version you are using */
+    font-weight: 900; /* Regular icon style */
+  }
+  
 
 .icon-tools-2:before {
     content: "\e034"
@@ -25086,7 +25109,9 @@ fieldset:disabled .btn {
 }
 
 .icon-recycle:before {
-    content: "\e03e"
+    content: "\f508"; /* User tie icon */
+    font-family: "Font Awesome 6 Free";
+    font-weight: 900;
 }
 
 .icon-anchor:before {
@@ -25110,16 +25135,22 @@ fieldset:disabled .btn {
 }
 
 .icon-hotairballoon:before {
-    content: "\e044"
-}
+    content: "\f590"; /* Unicode for Font Awesome hot air balloon icon */
+    font-family: "Font Awesome 6 Free"; /* Ensure this matches the Font Awesome version you are using */
+    font-weight: 900; /* Regular icon style */
+  }
+  
 
 .icon-globe:before {
     content: "\e045"
 }
 
-.icon-genius:before {
-    content: "\e046"
+.icon-genius::before {
+    content: "\f479"; /* Unicode for the Shield icon */
+    font-family: "Font Awesome 6 Free"; /* Ensure this matches the Font Awesome version you are using */
+    font-weight: 900; /* Font Awesome Solid icons use font-weight 900 */
 }
+
 
 .icon-map-pin:before {
     content: "\e047"
