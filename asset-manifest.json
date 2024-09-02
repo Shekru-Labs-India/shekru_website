@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shekru_website/static/css/main.f855e6bc.css",
-    "main.js": "/shekru_website/static/js/main.9e49c98d.js",
+    "main.js": "/shekru_website/static/js/main.4da9b607.js",
     "static/js/453.30bf59f8.chunk.js": "/shekru_website/static/js/453.30bf59f8.chunk.js",
     "static/media/engine.gif": "/shekru_website/static/media/engine.91e85f2515b1fc33d2d5.gif",
     "static/media/s-3(copy).jpg": "/shekru_website/static/media/s-3(copy).61d51fe51c3f825384c9.jpg",
@@ -19,6 +19,7 @@
     "static/media/s-7(copy).jpg": "/shekru_website/static/media/s-7(copy).4f057a50107062b0ddef.jpg",
     "static/media/slide20.jpg": "/shekru_website/static/media/slide20.788bd0431bec0b5f81b7.jpg",
     "static/media/slide8.jpg": "/shekru_website/static/media/slide8.21c35062b071811e380c.jpg",
+    "static/media/clientBanner.jpg": "/shekru_website/static/media/clientBanner.ea3dacd16e6c197a1b1f.jpg",
     "static/media/about-02.jpg": "/shekru_website/static/media/about-02.1109c3ec77af67dee193.jpg",
     "static/media/s-5(copy).jpg": "/shekru_website/static/media/s-5(copy).3ca3c1142f4f8ae73df5.jpg",
     "static/media/s-2(copy).jpg": "/shekru_website/static/media/s-2(copy).f0ab87ef9b28aaf787f7.jpg",
@@ -27,8 +28,11 @@
     "static/media/fastIngestion.png": "/shekru_website/static/media/fastIngestion.a75cc9252023b75c5327.png",
     "static/media/team-02.jpg": "/shekru_website/static/media/team-02.5af2d3ade98c08ae1094.jpg",
     "static/media/service-4b.jpg": "/shekru_website/static/media/service-4b.2406fd4f3f8b910b9b98.jpg",
+    "static/media/industries.png": "/shekru_website/static/media/industries.fa8cb48f8f674335ae87.png",
     "static/media/service-2b.jpg": "/shekru_website/static/media/service-2b.bb503ace7749ea882378.jpg",
+    "static/media/ecomSolution.png": "/shekru_website/static/media/ecomSolution.9455a1c3ac7ca901f9c1.png",
     "static/media/team-01.jpg": "/shekru_website/static/media/team-01.0a08cad53b1276553520.jpg",
+    "static/media/solution.png": "/shekru_website/static/media/solution.199627fd2a91003ae1f8.png",
     "static/media/service-3b.jpg": "/shekru_website/static/media/service-3b.44a7c410660ad3f193e0.jpg",
     "static/media/slice-2.png": "/shekru_website/static/media/slice-2.1d614790c9faece06091.png",
     "static/media/service-1b.jpg": "/shekru_website/static/media/service-1b.0ca5989e53f741ad0eb8.jpg",
@@ -38,12 +42,18 @@
     "static/media/content-04.jpg": "/shekru_website/static/media/content-04.fa4e36da657d821825ac.jpg",
     "static/media/content-03.jpg": "/shekru_website/static/media/content-03.7342b9d1a71a6c7eeb2a.jpg",
     "static/media/product02.png": "/shekru_website/static/media/product02.c6118a962f64e5d32d38.png",
+    "static/media/transportation.png": "/shekru_website/static/media/transportation.34f00fe986f28f545c4b.png",
     "static/media/content-02.jpg": "/shekru_website/static/media/content-02.c059dfa2bbc8480c71a3.jpg",
     "static/media/tab-content-03.jpg": "/shekru_website/static/media/tab-content-03.92a040dd0a5646bd3468.jpg",
+    "static/media/machine.png": "/shekru_website/static/media/machine.a264b3db56c45e8cd23e.png",
     "static/media/security.png": "/shekru_website/static/media/security.0325d94d06a5000a2dd3.png",
     "static/media/compliance.png": "/shekru_website/static/media/compliance.39986c6e4791da45c9c9.png",
+    "static/media/transportCover.png": "/shekru_website/static/media/transportCover.2c75872f539780356b68.png",
     "static/media/lowLatency.png": "/shekru_website/static/media/lowLatency.4470b457807596c4b13f.png",
+    "static/media/eCommerce.png": "/shekru_website/static/media/eCommerce.c10f28a6047748214cf1.png",
+    "static/media/retail.png": "/shekru_website/static/media/retail.c10f28a6047748214cf1.png",
     "static/media/availability.png": "/shekru_website/static/media/availability.456d60d705abe89708ed.png",
+    "static/media/t-11.jpg": "/shekru_website/static/media/t-11.a0f6d821da29ab9898aa.jpg",
     "static/media/horizontalScal.png": "/shekru_website/static/media/horizontalScal.4f581b54c6b7673a06b9.png",
     "static/media/t-4.jpg": "/shekru_website/static/media/t-4.b4a8d2b0517010105368.jpg",
     "static/media/workspaces.png": "/shekru_website/static/media/workspaces.4d743b7d67e32ab278e5.png",
@@ -54,13 +64,16 @@
     "static/media/t-6.jpg": "/shekru_website/static/media/t-6.bfd14ecd6d19e1fbc347.jpg",
     "static/media/gitLab.png": "/shekru_website/static/media/gitLab.e6e8b35f56920ce0a2bb.png",
     "static/media/t-5.jpg": "/shekru_website/static/media/t-5.6dbd2d32e82745e47525.jpg",
+    "static/media/take-rent-pe.jpg": "/shekru_website/static/media/take-rent-pe.661c47ae50a95e2b6724.jpg",
+    "static/media/manatarang.jpg": "/shekru_website/static/media/manatarang.3e9fb7afb5d721e6411f.jpg",
+    "static/media/greenbrier-living.jpg": "/shekru_website/static/media/greenbrier-living.93dd712883cd327e53eb.jpg",
     "index.html": "/shekru_website/index.html",
     "main.f855e6bc.css.map": "/shekru_website/static/css/main.f855e6bc.css.map",
-    "main.9e49c98d.js.map": "/shekru_website/static/js/main.9e49c98d.js.map",
+    "main.4da9b607.js.map": "/shekru_website/static/js/main.4da9b607.js.map",
     "453.30bf59f8.chunk.js.map": "/shekru_website/static/js/453.30bf59f8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f855e6bc.css",
-    "static/js/main.9e49c98d.js"
+    "static/js/main.4da9b607.js"
   ]
 }
