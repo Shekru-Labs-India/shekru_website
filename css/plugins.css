@@ -28988,7 +28988,7 @@ h6 a,
 }
 
 .display-15 {
-    font-size: 2.4rem
+    font-size: 4rem
 }
 
 .display-16 {
@@ -32816,7 +32816,8 @@ section.md {
 }
 
 .w-95 {
-    width: 95%
+    width: 95%;
+   
 }
 
 .w-100 {
