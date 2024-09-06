@@ -48055,9 +48055,12 @@ header {
     }
 
     header.header-style4.scrollHeader .navbar-default {
-        position: relative;
+        position: fixed;
         transition: all 0s ease 0s
     }
+    .header-style4.header-content {
+        display: none; /* Hide the header content */
+      }
 
     header.header-style4 .menu_area {
         background: #f5f5f5;
