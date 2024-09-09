@@ -36,8 +36,8 @@
         m = p(".navbar-brand.logo7 img");
       e <= 50
         ? (p("header").removeClass("scrollHeader").addClass("fixedHeader"),
-          o.attr("src", "src/assets/img/logos/logo.png"),
-          a.attr("src", "src/assets/img/logo.png"),
+          o.attr("src", "/img/logos/logo.png"),
+          a.attr("src", "/img/logo.png"),
           i.attr("src", "img/logos/logo-white.png"),
           t.attr("src", "img/logos/logo-white.png"),
           s.attr("src", "img/logos/logo-2-light.png"),
@@ -46,8 +46,8 @@
           n.attr("src", "img/logos/logo-3-light.png"),
           d.attr("src", "img/logos/logo-4-light.png"))
         : (p("header").removeClass("fixedHeader").addClass("scrollHeader"),
-          o.attr("src", "src/assets/img/logo.png"),
-          a.attr("src", "isrc/assets/mg/logo.png"),
+          o.attr("src", "/img/logo.png"),
+          a.attr("src", "/img/logo.png"),
           i.attr("src", "img/logos/logo-white.png"),
           t.attr("src", "img/logos/logo-dark.png"),
           s.attr("src", "img/logos/logo-2-dark.png"),
