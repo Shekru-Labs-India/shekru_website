@@ -48396,7 +48396,7 @@ header {
     }
 
     .menu_area-light .navbar-nav>li.has-sub>a:hover {
-        color: #fff
+        color: #000
     }
 
     .menu_area-light .navbar>ul>li.has-sub>a:hover:after {
