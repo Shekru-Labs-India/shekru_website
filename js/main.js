@@ -24,38 +24,15 @@
   }),
     f.on("scroll", function () {
       var e = f.scrollTop(),
-        o = p(".navbar-brand img"),
-        a = p(".navbar-brand.logodefault img"),
-        i = p(".navbar-brand.logowhite img"),
-        t = p(".navbar-brand.logowhite-dark img"),
-        s = p(".navbar-brand.logo2 img"),
-        l = p(".navbar-brand.logo3 img"),
-        r = p(".navbar-brand.logo4 img"),
-        n = p(".navbar-brand.logo5 img"),
-        d = p(".navbar-brand.logo6 img"),
-        m = p(".navbar-brand.logo7 img");
+       
+        a = p(".navbar-brand.logodefault img");
       e <= 50
         ? (p("header").removeClass("scrollHeader").addClass("fixedHeader"),
-          o.attr("src", "img/logo-inner.png"),
-          a.attr("src", "img/logo.png"),
-          i.attr("src", "img/logos/logo-white.png"),
-          t.attr("src", "img/logos/logo-white.png"),
-          s.attr("src", "img/logos/logo-2-light.png"),
-          l.attr("src", "img/logos/logo-2-dark.png"),
-          r.attr("src", "img/logos/logo-5-dark.png"),
-          n.attr("src", "img/logos/logo-3-light.png"),
-          d.attr("src", "img/logos/logo-4-light.png"))
+         
+          a.attr("src", "img/logo.png"))
         : (p("header").removeClass("fixedHeader").addClass("scrollHeader"),
-          o.attr("src", "img/logo.png"),
-          a.attr("src", "img/logo.png"),
-          i.attr("src", "img/logos/logo-white.png"),
-          t.attr("src", "img/logos/logo-dark.png"),
-          s.attr("src", "img/logos/logo-2-dark.png"),
-          l.attr("src", "img/logos/logo-2-dark.png"),
-          r.attr("src", "img/logos/logo-5-dark.png"),
-          n.attr("src", "img/logos/logo-3-dark.png"),
-          d.attr("src", "img/logos/logo-4-dark.png")),
-        m.attr("src", "img/logos/logo-6-dark.png");
+      
+          a.attr("src", "img/logo.png"));
     }),
     f.on("scroll", function () {
       500 < p(this).scrollTop()
