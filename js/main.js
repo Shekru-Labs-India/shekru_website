@@ -24,14 +24,14 @@
   }),
     f.on("scroll", function () {
       var e = f.scrollTop(),
-       
+        o = p(".navbar-brand img"),
         a = p(".navbar-brand.logodefault img");
       e <= 50
         ? (p("header").removeClass("scrollHeader").addClass("fixedHeader"),
-         
+          o.attr("src", "img/logo-inner.png"),
           a.attr("src", "img/logo.png"))
         : (p("header").removeClass("fixedHeader").addClass("scrollHeader"),
-      
+          o.attr("src", "img/logo.png"),
           a.attr("src", "img/logo.png"));
     }),
     f.on("scroll", function () {
