@@ -1628,7 +1628,7 @@ img.tp-slider-alternative-image {
 }
 
 .tparrows:before {
-    font-family: revicons;
+    
     font-size: 15px;
     color: #fff;
     display: block;
@@ -1643,11 +1643,16 @@ img.tp-slider-alternative-image {
 }
 
 .tparrows.tp-leftarrow:before {
-    content: '\e824'
-}
+    content: "\f060"; /* Unicode for Font Awesome left arrow */
+    font-family: "Font Awesome 6 Free"; /* Ensure this matches the Font Awesome version you are using */
+    font-weight: 900; /* For solid icons, use font-weight: 900 */
+    
+  }
 
 .tparrows.tp-rightarrow:before {
-    content: '\e825'
+    content: "\f061"; /* Unicode for Font Awesome left arrow */
+    font-family: "Font Awesome 6 Free"; /* Ensure this matches the Font Awesome version you are using */
+    font-weight: 900; /* For solid icons, use font-weight: 900 */
 }
 
 body.rtl .tp-kbimg {

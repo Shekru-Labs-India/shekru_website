@@ -1,6 +1,6 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import bg15 from '../assets/img/bg/bg15.jpg'
-import bg1 from '../assets/img/bg/bg1.jpg'
 import service1b from '../assets/img/content/services/service-1b.jpg'
 import service2b from '../assets/img/content/services/service-2b.jpg'
 import service3b from '../assets/img/content/services/service-3b.jpg'
@@ -8,8 +8,8 @@ import service4b from '../assets/img/content/services/service-4b.jpg'
 import t7 from '../assets/img/testmonials/t-7.jpg'
 import t8 from '../assets/img/testmonials/t-8.jpg'
 import Navbar2 from './Navbar2'
-import Footer from './Footer'
-import Navbar from './Navbar'
+
+
 
 
 
@@ -20,7 +20,8 @@ function Services() {
   return (
    
       <>
- <Navbar2/>
+
+    <Navbar2/>
   {/* MAIN WRAPPER
     ================================================== */}
   <div className="main-wrapper">
@@ -30,7 +31,7 @@ function Services() {
     {/* PAGE TITLE
   ================================================== */}
     <section
-      className="page-title-section2 bg-img cover-background top-position1"
+      className="page-title-section2 bg-img cover-background "
       data-overlay-dark={6}
       style={{ backgroundImage: `url(${bg15})` }}
     >
@@ -66,11 +67,11 @@ function Services() {
             </div>
             <div className="clearfix service-inner-box">
               <div className="service-icon-box">
-                <i className="icon-presentation" />
+              <i class="fa-solid fa-person-chalkboard"></i>
               </div>
               <div className="service-content-box">
                 <h3>
-                  <a href="#!">Business Solutions</a>
+                  <Link to="#!">Business Solutions</Link>
                 </h3>
                 <p>
                   we provide best and solid solution for your impressive
@@ -85,11 +86,11 @@ function Services() {
             </div>
             <div className="clearfix service-inner-box">
               <div className="service-icon-box">
-                <i className="icon-pictures" />
+              <i class="fa-solid fa-coins"></i>
               </div>
               <div className="service-content-box">
                 <h3>
-                  <a href="#!">Finance Consultancy</a>
+                  <Link to="#!">Finance Consultancy</Link>
                 </h3>
                 <p>
                   we provide best and solid solution for your impressive
@@ -104,11 +105,11 @@ function Services() {
             </div>
             <div className="clearfix service-inner-box">
               <div className="service-icon-box">
-                <i className="icon-adjustments" />
+              <i class="fa-solid fa-hand-holding-dollar"></i>
               </div>
               <div className="service-content-box">
                 <h3>
-                  <a href="#!">Investment Plan</a>
+                  <Link to="#!">Investment Plan</Link>
                 </h3>
                 <p>
                   we provide best and solid solution for your impressive
@@ -123,11 +124,11 @@ function Services() {
             </div>
             <div className="clearfix service-inner-box">
               <div className="service-icon-box">
-                <i className="icon-recycle" />
+              <i class="fa-solid fa-user-tie"></i>
               </div>
               <div className="service-content-box">
                 <h3>
-                  <a href="#!">Finance Advisor</a>
+                  <Link to="#!">Finance Advisor</Link>
                 </h3>
                 <p>
                   we provide best and solid solution for your impressive
@@ -141,97 +142,7 @@ function Services() {
     </section>
     {/* REQUEST FORM
   ================================================== */}
-    <section
-      className="parallax"
-      data-overlay-dark={8}
-      style={{ backgroundImage: `url(${bg1})` }}
-    >
-      <div className="container">
-        <div className="section-heading white">
-          <h2>Request A Call</h2>
-        </div>
-        <div className="row justify-content-center">
-          <div className="col-lg-10">
-            <div className="contact-form-box">
-              {/* start form here */}
-              <form
-                className="quform"
-                action="quform/request-call.php"
-                method="post"
-                encType="multipart/form-data"
-                
-              >
-                <div className="quform-elements">
-                  <div className="row">
-                    {/* Begin Text input element */}
-                    <div className="col-md-6">
-                      <div className="quform-element form-group">
-                        <div className="quform-input">
-                          <input
-                            id="name"
-                            className="form-control"
-                            type="text"
-                            name="name"
-                            placeholder="Your name here"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                    {/* End Text input element */}
-                    {/* Begin Text input element */}
-                    <div className="col-md-6">
-                      <div className="quform-element form-group">
-                        <div className="quform-input">
-                          <input
-                            id="email"
-                            className="form-control"
-                            type="text"
-                            name="email"
-                            placeholder="Your email here"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                    {/* End Text input element */}
-                    {/* Begin Text input element */}
-                    <div className="col-md-6">
-                      <div className="quform-element form-group">
-                        <div className="quform-input">
-                          <input
-                            id="phone"
-                            className="form-control"
-                            type="text"
-                            name="phone"
-                            placeholder="Your phone number"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                    {/* End Text input element */}
-                    {/* Begin Submit button */}
-                    <div className="col-md-6">
-                      <div className="quform-submit-inner">
-                        <button
-                          className="butn white-hover primary"
-                          type="submit"
-                        >
-                          <span>Submit Comment</span>
-                        </button>
-                      </div>
-                      <div className="quform-loading-wrap text-start">
-                        <span className="quform-loading" />
-                      </div>
-                    </div>
-                    {/* End Submit button */}
-                  </div>
-                </div>
-              </form>
-              {/* end form here */}
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+   
     {/* TESTIMONIAL
   ================================================== */}
     <section>
@@ -309,8 +220,8 @@ function Services() {
     {/* FOOTER
   ================================================== */}
   </div>
-  <a href="#" className="scroll-to-top"><i className="fas fa-angle-up" aria-hidden="true"></i></a>
-    <Footer/>
+  
+
 </>
 
    

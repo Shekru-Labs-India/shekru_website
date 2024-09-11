@@ -1,53 +1,11 @@
-﻿#preloader {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    bottom: 0;
-    background-color: #fff;
-    z-index: 999999;
-    transition: 0.3s ease opacity;
-    text-align: center;
-    width: 100%;
-    height: 100%
-}
+﻿
 
-#preloader:before {
-    content: "";
-    width: 80px;
-    height: 80px;
-    border: 3px solid #86bc42;
-    display: block;
-    border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    opacity: 0;
-    transform: translate(-50%, -50%);
-    animation-name: LoaderCicle;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear
-}
 
-#preloader:after {
-    content: "";
-    width: 80px;
-    height: 80px;
-    border: 3px solid #86bc42;
-    display: block;
-    border-radius: 50%;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    opacity: 0;
-    transform: translate(-50%, -50%);
-    animation-name: LoaderCicle;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-    animation-delay: 1s
-}
+*,body{
+    font-family: "Lato", sans-serif;
+    }
+
+
 
 @keyframes LoaderCicle {
     0% {
@@ -213,7 +171,7 @@ select:focus {
 }
 
 .bg-container {
-    background: url(../img/bg/bg-pattern.png) no-repeat;
+   
     position: absolute;
     left: 8%;
     top: 6%;
@@ -4357,16 +4315,7 @@ h6.title-style2.white {
     float: left
 }
 
-.feature-box-04 i:after {
-    font-weight: 700;
-    font-size: 65px;
-    line-height: 0.6em;
-    color: rgba(0, 0, 0, 0.05);
-    counter-increment: count;
-    content: "0" counter(count);
-    float: right;
-    font-family: "Montserrat", sans-serif
-}
+
 
 .feature-box-04 .feature-box-inner:hover i:after {
     color: rgba(255, 255, 255, 0.2)
@@ -7502,7 +7451,7 @@ h6.title-style2.white {
     content: '';
     height: 100%;
     width: 60%;
-    background-image: url(../img/content/pattern.png);
+   
     margin-left: -7%;
     margin-top: 5%;
     opacity: .15;
@@ -8643,9 +8592,7 @@ h6.title-style2.white {
     display: inline-block
 }
 
-.section-testimonial {
-    background: url(../img/bg/black_twill.png) repeat #232323
-}
+
 
 .testimonial-style11 p {
     font-size: 24px;
@@ -15968,7 +15915,7 @@ footer h3:after {
     border: 1px solid #fff;
     border-radius: 50%;
     color: #fff;
-    margin-right: 10px;
+    margin-right: 25px;
     margin-bottom: 5px;
     -moz-transition-duration: .3s;
     -ms-transition-duration: .3s;
@@ -16001,10 +15948,10 @@ footer h3:after {
 }
 
 .footer-social-icons.small ul li a {
-    font-size: 12px;
-    height: 25px;
-    line-height: 26px;
-    width: 25px
+    font-size: 18px;
+    height: 30px;
+    line-height: 34px;
+    width: 30px;
 }
 
 .footer-social-icons2 ul {
@@ -17318,6 +17265,17 @@ pre[class*="language-"] {
     background: #fff;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     z-index: 99999
+}
+
+.logo_size{
+    
+    width:180px;
+
+}
+
+.logo_size2{
+    width: 155px;
+   height: 60px;
 }
 
 /* CLS FIX FOR ABOUT US SECTION */
