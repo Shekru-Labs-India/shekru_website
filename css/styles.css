@@ -1,4 +1,10 @@
-﻿@keyframes LoaderCicle {
+﻿*,body{
+    font-family: "Lato", sans-serif;
+    }
+
+
+
+@keyframes LoaderCicle {
     0% {
         width: 0;
         height: 0;
