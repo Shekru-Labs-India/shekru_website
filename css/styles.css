@@ -15908,7 +15908,7 @@ footer h3:after {
     border: 1px solid #fff;
     border-radius: 50%;
     color: #fff;
-    margin-right: 10px;
+    margin-right: 25px;
     margin-bottom: 5px;
     -moz-transition-duration: .3s;
     -ms-transition-duration: .3s;
@@ -15941,10 +15941,10 @@ footer h3:after {
 }
 
 .footer-social-icons.small ul li a {
-    font-size: 12px;
-    height: 25px;
-    line-height: 26px;
-    width: 25px
+    font-size: 18px;
+    height: 30px;
+    line-height: 34px;
+    width: 30px;
 }
 
 .footer-social-icons2 ul {
