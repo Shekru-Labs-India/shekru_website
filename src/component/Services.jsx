@@ -140,85 +140,11 @@ function Services() {
         </div>
       </div>
     </section>
-    {/* REQUEST FORM
-  ================================================== */}
    
-    {/* TESTIMONIAL
-  ================================================== */}
-    <section>
-      <div className="container">
-        <div className="section-heading">
-          <h2>Client Words</h2>
-        </div>
-        <div className="testimonial-style3 owl-carousel owl-theme">
-          <div className="testmonial-single mx-auto w-md-80 w-lg-60">
-            <p>
-              Exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-              occaecat cupidatat non proident, sunt in culpa.
-            </p>
-            <div className="d-flex align-items-center justify-content-center">
-              <div>
-                <img
-                  src={t7}
-                  className="rounded-circle"
-                  alt="..."
-                />
-              </div>
-              <div className="ms-3">
-                <h4 className="text-start">Alivin Corondo</h4>
-                <h6 className="mb-0">Networking Lead</h6>
-              </div>
-            </div>
-          </div>
-          <div className="testmonial-single mx-auto w-md-80 w-lg-65">
-            <p>
-              Exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-              occaecat cupidatat non proident, sunt in culpa.
-            </p>
-            <div className="d-flex align-items-center justify-content-center">
-              <div>
-                <img
-                  src={t8}
-                  className="rounded-circle w-auto"
-                  alt="..."
-                />
-              </div>
-              <div className="ms-3">
-                <h4>Stepha Kruse</h4>
-                <h6 className="mb-0">Design Lead</h6>
-              </div>
-            </div>
-          </div>
-          <div className="testmonial-single mx-auto w-md-80 w-lg-65">
-            <p>
-              Exercitation ullamco laboris nisi ut aliquip ex ea commodo
-              consequat. Duis aute irure dolor in reprehenderit in voluptate
-              velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint
-              occaecat cupidatat non proident, sunt in culpa.
-            </p>
-            <div className="d-flex align-items-center justify-content-center">
-              <div>
-                <img
-                  src={t8}
-                  className="rounded-circle w-auto"
-                  alt="..."
-                />
-              </div>
-              <div className="ms-3">
-                <h4>Dunican keithly</h4>
-                <h6 className="mb-0">Networking Lead</h6>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    {/* FOOTER
-  ================================================== */}
+   
+   
+   
+    
   </div>
   
 

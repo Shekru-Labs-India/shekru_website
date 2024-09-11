@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { LazyLoadImage } from 'react-lazy-load-image-component'
 import slider21 from '../assets/img/slider/slide21.jpg'
 import slice2 from '../assets/img/content/slice-2.jpg'
@@ -36,9 +37,9 @@ function Home() {
           with latest technology. Exhaustive technology of implementing
           Multipurpose projects is putting your project successful.
         </p>
-        <a href="#!" className="butn primary white-hover">
+        <Link to="/services" className="butn primary white-hover">
           <span>Read more</span>
-        </a>
+        </Link>
       </div>
       
     </div>
