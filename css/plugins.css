@@ -47259,12 +47259,12 @@ header {
 }
 
 .navbar-brand img {
-    max-height: 43px;
+    max-height: 90px;
     transition-duration: 0.5s
 }
 
 .navbar-header-custom {
-    padding: 22px 0 20px 0
+    padding: 5px 0 5px 0
 }
 
 .navbar-default {
@@ -47708,12 +47708,12 @@ header {
     }
 
     .scrollHeader .navbar-brand.h-default img {
-        max-height: 43px;
+        max-height: 90px;
         transition-duration: 0.5s
     }
 
     .scrollHeader .navbar-header-custom {
-        padding: 10px 0;
+        
         transition-duration: 0.5s
     }
 
@@ -49002,3 +49002,4 @@ pre[class*="language-"] {
 .token.entity {
     cursor: help
 }
+

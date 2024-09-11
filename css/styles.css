@@ -17260,4 +17260,15 @@ pre[class*="language-"] {
     z-index: 99999
 }
 
+.logo_size{
+    
+    width:180px;
+
+}
+
+.logo_size2{
+    width: 155px;
+   height: 60px;
+}
+
 /* CLS FIX FOR ABOUT US SECTION */
