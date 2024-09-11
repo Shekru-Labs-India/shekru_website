@@ -1,4 +1,7 @@
-﻿*,body{
+﻿
+
+
+*,body{
     font-family: "Lato", sans-serif;
     }
 
@@ -168,7 +171,7 @@ select:focus {
 }
 
 .bg-container {
-    background: url(../img/bg/bg-pattern.png) no-repeat;
+   
     position: absolute;
     left: 8%;
     top: 6%;
@@ -7448,7 +7451,7 @@ h6.title-style2.white {
     content: '';
     height: 100%;
     width: 60%;
-    background-image: url(../img/content/pattern.png);
+   
     margin-left: -7%;
     margin-top: 5%;
     opacity: .15;
@@ -8589,9 +8592,7 @@ h6.title-style2.white {
     display: inline-block
 }
 
-.section-testimonial {
-    background: url(../img/bg/black_twill.png) repeat #232323
-}
+
 
 .testimonial-style11 p {
     font-size: 24px;
