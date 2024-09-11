@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shekru_website/static/css/main.01d03db4.css",
-    "main.js": "/shekru_website/static/js/main.a881cbc4.js",
+    "main.js": "/shekru_website/static/js/main.e162239f.js",
     "static/js/453.30bf59f8.chunk.js": "/shekru_website/static/js/453.30bf59f8.chunk.js",
     "static/media/engine.gif": "/shekru_website/static/media/engine.91e85f2515b1fc33d2d5.gif",
     "static/media/stockExchangeBanner.jpg": "/shekru_website/static/media/stockExchangeBanner.3d82c2d66dcb922d1618.jpg",
@@ -72,11 +72,11 @@
     "index.html": "/shekru_website/index.html",
     "static/media/qaAutomation.svg": "/shekru_website/static/media/qaAutomation.f3c4e88171702061c0bc985806664788.svg",
     "main.01d03db4.css.map": "/shekru_website/static/css/main.01d03db4.css.map",
-    "main.a881cbc4.js.map": "/shekru_website/static/js/main.a881cbc4.js.map",
+    "main.e162239f.js.map": "/shekru_website/static/js/main.e162239f.js.map",
     "453.30bf59f8.chunk.js.map": "/shekru_website/static/js/453.30bf59f8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.01d03db4.css",
-    "static/js/main.a881cbc4.js"
+    "static/js/main.e162239f.js"
   ]
 }
