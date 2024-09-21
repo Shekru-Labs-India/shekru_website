@@ -48,12 +48,12 @@ function Industries() {
                 </div>
                 <div className="feature-textbox p-3 p-lg-4  bg-light-gray">
                   <h4 className="title h5 font-weight-600 alt-font mb-2">
-                    Fleet Management Solutions
+                    Transport Solutions
                   </h4>
                   <Link to="/transportation" className="read-more h6">
                     Transportation
                   </Link>
-                  <p className="feature-desc mb-lg-5 ">
+                  <p className="feature-desc  ">
                     Unlock Operational Excellence by enabling IoT platform for
                     Vehicle Uptime.
                   </p>
@@ -72,7 +72,7 @@ function Industries() {
                 </div>
                 <div className="feature-textbox p-3 p-lg-4  bg-light-gray">
                   <h4 className="title h5 font-weight-600 alt-font mb-2">
-                    Services & Solutions For Retail
+                    E-Commerce Solutions
                   </h4>
                   <Link to="/eCommercer" className="read-more h6">
                     Retail
@@ -96,17 +96,17 @@ function Industries() {
                 </div>
                 <div className="feature-textbox p-3 p-lg-4  bg-light-gray">
                   <h4 className="title h5 font-weight-600 alt-font mb-2">
-                    Smart Machine Monitoring
+                    Trading Solutions
                   </h4>
                   <a href="" className="read-more h6">
-                    Manufacturing
+                   Stock Exchange
                   </a>
                   <p className="feature-desc ">
                     Partner with us to understand the power of Smart Machine
                     Monitoring to achieve your business goals.
                   </p>
                   <a className="read-more" href="#!">
-                    Manufacturing use cases
+                   Trading use cases
                     <i class="fa-solid fa-right-long ms-2 " />
                   </a>
                 </div>
@@ -115,84 +115,7 @@ function Industries() {
            
           </div>
         </div>
-        <div className="container">
-          <div className="row mt-n3">
-           
-
-            <div className="col-md-6 col-lg-4 mt-3">
-              <div className="feature-box-02">
-                <div className="img-box">
-                  <img src={transportation} alt="..." />
-                </div>
-                <div className="feature-textbox p-3 p-lg-4  bg-light-gray">
-                  <h4 className="title h5 font-weight-600 alt-font mb-2">
-                    Fleet Management Solutions
-                  </h4>
-                  <a href="" className="read-more h6">
-                    Transportation
-                  </a>
-                  <p className="feature-desc mb-lg-5">
-                    Unlock Operational Excellence by enabling IoT platform for
-                    Vehicle Uptime.
-                  </p>
-                  <Link className="read-more " to="#!">
-                    Transportation use cases
-                    <i class="fa-solid fa-right-long ms-2 mt-2" />
-                  </Link>
-                </div>
-              </div>
-            </div>
-           
-            <div className="col-md-6 col-lg-4 mt-3">
-              <div className="feature-box-02">
-                <div className="img-box">
-                  <img src={eCommerce} alt="..." />
-                </div>
-                <div className="feature-textbox p-3 p-lg-4  bg-light-gray">
-                  <h4 className="title h5 font-weight-600 alt-font mb-2">
-                    Services & Solutions For Retail
-                  </h4>
-                  <a href="" className="read-more h6">
-                    Retail
-                  </a>
-                  <p className="feature-desc mb-4">
-                    Enhance operational efficiency, Improve customer
-                    satisfaction, drive business growth.
-                  </p>
-                  <Link className="read-more " to="#!">
-                    E-Commerce use cases
-                    <i class="fa-solid fa-right-long ms-2" />
-                  </Link>
-                </div>
-              </div>
-            </div>
-          
-            <div className="col-md-6 col-lg-4 mt-3">
-              <div className="feature-box-02">
-                <div className="img-box">
-                  <img src={machine} alt="..." />
-                </div>
-                <div className="feature-textbox p-3 p-lg-4  bg-light-gray">
-                  <h4 className="title h5 font-weight-600 alt-font mb-2">
-                    Smart Machine Monitoring
-                  </h4>
-                  <a href="" className="read-more h6">
-                    Manufacturing
-                  </a>
-                  <p className="feature-desc ">
-                    Partner with us to understand the power of Smart Machine
-                    Monitoring to achieve your business goals.
-                  </p>
-                  <a className="read-more" href="#!">
-                    Manufacturing use cases
-                    <i class="fa-solid fa-right-long ms-2 " />
-                  </a>
-                </div>
-              </div>
-            </div>
-           
-          </div>
-        </div>
+        
         <div className="container text-center mt-4">
           <h4 className="d-inline fw-normal me-2">Can’t find your industry?</h4>
           <Link to="/contact" className="h4 fw-normal text-decoration-underline ">

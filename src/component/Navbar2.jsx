@@ -81,14 +81,15 @@ function Navbar2() {
               Industries
             </NavLink>
             <ul className="">
-              <li>
+            <li>
                 <NavLink
-                  to="/transportation"
+                  to="/stock-exchange"
                   className={({ isActive }) => (isActive ? "text-primary" : "")}
                 >
-                  Transportation
+                  Stock Exchange
                 </NavLink>
               </li>
+             
               <li>
                 <NavLink
                   to="/eCommerce"
@@ -97,12 +98,12 @@ function Navbar2() {
                   E-Commerce
                 </NavLink>
               </li>
-              <li>
+               <li>
                 <NavLink
-                  to="/stock-exchange"
+                  to="/transportation"
                   className={({ isActive }) => (isActive ? "text-primary" : "")}
                 >
-                  Stock Exchange
+                  Transportation
                 </NavLink>
               </li>
             </ul>

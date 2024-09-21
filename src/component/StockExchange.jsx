@@ -136,7 +136,7 @@ function StockExchange() {
           <h1 className="fw-bold mb-4 text-white">development</h1>
           <p className="lead mb-0 d-none d-lg-block d-md-block ">
             Gain a competitive edge with innovative trading software developed
-            by Luxoft, <br />a custom trading software development highflyer
+            by Shekru Labs, <br />a custom trading software development highflyer
             with 7,000+ in-house professionals and 20+ years of industry
             experience.
           </p>
@@ -380,7 +380,7 @@ function StockExchange() {
                   <img src={approach} alt="..." />
                   <div className="feature-box-detail p-1-9">
                     <div className="border border-color-light-white h-100 p-4 text-white h5">
-                      Use the industry-specific technical expertise of Luxoft’s
+                      Use the industry-specific technical expertise of Shekru Lab’s
                       engineers to power consistent thought leadership and gain
                       an edge in a highly competitive domain.
                     </div>
@@ -397,7 +397,7 @@ function StockExchange() {
                 </div>
                 <p className="w-95 text-white ">
                   Optimize development and rollout costs and de-risk product
-                  delivery with Luxoft’s trading platform software development
+                  delivery with Shekru Lab’s trading platform software development
                   expertise.
                 </p>
 
@@ -406,7 +406,7 @@ function StockExchange() {
                   <div className="feature-box-detail p-1-9">
                     <div className="border border-color-light-white h-100 p-4 text-white h5">
                       Optimize development and rollout costs and de-risk product
-                      delivery with Luxoft’s trading platform software
+                      delivery with Shekru Lab’s trading platform software
                       development expertise.
                     </div>
                   </div>
@@ -447,7 +447,7 @@ function StockExchange() {
       <section className="p-lg-4 bg-light-gray">
         <div className="text-center">
           <h1 className="h3 h-sm2 d-block d-lg-none d-md-none">
-            How Shekru Lab helps our clients beat the competition
+            How Shekru Labs helps our clients beat the competition
           </h1>
         </div>
         <div className="container mt-5">
@@ -522,9 +522,9 @@ function StockExchange() {
         </div>
       </section>
 
-      <div className="container text-white">
+      <div className="container">
         <h1 className=" text-center">
-          Why choose Luxoft for your trading software development needs
+          Why choose <span className="text-primary">Shekru Labs</span> for your trading software development needs
         </h1>
 
         <div className="row mt-6 ">
@@ -539,10 +539,10 @@ function StockExchange() {
               <hr className="text-primary d-block d-lg-none" />
               <li className="h4 text-white">Breadth of expertise</li>
               <p>
-                Luxoft has served many clients in the banking and capital
+                Shekru Labs has served many clients in the banking and capital
                 markets industry, including tier-one global banks, hedge funds
                 and mid-size asset managers.
-              </p>
+             </p>
               <hr className="text-primary d-block d-lg-none" />
               <li className="h4 text-white">Regulatory blueprints</li>
               <p>
@@ -584,7 +584,7 @@ function StockExchange() {
 
       <section className="bg-grey py-7">
         <div className="container text-center ">
-          <h1 className="mb-6">Luxoft in numbers</h1>
+          <h1 className="mb-6">Shekru Labs in numbers</h1>
           <div className="row">
             <div className="col-lg-4 col-md-6 d-flex align-items-center">
               <div className="p-1 position-relative">
@@ -625,7 +625,7 @@ function StockExchange() {
                   <div className="text-start ms-4">
                     <h1 className="">&gt;70%</h1>
                     <div className="fs-3 fw-bold  h2 ">
-                      of Luxoft’s engineers have advanced degrees
+                      of Shekru Lab’s engineers have advanced degrees
                     </div>
                   </div>
                 </div>
@@ -694,7 +694,7 @@ function StockExchange() {
                   change to the code with streamlined regression, performance
                   and security testing.
                 </p>
-                <div className="mt-lg-5 mt-md-8">
+                <div className=" ">
                   <Link to="#" className="">
                     LEARN MORE &gt;
                   </Link>
@@ -715,7 +715,7 @@ function StockExchange() {
                   Scale up real-time risk analysis automatically and at an
                   optimal cost with public, private, or hybrid cloud computing.
                 </p>
-                <div className="mt-8">
+                <div className=" mt-8">
                   <Link href="#" className="">
                     LEARN MORE &gt;
                   </Link>
@@ -740,7 +740,7 @@ function StockExchange() {
         <div className="container text-center">
           <div className="section-heading title-style5 half white">
             <h2 className="mb-2">
-              Let’s discuss how Luxoft’s trading software
+              Let’s discuss how Shekru Lab’s trading software
             </h2>
             <h2 className="mb-2">
               development expertise can help you attain your goals

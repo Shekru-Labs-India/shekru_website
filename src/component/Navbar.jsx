@@ -137,10 +137,10 @@ const Navbar = React.memo(() => {
                     <ul className="">
                       <li>
                         <NavLink
-                          to="/transportation"
+                          to="/stock-exchange"
                           className={({ isActive }) => (isActive ? "text-primary" : "")}
                         >
-                          Transportation
+                          Stock Exchange
                         </NavLink>
                       </li>
                       <li >
@@ -153,10 +153,10 @@ const Navbar = React.memo(() => {
                       </li>
                       <li>
                         <NavLink
-                          to="/stock-exchange"
+                          to="/transportation"
                           className={({ isActive }) => (isActive ? "text-primary" : "")}
                         >
-                          Stock Exchange
+                          Transportation
                         </NavLink>
                       </li>
                     </ul>

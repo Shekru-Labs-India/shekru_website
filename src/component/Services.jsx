@@ -4,9 +4,6 @@ import bg15 from '../assets/img/bg/bg15.jpg'
 import service1b from '../assets/img/content/services/service-1b.jpg'
 import service2b from '../assets/img/content/services/service-2b.jpg'
 import service3b from '../assets/img/content/services/service-3b.jpg'
-import service4b from '../assets/img/content/services/service-4b.jpg'
-import t7 from '../assets/img/testmonials/t-7.jpg'
-import t8 from '../assets/img/testmonials/t-8.jpg'
 import Navbar2 from './Navbar2'
 
 
@@ -70,12 +67,11 @@ function Services() {
               <i class="fa-solid fa-person-chalkboard"></i>
               </div>
               <div className="service-content-box">
-                <h3>
-                  <Link to="#!">Business Solutions</Link>
+                <h3 className="fw-bolder h3">
+                  <Link to="#!">Web Application Development</Link>
                 </h3>
                 <p>
-                  we provide best and solid solution for your impressive
-                  international business consultant.
+                Our web application development services deliver robust, scalable solutions tailored to your business needs.
                 </p>
               </div>
             </div>
@@ -90,11 +86,11 @@ function Services() {
               </div>
               <div className="service-content-box">
                 <h3>
-                  <Link to="#!">Finance Consultancy</Link>
+                  <Link to="#!">Dynamic Website Development</Link>
                 </h3>
                 <p>
-                  we provide best and solid solution for your impressive
-                  international business consultant.
+                Our dynamic website development services create interactive 
+                online experiences tailored to your audience. 
                 </p>
               </div>
             </div>
@@ -109,18 +105,18 @@ function Services() {
               </div>
               <div className="service-content-box">
                 <h3>
-                  <Link to="#!">Investment Plan</Link>
+                  <Link to="#!">E-Comm Solutions</Link>
                 </h3>
                 <p>
-                  we provide best and solid solution for your impressive
-                  international business consultant.
+                Our e-commerce solutions are designed to empower your business with 
+                seamless, secure, and scalable online platforms. 
                 </p>
               </div>
             </div>
           </div>
           <div className="service-box">
             <div className="img-holder">
-              <img alt="..." src={service4b} />
+              <img alt="..." src={service3b} />
             </div>
             <div className="clearfix service-inner-box">
               <div className="service-icon-box">
@@ -128,11 +124,11 @@ function Services() {
               </div>
               <div className="service-content-box">
                 <h3>
-                  <Link to="#!">Finance Advisor</Link>
+                  <Link to="#!">Digital Marketing Services</Link>
                 </h3>
                 <p>
-                  we provide best and solid solution for your impressive
-                  international business consultant.
+                At Shekru Labs, our digital marketing services 
+                are meticulously crafted to enhance your brand’s online presence. 
                 </p>
               </div>
             </div>

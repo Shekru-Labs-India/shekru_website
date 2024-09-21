@@ -8,15 +8,8 @@ const ScriptsManager = () => {
     const scriptSources = [
        
         `${process.env.PUBLIC_URL}/js/core.min.js`,
-        `${process.env.PUBLIC_URL}/js/rev_slider/jquery.themepunch.tools.min.js`,
-        `${process.env.PUBLIC_URL}/js/rev_slider/extensions/revolution.extension.actions.min.js`,
-         `${process.env.PUBLIC_URL}/js/rev_slider/extensions/revolution.extension.carousel.min.js`,
-        `${process.env.PUBLIC_URL}/js/rev_slider/extensions/revolution.extension.kenburn.min.js`,
-        `${process.env.PUBLIC_URL}/js/rev_slider/extensions/revolution.extension.layeranimation.min.js`,
-        `${process.env.PUBLIC_URL}/js/rev_slider/extensions/revolution.extension.navigation.min.js`,
-        `${process.env.PUBLIC_URL}/js/rev_slider/extensions/revolution.extension.parallax.min.js`,
-        `${process.env.PUBLIC_URL}/js/rev_slider/extensions/revolution.extension.slideanims.min.js`,
-        `${process.env.PUBLIC_URL}/js/main.js`,
+       
+    `${process.env.PUBLIC_URL}/js/main.js`,
         `${process.env.PUBLIC_URL}/js/plugins.js`,
         
       ];

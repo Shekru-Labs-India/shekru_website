@@ -140,7 +140,6 @@ function Technologies() {
               </div>
 
               {/* Right form column */}
-             
             </div>
           </div>
         </section>
@@ -979,15 +978,17 @@ function Technologies() {
           <div className="container">
             <div className="row">
               <h2 className="text-center mb-3 text-white">
-                Why Hire Developers From Us?
+                Why Hire Developers from Shekru Labs?
               </h2>
               <div className="text-center mb-3">
-                We provide reliable software development services with faster
-                turnaround times and better ROI. Hire developers who are well
-                trained and expert in software development to deliver innovative
-                and best in class results. As a top software development
-                company, we ensure you get services that are innovative and
-                customized according to requirements.
+                At Shekru Labs, we offer reliable software development services
+                that guarantee faster turnaround times and superior ROI. When
+                you hire our developers, you gain access to a team of
+                well-trained experts dedicated to delivering innovative,
+                best-in-class results. As a leading software development
+                company, we ensure that our services are tailored to meet your
+                unique requirements, providing customized solutions that drive
+                your business forward.
               </div>
               <div className="container mt-1 mb-4">
                 <div className="text-center position-relative">
@@ -1135,9 +1136,11 @@ function Technologies() {
             >
               <div className="text-center">
                 <p className="lead w-sm-85 w-md-75 w-lg-55 mx-auto text-white mb-2-3">
-                  Perspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium, totam rem aperiam, eaque
-                  inventore veritatis et quasi architecto beatae.
+                  "We experienced a complete transformation in our operations
+                  thanks to the exceptional services provided by Shekru Labs.
+                  Their expertise and dedication helped us navigate complex
+                  challenges, resulting in innovative solutions that exceeded
+                  our expectations."
                 </p>
                 <h5 className="text-white mb-1 h6">Stepha Kruse</h5>
                 <h6 className="small letter-spacing-1 font-weight-500 text-white opacity6 mb-2-9">
@@ -1146,9 +1149,10 @@ function Technologies() {
               </div>
               <div className="text-center">
                 <p className="lead w-sm-85 w-md-75 w-lg-55 mx-auto text-white mb-2-3">
-                  Aerspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium, totam rem aperiam, eaque
-                  inventore veritatis et quasi architecto beatae.
+                  "Working with Shekru Labs has been a game-changer for our
+                  business. Their team took the time to understand our specific
+                  challenges and crafted tailored solutions that significantly
+                  improved our efficiency."
                 </p>
                 <h5 className="text-white mb-1 h6">Dunican keithly</h5>
                 <h6 className="small letter-spacing-1 font-weight-500 text-white opacity6 mb-2-9">
@@ -1157,9 +1161,11 @@ function Technologies() {
               </div>
               <div className="text-center">
                 <p className="lead w-sm-85 w-md-75 w-lg-55 mx-auto text-white mb-2-3">
-                  Rerspiciatis unde omnis iste natus error sit voluptatem
-                  accusantium doloremque laudantium, totam rem aperiam, eaque
-                  inventore veritatis et quasi architecto beatae.
+                  "Shekru Labs exceeded our expectations at every turn. Their
+                  innovative approach to IT solutions transformed our
+                  operations, and their ongoing support has been invaluable. We
+                  appreciate their commitment to quality and their ability to
+                  adapt to our evolving needs."
                 </p>
                 <h5 className="text-white mb-1 h6">Alivin Corondo</h5>
                 <h6 className="small letter-spacing-1 font-weight-500 text-white opacity6 mb-2-9">
@@ -1180,7 +1186,7 @@ function Technologies() {
             </div>
           </div>
         </section>
-       
+
         {/* Footer */}
       </div>
     </>

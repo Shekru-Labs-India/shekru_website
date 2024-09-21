@@ -1,24 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import slider8 from "../assets/img/slider/slide16.jpg";
-import lowLatency from "../assets/img/content/lowLatency.png";
-import fastIngestion from "../assets/img/content/fastIngestion.png";
-import horizontalScal from "../assets/img/content/horizontalScal.png";
-import Workspaces from "../assets/img/content/workspaces.png";
-import tabImg from "../assets/img/content/tabImg.jpeg";
-import security from "../assets/img/content/security.png";
-import compliance from "../assets/img/content/compliance.png";
-import availability from "../assets/img/content/availability.png";
-import observability from "../assets/img/content/observability.png";
-import client1 from "../assets/img/partners/client-01.png";
-import client2 from "../assets/img/partners/client-02.png";
-import client3 from "../assets/img/partners/client-03.png";
-import client4 from "../assets/img/partners/client-04.png";
-import client5 from "../assets/img/partners/client-05.png";
-import client6 from "../assets/img/partners/client-06.png";
-import engine from "../assets/img/content/engine.gif";
-import product01 from "../assets/img/content/product01.png";
-import product02 from "../assets/img/content/product02.png";
+
 import Navbar2 from "./Navbar2";
 
 
@@ -50,7 +33,7 @@ function Products() {
         </div>
       </section>
 
-      <section className="pt-6">
+      {/* <section className="pt-6">
   <div className="container">
     <div className="row align-items-center">
      
@@ -159,11 +142,11 @@ function Products() {
       </div>
     </div>
   </div>
-</section>
+</section> */}
 
 
 
-<section className="p-5 p-lg-5 bg-black text-center">
+{/* <section className="p-5 p-lg-5 bg-black text-center">
   <div className="container">
     <div className="row justify-content-center">
       <div className="col-lg-9">
@@ -310,20 +293,20 @@ function Products() {
             <img src={tabImg} alt="" className="img-fluid w-100" />
           </div>
         </div>
-      </div>
+      </div> */}
 
-      <div className="container">
+      <div className="container mt-5">
         <div class="row feature-boxes-container mt-n1-9">
           <div class="col-md-6 col-lg-4 mt-1-9 feature-box-04">
             <div class="feature-box-inner h-100">
               <i class="fa-solid fa-database fs-2"></i>
-              <h4 class=" mt-2 text-uppercase font-weight-600 ">SQL</h4>
+              <h4 class=" mt-2 text-uppercase font-weight-600 ">AutoProfito</h4>
               <div class="sepratar"></div>
               <p>
-                Familiar, powerful SQL for writing and retrieving data. ACID
-                compliant transactions
+              Autoprofito has been the industry's standard demat account since the 20's,
+               when an unknown printer took a galley of type manager scrambled it to make a type specimen book.
               </p>
-              <div className="mt-4">
+              <div className="mt-2">
               <Link to="#" className="text-dark fs-1 ">
                 →
               </Link>
@@ -334,11 +317,11 @@ function Products() {
           <div class="col-md-6 col-lg-4 mt-1-9 feature-box-04">
             <div class="feature-box-inner h-100">
               <i class="fa-solid fa-shapes fs-2"></i>
-              <h4 class=" mt-2  font-weight-600 ">Multi-Model</h4>
+              <h4 class=" mt-2  font-weight-600 text-uppercase ">StockSync</h4>
               <div class="sepratar"></div>
               <p>
-                Relational, JSON/BSON documents, vector search, full-text
-                search, time-series, geospatial, key-value
+              Our copy trading platform allows investors to automatically replicate the trades of experienced traders, 
+              making investment opportunities accessible to everyone.
               </p>
               <Link href="#" className="text-dark fs-1">
                 →
@@ -348,11 +331,11 @@ function Products() {
           <div class="col-md-6 col-lg-4 mt-1-9 feature-box-04">
             <div class="feature-box-inner h-100">
               <i class="fa-solid fa-table fs-2"></i>
-              <h4 class=" mt-2 e font-weight-600 ">Unified table type</h4>
+              <h4 class=" mt-2 e font-weight-600  text-uppercase">Menu Mitra</h4>
               <div class="sepratar"></div>
               <p>
-                Universal Storage (rowstore + columnstore) for high performance
-                transactions and analytics
+              Our hotel order management system streamlines the entire ordering process,
+               enhancing operational efficiency and guest satisfaction.
               </p>
               <div className="mt-4">
               <Link href="#" className="text-dark fs-1">
@@ -368,11 +351,11 @@ function Products() {
           <div class="col-md-6 col-lg-4 mt-1-9 feature-box-04">
             <div class="feature-box-inner h-100">
               <i class="fa-solid fa-users fs-2"></i>
-              <h4 class=" mt-2  font-weight-600 ">Collaboration</h4>
+              <h4 class=" mt-2  font-weight-600 ">ERP</h4>
               <div class="sepratar"></div>
               <p>
-                Leverage Notebooks for quickly developing, sharing and
-                collaborating on SQL and Python projects
+              Affordable ERP alternative — Upgrade to a better ERP alternative with
+               advanced integration and automation workflows. Get started for free.
               </p>
               <Link to="#" className="text-dark fs-1">
                 →
@@ -383,14 +366,13 @@ function Products() {
           <div class="col-md-6 col-lg-4 mt-1-9 feature-box-04">
             <div class="feature-box-inner h-100">
               <i class="fa-solid fa-magnifying-glass-plus fs-2"></i>
-              <h4 class=" mt-2  font-weight-600 ">Vector + full-text search</h4>
-              <div class="sepratar"></div>
-              <p>
-                Fast K-NN and ANN vector search with IVF, HNSW and PQ
-                algorithms. Plus, full text-search for fuzzy or exact text
-                matching
+              <h4 class=" mt-2  font-weight-600  ">HRM</h4>
+              <div class="sepratar "></div>
+              <p className="mb-md-4 mb-lg-0">
+              Best HRMS & Payroll Software — Manage Entire Employee Lifecycle On One HRMS Platform. 
+              Automate & Simplify Your HR Process.
               </p>
-              <Link to="#" className="text-dark fs-1">
+              <Link to="#" className="text-dark fs-1 ">
                 →
               </Link>
             </div>
@@ -398,11 +380,11 @@ function Products() {
           <div class="col-md-6 col-lg-4 mt-1-9 feature-box-04">
             <div class="feature-box-inner h-100">
               <i class="fa-solid fa-gauge-high fs-2"></i>
-              <h4 class=" mt-2 e font-weight-600 ">Best of SQL + NoSQL</h4>
+              <h4 class=" mt-2 e font-weight-600 text-uppercase ">Health Care</h4>
               <div class="sepratar"></div>
               <p>
-                Power 100-1,500x faster JSON analytics with SingleStore Kai™, an
-                API for connecting to MongoDB® applications
+              Our healthcare management system is designed to improve patient care and 
+              streamline administrative processes within medical facilities. 
               </p>
               <Link to="#" className="text-dark fs-1">
                 →
@@ -411,7 +393,8 @@ function Products() {
           </div>
         </div>
       </div>
-      <section className="p-lg-5 bg-grey">
+      
+      {/* <section className="p-lg-5 bg-grey">
   <div className="container">
     <div className="row justify-content-center text-center">
       <div className="col-lg-10">
@@ -432,10 +415,10 @@ function Products() {
       </Link>
     </div>
   </div>
-</section>
+</section> */}
 
 
-      <section className="py-3">
+      {/* <section className="py-3">
         <div className="container">
           <div className="row">
             <div className="col-md-6 mb-4">
@@ -525,10 +508,10 @@ function Products() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
       
-      <section className="pt-6 bg-light-gray">
+      {/* <section className="pt-6 bg-light-gray">
         <div className="container ">
           <div className="row align-items-center">
             <div className="col-lg-5">
@@ -563,9 +546,9 @@ function Products() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
      
-      <section className="pt-6">
+      {/* <section className="pt-6">
         <div className="container mt-lg-7">
           <div className="row text-center">
             <div className="col-lg-12">
@@ -606,9 +589,9 @@ function Products() {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
 
-      <section className="pt-6 bg-black">
+      {/* <section className="pt-6 bg-black">
   <div className="container">
     <div className="row justify-content-center text-center">
       <div className="col-12">
@@ -623,12 +606,12 @@ function Products() {
       </div>
     </div>
   </div>
-</section>
+</section> */}
 
 
 
 
-      <div className="container mt-7 mb-6 ">
+      {/* <div className="container mt-7 mb-6 ">
         <div className="row mt-n1-9">
             <h2 className="text-left mt-5 mb-3">Featured Products</h2>
           <div className="col-md-6 col-lg-4">
@@ -701,9 +684,9 @@ function Products() {
           
          
         </div>
-      </div>
+      </div> */}
 
-        
+{/*         
       <div className="container-fluid bg-secondary text-white p-5 d-none d-lg-block">
   <div className="row pb-4">
    
@@ -719,7 +702,7 @@ function Products() {
       </div>
     </div>
 
-    {/* Second Column */}
+   
     <div className="col-lg-4 d-flex justify-content-center align-items-center mb-4 mb-lg-0">
       <div className="">
         <div
@@ -755,7 +738,7 @@ function Products() {
       </ul>
     </div>
   </div>
-</div>
+</div> */}
 
    
    

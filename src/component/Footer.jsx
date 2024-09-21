@@ -2,86 +2,13 @@ import React from "react";
 import { Link } from "react-router-dom";
 import bg2 from "../assets/img/bg/bg2.jpg";
 import logoFooter from "../assets/img/logos/logo-footer-dark.png";
-import t4 from '../assets/img/testmonials/t-4.jpg'
-import t5 from '../assets/img/testmonials/t-5.jpg'
-import t6 from '../assets/img/testmonials/t-6.jpg'
+
 
 
 function Footer() {
   return (
     <div>
 
-<section className="testimonials-section bg-light-gray">
-      <div className="container">
-        <div className="section-heading">
-          <h2>What Our Client Say</h2>
-        </div>
-        <div className="w-md-85 mx-auto">
-          <div className="testimonial-style4 owl-carousel owl-theme">
-            <div className="testimonial-grid bg-white">
-              <div className="testmonial-holder">
-                <img src={t4} alt="..." />
-              </div>
-              <div className="details">
-                <i className="fas fa-quote-left display-16 opacity1 mb-4" />
-                <p className="w-lg-85">
-                  Rchitecto beatae vitae dicta sunt explicabo. Nemo enimipsam
-                  voluptatea quia voluptas sit aspernatur aut odit aut fugit,
-                  sed quia consequuntur magni dolores eos qui ratione
-                  voluptanesciunt.
-                </p>
-                <div className="client-info">
-                  <h4 className="h6 font-weight-600 m-0">Stepha Kruse</h4>
-                  <span className="text-uppercase text-primary small letter-spacing-1">
-                    Marketing Lead
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div className="testimonial-grid bg-white">
-              <div className="testmonial-holder">
-                <img src={t5} alt="..." />
-              </div>
-              <div className="details">
-                <i className="fas fa-quote-left display-16 opacity1 mb-4" />
-                <p className="w-lg-85">
-                  Beatae rchitecto vitae dicta sunt explicabo. Nemo enimipsam
-                  voluptatea quia voluptas sit aspernatur aut odit aut fugit,
-                  sed quia consequuntur magni dolores eos qui ratione
-                  voluptanesciunt.
-                </p>
-                <div className="client-info">
-                  <h4 className="h6 font-weight-600 m-0">Dunican keithly</h4>
-                  <span className="text-uppercase text-primary small letter-spacing-1">
-                    Networking Lead
-                  </span>
-                </div>
-              </div>
-            </div>
-            <div className="testimonial-grid bg-white">
-              <div className="testmonial-holder">
-                <img src={t6} alt="..." />
-              </div>
-              <div className="details">
-                <i className="fas fa-quote-left display-16 opacity1 mb-4" />
-                <p className="w-lg-85">
-                  Explicabo chitecto beatae vitae dicta sunt. Nemo enimipsam
-                  voluptatea quia voluptas sit aspernatur aut odit aut fugit,
-                  sed quia consequuntur magni dolores eos qui ratione
-                  voluptanesciunt.
-                </p>
-                <div className="client-info">
-                  <h4 className="h6 font-weight-600 m-0">Alivin Corondo</h4>
-                  <span className="text-uppercase text-primary small letter-spacing-1">
-                    Networking Lead
-                  </span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
 
 <section
           className="parallax pt-7 pb-5"
