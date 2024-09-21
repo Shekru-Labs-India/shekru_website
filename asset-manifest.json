@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shekru_website/static/css/main.dc4d6ff2.css",
-    "main.js": "/shekru_website/static/js/main.4fc3ead3.js",
+    "main.js": "/shekru_website/static/js/main.b33d4b9a.js",
     "static/js/453.30bf59f8.chunk.js": "/shekru_website/static/js/453.30bf59f8.chunk.js",
     "static/media/engine.gif": "/shekru_website/static/media/engine.91e85f2515b1fc33d2d5.gif",
     "static/media/stockExchangeBanner.jpg": "/shekru_website/static/media/stockExchangeBanner.3d82c2d66dcb922d1618.jpg",
@@ -24,7 +24,6 @@
     "static/media/bg2.jpg": "/shekru_website/static/media/bg2.4d3cfc85e59d08be8f60.jpg",
     "static/media/careerImage.svg": "/shekru_website/static/media/careerImage.bac512f3e79cf114444048717425821b.svg",
     "static/media/logo-footer-dark.png": "/shekru_website/static/media/logo-footer-dark.97f8fbbe6ba2f1abda6a.png",
-    "static/media/service-4b.jpg": "/shekru_website/static/media/service-4b.2406fd4f3f8b910b9b98.jpg",
     "static/media/industries.png": "/shekru_website/static/media/industries.fa8cb48f8f674335ae87.png",
     "static/media/service-2b.jpg": "/shekru_website/static/media/service-2b.bb503ace7749ea882378.jpg",
     "static/media/ecomSolution.png": "/shekru_website/static/media/ecomSolution.9455a1c3ac7ca901f9c1.png",
@@ -34,6 +33,7 @@
     "static/media/service-1b.jpg": "/shekru_website/static/media/service-1b.0ca5989e53f741ad0eb8.jpg",
     "static/media/tabImg.jpeg": "/shekru_website/static/media/tabImg.6da95d373b5f82c98b84.jpeg",
     "static/media/observability.png": "/shekru_website/static/media/observability.123490ba1e9c295c0121.png",
+    "static/media/service-4b.jpg": "/shekru_website/static/media/service-4b.bee79029b580199527a4.jpg",
     "static/media/content-04.jpg": "/shekru_website/static/media/content-04.fa4e36da657d821825ac.jpg",
     "static/media/content-03.jpg": "/shekru_website/static/media/content-03.7342b9d1a71a6c7eeb2a.jpg",
     "static/media/product02.png": "/shekru_website/static/media/product02.c6118a962f64e5d32d38.png",
@@ -68,11 +68,11 @@
     "index.html": "/shekru_website/index.html",
     "static/media/qaAutomation.svg": "/shekru_website/static/media/qaAutomation.f3c4e88171702061c0bc985806664788.svg",
     "main.dc4d6ff2.css.map": "/shekru_website/static/css/main.dc4d6ff2.css.map",
-    "main.4fc3ead3.js.map": "/shekru_website/static/js/main.4fc3ead3.js.map",
+    "main.b33d4b9a.js.map": "/shekru_website/static/js/main.b33d4b9a.js.map",
     "453.30bf59f8.chunk.js.map": "/shekru_website/static/js/453.30bf59f8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dc4d6ff2.css",
-    "static/js/main.4fc3ead3.js"
+    "static/js/main.b33d4b9a.js"
   ]
 }
