@@ -1,23 +1,25 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import slider8 from "../assets/img/slider/slide16.jpg";
+import autoProfito from "../assets/img/content/AutoProfito.png";
+import stockSync from "../assets/img/content/StockSync.png";
+import menuMitra from "../assets/img/content/Menu_Mitra.png";
+import healthCare from "../assets/img/content/HealthCare.jpg";
+import hrm from "../assets/img/content/HRM.jpg";
+import erp from "../assets/img/content/ERP.jpg";
 
 import Navbar2 from "./Navbar2";
-
 
 function Products() {
   return (
     <div>
-    <Navbar2/>
+      <Navbar2 />
       <section
         className=" cover-background img-fluid"
-        
         style={{
           backgroundImage: `url(${slider8})`,
-          Height:"100vh",
+          Height: "100vh",
           width: "100%",
-        
-        
         }}
       >
         <div className="container h-100">
@@ -144,9 +146,7 @@ function Products() {
   </div>
 </section> */}
 
-
-
-{/* <section className="p-5 p-lg-5 bg-black text-center">
+      {/* <section className="p-5 p-lg-5 bg-black text-center">
   <div className="container">
     <div className="row justify-content-center">
       <div className="col-lg-9">
@@ -299,48 +299,66 @@ function Products() {
         <div class="row feature-boxes-container mt-n1-9">
           <div class="col-md-6 col-lg-4 mt-1-9 feature-box-04">
             <div class="feature-box-inner h-100">
-              <i class="fa-solid fa-database fs-2"></i>
+              <img
+                src={autoProfito}
+                alt=""
+                style={{ width: "40px", height: "40px" }}
+              />
               <h4 class=" mt-2 text-uppercase font-weight-600 ">AutoProfito</h4>
               <div class="sepratar"></div>
               <p>
-              Autoprofito has been the industry's standard demat account since the 20's,
-               when an unknown printer took a galley of type manager scrambled it to make a type specimen book.
+                Auto Profito is a platform designed to help teachers manage the
+                demat accounts of students efficiently. It simplifies the
+                process of handling stock market-related activities within an
+                educational setting.
               </p>
               <div className="mt-2">
-              <Link to="#" className="text-dark fs-1 ">
-                →
-              </Link>
+                <Link to="https://autoprofito.com/" className="text-dark fs-1 " target="_blank">
+                  →
+                </Link>
               </div>
             </div>
           </div>
 
           <div class="col-md-6 col-lg-4 mt-1-9 feature-box-04">
             <div class="feature-box-inner h-100">
-              <i class="fa-solid fa-shapes fs-2"></i>
+              <img
+                src={stockSync}
+                alt=""
+                style={{ width: "40px", height: "40px" }}
+              />
               <h4 class=" mt-2  font-weight-600 text-uppercase ">StockSync</h4>
               <div class="sepratar"></div>
               <p>
-              Our copy trading platform allows investors to automatically replicate the trades of experienced traders, 
-              making investment opportunities accessible to everyone.
+                Our copy trading platform allows investors to automatically
+                replicate the trades of experienced traders, making investment
+                opportunities accessible to everyone.
               </p>
-              <Link href="#" className="text-dark fs-1">
+              <Link to="https://stocksync.xyz/" className="text-dark fs-1" target="_blank">
                 →
               </Link>
             </div>
           </div>
           <div class="col-md-6 col-lg-4 mt-1-9 feature-box-04">
             <div class="feature-box-inner h-100">
-              <i class="fa-solid fa-table fs-2"></i>
-              <h4 class=" mt-2 e font-weight-600  text-uppercase">Menu Mitra</h4>
+              <img
+                src={menuMitra}
+                alt=""
+                style={{ width: "40px", height: "40px" }}
+              />
+              <h4 class=" mt-2 e font-weight-600  text-uppercase">
+                Menu Mitra
+              </h4>
               <div class="sepratar"></div>
               <p>
-              Our hotel order management system streamlines the entire ordering process,
-               enhancing operational efficiency and guest satisfaction.
+                Our hotel order management system streamlines the entire
+                ordering process, enhancing operational efficiency and guest
+                satisfaction.
               </p>
               <div className="mt-4">
-              <Link href="#" className="text-dark fs-1">
-                →
-              </Link>
+                <Link to="https://menumitra.com/" className="text-dark fs-1" target="_blank">
+                  →
+                </Link>
               </div>
             </div>
           </div>
@@ -350,12 +368,13 @@ function Products() {
         <div class="row feature-boxes-container mt-n1-9">
           <div class="col-md-6 col-lg-4 mt-1-9 feature-box-04">
             <div class="feature-box-inner h-100">
-              <i class="fa-solid fa-users fs-2"></i>
+              <img src={erp} alt="" style={{ width: "50px", height: "50px" }} />
               <h4 class=" mt-2  font-weight-600 ">ERP</h4>
               <div class="sepratar"></div>
               <p>
-              Affordable ERP alternative — Upgrade to a better ERP alternative with
-               advanced integration and automation workflows. Get started for free.
+                Affordable ERP alternative — Upgrade to a better ERP alternative
+                with advanced integration and automation workflows. Get started
+                for free.
               </p>
               <Link to="#" className="text-dark fs-1">
                 →
@@ -365,12 +384,12 @@ function Products() {
 
           <div class="col-md-6 col-lg-4 mt-1-9 feature-box-04">
             <div class="feature-box-inner h-100">
-              <i class="fa-solid fa-magnifying-glass-plus fs-2"></i>
+              <img src={hrm} alt="" style={{ width: "50px", height: "50px" }} />
               <h4 class=" mt-2  font-weight-600  ">HRM</h4>
               <div class="sepratar "></div>
               <p className="mb-md-4 mb-lg-0">
-              Best HRMS & Payroll Software — Manage Entire Employee Lifecycle On One HRMS Platform. 
-              Automate & Simplify Your HR Process.
+                Best HRMS & Payroll Software — Manage Entire Employee Lifecycle
+                On One HRMS Platform. Automate & Simplify Your HR Process.
               </p>
               <Link to="#" className="text-dark fs-1 ">
                 →
@@ -379,12 +398,19 @@ function Products() {
           </div>
           <div class="col-md-6 col-lg-4 mt-1-9 feature-box-04">
             <div class="feature-box-inner h-100">
-              <i class="fa-solid fa-gauge-high fs-2"></i>
-              <h4 class=" mt-2 e font-weight-600 text-uppercase ">Health Care</h4>
+              <img
+                src={healthCare}
+                alt=""
+                style={{ width: "40px", height: "40px" }}
+              />
+              <h4 class=" mt-2 e font-weight-600 text-uppercase ">
+                Health Care
+              </h4>
               <div class="sepratar"></div>
               <p>
-              Our healthcare management system is designed to improve patient care and 
-              streamline administrative processes within medical facilities. 
+                Our healthcare management system is designed to improve patient
+                care and streamline administrative processes within medical
+                facilities.
               </p>
               <Link to="#" className="text-dark fs-1">
                 →
@@ -393,7 +419,7 @@ function Products() {
           </div>
         </div>
       </div>
-      
+
       {/* <section className="p-lg-5 bg-grey">
   <div className="container">
     <div className="row justify-content-center text-center">
@@ -416,7 +442,6 @@ function Products() {
     </div>
   </div>
 </section> */}
-
 
       {/* <section className="py-3">
         <div className="container">
@@ -510,7 +535,6 @@ function Products() {
         </div>
       </section> */}
 
-      
       {/* <section className="pt-6 bg-light-gray">
         <div className="container ">
           <div className="row align-items-center">
@@ -547,7 +571,7 @@ function Products() {
           </div>
         </div>
       </section> */}
-     
+
       {/* <section className="pt-6">
         <div className="container mt-lg-7">
           <div className="row text-center">
@@ -607,9 +631,6 @@ function Products() {
     </div>
   </div>
 </section> */}
-
-
-
 
       {/* <div className="container mt-7 mb-6 ">
         <div className="row mt-n1-9">
@@ -686,7 +707,7 @@ function Products() {
         </div>
       </div> */}
 
-{/*         
+      {/*         
       <div className="container-fluid bg-secondary text-white p-5 d-none d-lg-block">
   <div className="row pb-4">
    
@@ -739,9 +760,6 @@ function Products() {
     </div>
   </div>
 </div> */}
-
-   
-   
     </div>
   );
 }

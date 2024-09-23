@@ -127,76 +127,78 @@ function Home() {
         </section>
 
         <section aria-labelledby="about-heading">
-          <div className="container">
-            <div className="row align-items-center">
-              <div className="col-lg-6">
-                <div className="section-heading title-style5 left half">
-                  <span id="about-heading" className="visually-hidden">
-                    about us
-                  </span>
-                  <h2>Welcome to Shekru Lab</h2>
-                  <div className="square">
-                    <span className="separator-left bg-primary" />
-                    <span className="separator-right bg-primary" />
-                  </div>
-                </div>
-                <p>
-                  At Shekru Labs, we adopt a comprehensive business approach
-                  that encompasses process management, delivery excellence, and
-                  cutting-edge technology innovations. Our focus is on fostering
-                  collaborative partnerships with our clients to deliver
-                  tailored IT solutions. Founded in 2018, Shekru Labs is a
-                  leading IT service and product-based company dedicated to
-                  providing exceptional IT processes and solutions. With a
-                  vision to excel in the IT sector, we understand that
-                  businesses require quality and reliability. Our expert team is
-                  committed to delivering innovative solutions that meet the
-                  unique needs of each client, ensuring their success in today’s
-                  competitive landscape. Explore how Shekru Labs can elevate
-                  your business with our premium IT services and products.
-                </p>
-                <div className="mb-4">
-                  <span>
-                    Call us 24/7. We can answer for{" "}
-                    <strong className="font-weight-600 lead">
-                      all your questions.
-                    </strong>
-                  </span>
-                </div>
-                <div className="border-bottom mb-3 mb-lg-4 pb-3 pb-lg-4">
-                  <a href="tel:+91 7776827177">
-                    <h4 className="d-inline-block h6 mb-0 me-4">
-                      +91 7776827177
-                    </h4>
-                  </a>
-                  <div className="d-inline-block me-4 align-top">
-                    <strong className="font-weight-700 text-primary">or</strong>
-                  </div>
-                  <h4 className="d-inline-block h6 mb-0">
-                    <a href="mailto:info@shekruweb.com"> info@shekruweb.com</a>
-                  </h4>
-                </div>
-                <div className="text-end float-start w-100">
-                  <p className="float-start text-start mb-0">
-                    <span className="font-weight-700 d-block">Anil Shinde</span>
-                    CEO of company
-                  </p>
-                </div>
-              </div>
-              <div className="col-lg-6 d-none d-lg-block">
-                <div className="about-ceo ms-lg-5">
-                  <LazyLoadImage
-                    src={slice2}
-                    alt="..."
-                    width={513}
-                    height={467}
-                  />
-                  <div className="inner-border" />
-                </div>
-              </div>
-            </div>
+  <div className="container">
+    <div className="row align-items-center">
+      {/* Content Column */}
+      <div className="col-lg-6 order-md-2 order-sm-2 order-lg-1">
+        <div className="section-heading title-style5 left half">
+          <span id="about-heading" className="visually-hidden">About Us</span>
+          <h2>Welcome to Shekru Lab</h2>
+          <div className="square">
+            <span className="separator-left bg-primary" />
+            <span className="separator-right bg-primary" />
           </div>
-        </section>
+        </div>
+        <p>
+          At Shekru Labs, we adopt a comprehensive business approach that
+          encompasses process management, delivery excellence, and cutting-edge
+          technology innovations. Our focus is on fostering collaborative
+          partnerships with our clients to deliver tailored IT solutions.
+        </p>
+        <p>
+          Founded in 2018, Shekru Labs is a leading IT service and
+          product-based company dedicated to providing exceptional IT processes
+          and solutions. With a vision to excel in the IT sector, we understand
+          that businesses require quality and reliability. Our expert team is
+          committed to delivering innovative solutions that meet the unique
+          needs of each client, ensuring their success in today’s competitive
+          landscape.
+        </p>
+        <p>
+          Explore how Shekru Labs can elevate your business with our premium IT
+          services and products.
+        </p>
+        <div className="mb-4">
+          <span>
+            Call us 24/7. We can answer{" "}
+            <strong className="font-weight-600 lead">all your questions.</strong>
+          </span>
+        </div>
+        <div className="border-bottom mb-3 mb-lg-4 pb-3 pb-lg-4">
+          <a href="tel:+91 7776827177">
+            <h4 className="d-inline-block h6 mb-0 me-4">+91 7776827177</h4>
+          </a>
+          <div className="d-inline-block me-4 align-top">
+            <strong className="font-weight-700 text-primary">or</strong>
+          </div>
+          <h4 className="d-inline-block h6 mb-0">
+            <a href="mailto:info@shekruweb.com">info@shekruweb.com</a>
+          </h4>
+        </div>
+        <div className="text-start w-100">
+          <p className="mb-0">
+            <span className="font-weight-700 d-block">Anil Shinde</span>
+            CEO of Company
+          </p>
+        </div>
+      </div>
+
+      {/* Image Column */}
+      <div className="col-lg-6 order-md-1  order-sm-1 order-lg-2">
+        <div className="about-ceo ms-lg-5 ms-md-8 mb-md-3 ">
+          <LazyLoadImage
+            src={slice2}
+            alt="About Shekru Lab CEO"
+            width={513}
+            height={331}
+          />
+          <div className="inner-border" />
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 
         <section className="bg-light-gray" aria-labelledby="what-we-do-heading">
           <div className="container">
