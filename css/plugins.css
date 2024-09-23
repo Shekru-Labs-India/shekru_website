@@ -37623,7 +37623,7 @@ header {
     }
 
     .menu_area-light .navbar>ul>li.has-sub>a:after {
-        border-color: transparent #fff #fff transparent
+        border-color: #000 #000 #000 #000
     }
 
     .menu_area-light .navbar>ul>li.current>a:after {

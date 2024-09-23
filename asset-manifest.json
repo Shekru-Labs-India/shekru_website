@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shekru_website/static/css/main.dc4d6ff2.css",
-    "main.js": "/shekru_website/static/js/main.34fa0ed4.js",
+    "main.js": "/shekru_website/static/js/main.3c3936a4.js",
     "static/js/453.30bf59f8.chunk.js": "/shekru_website/static/js/453.30bf59f8.chunk.js",
     "static/media/slice-2.jpg": "/shekru_website/static/media/slice-2.49b4d4fc4d5f310b02e4.jpg",
     "static/media/stockExchangeBanner.jpg": "/shekru_website/static/media/stockExchangeBanner.3d82c2d66dcb922d1618.jpg",
@@ -12,6 +12,7 @@
     "static/media/bg15.jpg": "/shekru_website/static/media/bg15.ba2c898274231366dd1d.jpg",
     "static/media/bg1.jpg": "/shekru_website/static/media/bg1.3925cccf054105604181.jpg",
     "static/media/slide21.jpg": "/shekru_website/static/media/slide21.b9e171a68d6d2eb49d59.jpg",
+    "static/media/careerImage.png": "/shekru_website/static/media/careerImage.fbbb2048daff19bc3920.png",
     "static/media/bg13.jpg": "/shekru_website/static/media/bg13.0be1b2b4d7b5778af93e.jpg",
     "static/media/success.png": "/shekru_website/static/media/success.3985e6cb92805e2c741d.png",
     "static/media/blog3.jpg": "/shekru_website/static/media/blog3.923737c16706ac5c6159.jpg",
@@ -21,7 +22,6 @@
     "static/media/team-02.jpg": "/shekru_website/static/media/team-02.5af2d3ade98c08ae1094.jpg",
     "static/media/slide16.jpg": "/shekru_website/static/media/slide16.a1ef457754bce25e225a.jpg",
     "static/media/bg2.jpg": "/shekru_website/static/media/bg2.4d3cfc85e59d08be8f60.jpg",
-    "static/media/careerImage.svg": "/shekru_website/static/media/careerImage.80d97349b913d914d24e0f13fdabf3a3.svg",
     "static/media/logo-footer-dark.png": "/shekru_website/static/media/logo-footer-dark.97f8fbbe6ba2f1abda6a.png",
     "static/media/industries.png": "/shekru_website/static/media/industries.fa8cb48f8f674335ae87.png",
     "static/media/service-2b.jpg": "/shekru_website/static/media/service-2b.bb503ace7749ea882378.jpg",
@@ -57,11 +57,11 @@
     "static/media/qaAutomation.svg": "/shekru_website/static/media/qaAutomation.d4db099d5ad11cc2f72a34836429018c.svg",
     "index.html": "/shekru_website/index.html",
     "main.dc4d6ff2.css.map": "/shekru_website/static/css/main.dc4d6ff2.css.map",
-    "main.34fa0ed4.js.map": "/shekru_website/static/js/main.34fa0ed4.js.map",
+    "main.3c3936a4.js.map": "/shekru_website/static/js/main.3c3936a4.js.map",
     "453.30bf59f8.chunk.js.map": "/shekru_website/static/js/453.30bf59f8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dc4d6ff2.css",
-    "static/js/main.34fa0ed4.js"
+    "static/js/main.3c3936a4.js"
   ]
 }
