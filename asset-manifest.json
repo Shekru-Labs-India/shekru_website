@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shekru_website/static/css/main.dc4d6ff2.css",
-    "main.js": "/shekru_website/static/js/main.12ca2742.js",
+    "main.js": "/shekru_website/static/js/main.36aebd52.js",
     "static/js/453.30bf59f8.chunk.js": "/shekru_website/static/js/453.30bf59f8.chunk.js",
     "static/media/slice-2.jpg": "/shekru_website/static/media/slice-2.49b4d4fc4d5f310b02e4.jpg",
     "static/media/billing-software_lg.png": "/shekru_website/static/media/billing-software_lg.9b45bb14d88ffa73bd5c.png",
@@ -68,14 +68,14 @@
     "static/media/cloudSolutions.svg": "/shekru_website/static/media/cloudSolutions.2337de999c7734f2391c390793ffe45f.svg",
     "static/media/design.svg": "/shekru_website/static/media/design.d9ea819fa29726996f92dd767019b2fc.svg",
     "static/media/dataAnalytics.svg": "/shekru_website/static/media/dataAnalytics.b8987a5b9c7ecf1c922c3da9f017626b.svg",
-    "static/media/qaAutomation.svg": "/shekru_website/static/media/qaAutomation.d4db099d5ad11cc2f72a34836429018c.svg",
     "index.html": "/shekru_website/index.html",
+    "static/media/qaAutomation.svg": "/shekru_website/static/media/qaAutomation.d4db099d5ad11cc2f72a34836429018c.svg",
     "main.dc4d6ff2.css.map": "/shekru_website/static/css/main.dc4d6ff2.css.map",
-    "main.12ca2742.js.map": "/shekru_website/static/js/main.12ca2742.js.map",
+    "main.36aebd52.js.map": "/shekru_website/static/js/main.36aebd52.js.map",
     "453.30bf59f8.chunk.js.map": "/shekru_website/static/js/453.30bf59f8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dc4d6ff2.css",
-    "static/js/main.12ca2742.js"
+    "static/js/main.36aebd52.js"
   ]
 }
