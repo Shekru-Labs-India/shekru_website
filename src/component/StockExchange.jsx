@@ -15,16 +15,16 @@ import blog3 from "../assets/img/content/blog3.jpg";
 import Navbar2 from "./Navbar2";
 
 function StockExchange() {
-  const [activeService, setActiveService] = useState("Front office");
+  const [activeService, setActiveService] = useState("Trade Automation");
 
   const serviceContent = {
-    "Front office": [
+    "Trade Automation": [
       "Trade capture",
       "Order management",
       "Pricing and analytics",
       "XVA",
     ],
-    "Middle and back office": [
+    "Monitoring and Management": [
       "Trade lifecycle management",
       "Settlements and confirmations",
       "Collateral management",
@@ -65,8 +65,8 @@ function StockExchange() {
       name: "",
       position: "",
       description:
-        "Borrow our custom trading platform development expertise at any product life cycle stage and in any engineering niche.",
-      h3Content: " Convenient engagement",
+        "Fully cloud based automated system with simple automation and easy to use algorithmic trading system.",
+      h3Content: " Cloud Based",
     },
     {
       id: 2,
@@ -89,16 +89,16 @@ function StockExchange() {
       name: "",
       position: "",
       description:
-        "Maximize the partnership’s value while remaining flexible vis-à-vis collaboration models with our domain and technology experts focus on efficiency.",
-      h3Content: "Effective collaboration",
+        "Automate trading in multiple accounts with no software installation and VPS requirement.",
+      h3Content: "Multiple Accounts",
     },
     {
       id: 5,
       name: "",
       position: "",
       description:
-        "Make your delivery operations truly global with any of our 70+ locations across the globe equipped to assist you in location transformation.",
-      h3Content: "Location transformation",
+        "Add as many accounts as you want with custom plans with practical features.",
+      h3Content: "Rapid Scale up in cloud",
     },
     {
       id: 6,
@@ -131,21 +131,23 @@ function StockExchange() {
           alt="Client Banner"
           className="img-fluid w-100"
         />
-        <div className="position-absolute top-20 ms-lg-5 text-white p-3">
-          <h1 className="fw-bold mb-2 text-white">Custom trading software</h1>
-          <h1 className="fw-bold mb-4 text-white">development</h1>
+        <div className="position-absolute top-40 ms-lg-5 text-white p-3">
+          <h1 className="fw-bold mb-2 text-white">
+            AutoProfito trading software
+          </h1>
+
           <p className="lead mb-0 d-none d-lg-block d-md-block ">
-            Gain a competitive edge with innovative trading software developed
-            by Shekru Labs, <br />a custom trading software development highflyer
-            with 7,000+ in-house professionals and 20+ years of industry
-            experience.
+            Explore the best copy trading platforms in India, supporting major
+            Indian brokers like Zerodha, <br />
+            Angel Broking, Fyers, Finvasia, and Alice Blue across NSE, BSE, and
+            MCX exchanges.
           </p>
         </div>
       </div>
 
       <div className="container text-center mt-6 ">
         <h1>Our trading platform</h1>
-        <h1> development services</h1>
+        <h1> services</h1>
       </div>
 
       <section className="p-0 p-lg-8 m-1 m-lg-6 bg-light-gray">
@@ -202,27 +204,26 @@ function StockExchange() {
             </div>
             <div className="col-lg-6">
               <div className="section-heading title-style5 left half mt-3 ">
-                <h2>How Shekru Labs approaches trading software development</h2>
+                <h2>How AutoProfito approaches trading software </h2>
                 <div className="square">
                   <span className="separator-left bg-primary" />
                   <span className="separator-right bg-primary" />
                 </div>
               </div>
               <p>
-                At Shekru Labs, we treat every project as a partnership. We
-                bring our technical and domain expertise and problem-solving
-                skills to power your transformation journey via the predictable
-                and stable delivery of complex bespoke trading software.
+                When selecting a copy trading platform, it's crucial to consider
+                your specific requirements. Several copy trading companies in
+                India offer copy trading software and tools, but the best
+                platform is the one that meets your needs effectively.
               </p>
               <div className="mt-4 ">
                 <p className="">
-                  To ensure our collaboration is successful, we find an
-                  industry-specific or horizontal technology solution that
-                  aligns perfectly with your business goals and needs. We also
-                  staff our teams with a high proportion of mid and senior-level
-                  engineers with hands-on experience in custom trading platform
-                  development to deliver on our promise of stable and
-                  predictable delivery.
+                  Copy trading, an advanced version of social trading, enables
+                  you to replicate the trades of one trading account into other
+                  accounts effortlessly. With copy trading, you can receive
+                  automated signals from experienced signal providers and mirror
+                  their trades in your trading or demat account, even when
+                  you're away from your system.
                 </p>
               </div>
             </div>
@@ -357,7 +358,7 @@ function StockExchange() {
       <section className="p-2 m-3">
         <div className="container text-center ">
           <h1 className="mb-6">
-            We work with products in every life cycle stage
+            Key Features of an Ideal Copy Trading Platform
           </h1>
         </div>
         <div className="row">
@@ -367,22 +368,22 @@ function StockExchange() {
               <div className="bg-white border border-color-light-black p-1-6 p-lg-1-9 feature-box-03">
                 <div className="col-md-12 p-0 mb-2 mb-md-3 alt-font">
                   <h4 className=" h2 mb-2 w-100 font-weight-600 text-center">
-                    Ideation
+                    Low Charges
                   </h4>
                 </div>
                 <p className="w-95 text-white pt-2">
-                  International business consulting pers piciatis unde omnis
-                  iste natus error sit voluptatem accusantium doloremque
-                  laudantium, totam rem apenventore veritatis architecto.
+                Optimize development and rollout costs and de-risk product
+                  delivery with Shekru Lab’s trading platform software
+                  development expertise.
                 </p>
 
                 <div className="show-details">
                   <img src={approach} alt="..." />
                   <div className="feature-box-detail p-1-9">
                     <div className="border border-color-light-white h-100 p-4 text-white h5">
-                      Use the industry-specific technical expertise of Shekru Lab’s
-                      engineers to power consistent thought leadership and gain
-                      an edge in a highly competitive domain.
+                      Opt for a copy trading platform with competitive pricing
+                      to maximize your returns. Consider the costs associated
+                      with using the copy trading software.
                     </div>
                   </div>
                 </div>
@@ -392,22 +393,21 @@ function StockExchange() {
               <div className="bg-white border border-color-light-black p-1-6 p-lg-1-9 feature-box-03">
                 <div className="col-md-12 p-0 mb-2 mb-md-3 alt-font">
                   <h4 className=" h2 mb-2 w-100 font-weight-600 text-center">
-                    Development and launch
+                    Fast Order Execution
                   </h4>
                 </div>
                 <p className="w-95 text-white ">
                   Optimize development and rollout costs and de-risk product
-                  delivery with Shekru Lab’s trading platform software development
-                  expertise.
+                  delivery with Shekru Lab’s trading platform software
+                  development expertise.trading platform
                 </p>
 
                 <div className="show-details">
                   <img src={approach} alt="..." />
                   <div className="feature-box-detail p-1-9">
                     <div className="border border-color-light-white h-100 p-4 text-white h5">
-                      Optimize development and rollout costs and de-risk product
-                      delivery with Shekru Lab’s trading platform software
-                      development expertise.
+                      Look for a platform that ensures swift execution of copied
+                      trades, minimizing delays and slippage.
                     </div>
                   </div>
                 </div>
@@ -417,23 +417,23 @@ function StockExchange() {
               <div className="bg-white border border-color-light-black p-1-6 p-lg-1-9 feature-box-03">
                 <div className="col-md-12 p-0 mb-2 mb-md-3 alt-font">
                   <h4 className="h2 mb-lg-2 w-100 font-weight-600 text-center">
-                    Growth and maturity
+                    Safe and Secure
                   </h4>
                 </div>
                 <p className="w-95 text-white pt-lg-3 ">
-                  International business consulting pers piciatis unde omnis
-                  iste natus error sit voluptatem accusantium doloremque
-                  laudantium, totam rem apenventore veritatis architecto.
+                Optimize development and rollout costs and de-risk product
+                  delivery with Shekru Lab’s trading platform software
+                  development expertise.
                 </p>
 
                 <div className="show-details">
                   <img src={approach} alt="..." />
                   <div className="feature-box-detail p-1-9">
                     <div className="border border-color-light-white h-100 p-4 text-white h5">
-                      Have your product maintained and adapted to new markets,
-                      data volumes and customer segments while ensuring
-                      efficiency via a transfer of application delivery
-                      ownership.
+                      Security is of utmost importance when selecting a copy
+                      trading platform. Ensure the platform implements robust
+                      security measures to protect your personal and financial
+                      information.
                     </div>
                   </div>
                 </div>
@@ -480,7 +480,7 @@ function StockExchange() {
             {/* Content Section */}
             <div className="col-md-5 order-md-1 order-lg-1">
               <h1 className="h3 h-sm2 d-lg-block d-md-block d-none">
-                How Shekru Lab helps our clients beat the competition
+                How AutoProfito helps to beat the competition
               </h1>
               <h2 className="h4">{activeMember.name}</h2>
               <h5 className="text-muted">{activeMember.position}</h5>
@@ -524,31 +524,26 @@ function StockExchange() {
 
       <div className="container">
         <h1 className=" text-center">
-          Why choose <span className="text-primary">Shekru Labs</span> for your trading software development needs
+          Why choose <span className="text-info">AutoProfito</span> for your
+          trading software needs
         </h1>
 
         <div className="row mt-6 ">
           <div className="col-lg-6 px-lg-6 py-lg-4 pt-md-4 pt-4 bg-secondary">
             <ul className="list-style-15 list-unstyled ">
-              <li className="h4 text-white">Unparalleled domain experience</li>
+              <li className="h4 text-white">Trade Automation</li>
               <p>
-                Over the past 20+ years, we have built extensive real-world
-                experience in successfully delivering complex trading system
-                development software in multiple niches.
+              Automate trade from Master account to other child accounts with cross broker operation.
               </p>
               <hr className="text-primary d-block d-lg-none" />
-              <li className="h4 text-white">Breadth of expertise</li>
+              <li className="h4 text-white">Dynamic Multiplier</li>
               <p>
-                Shekru Labs has served many clients in the banking and capital
-                markets industry, including tier-one global banks, hedge funds
-                and mid-size asset managers.
-             </p>
+              Place trades in multiple custom quantities in child accounts and manages the accounts.
+              </p>
               <hr className="text-primary d-block d-lg-none" />
-              <li className="h4 text-white">Regulatory blueprints</li>
+              <li className="h4 text-white">Multiple Brokers</li>
               <p>
-                We streamline regulatory compliance with our comprehensive set
-                of continuously updated playbooks for implementing solutions for
-                key regulations.
+              Place trades in multiple broker accounts simultaneously and manage without any issues.
               </p>
               <hr className="text-primary d-block d-lg-none" />
             </ul>
@@ -556,25 +551,19 @@ function StockExchange() {
 
           <div className="col-lg-6 px-lg-6 py-lg-4 bg-secondary">
             <ul className="list-style-15 list-unstyled">
-              <li className="h4 text-white">Package expertise</li>
+              <li className="h4 text-white">Automated Login</li>
               <p>
-                We use our experience in leading package solutions and our wide
-                partner network to help our clients switch from a packaged
-                product to a bespoke one or vice versa.
+              Add your broker account and enjoy the automated loging on every trading day.
               </p>
               <hr className="text-primary d-block d-lg-none" />
-              <li className="h4 text-white">Front-to-back service</li>
+              <li className="h4 text-white">Monitoring and Management</li>
               <p>
-                As a trading software development company, we maintain a
-                result-driven team that knows the ins and outs of front-to-back
-                technology delivery that maximizes your ROI.
+              Monitor child accounts from one single dashboard / Emergency exit feature.
               </p>
               <hr className="text-primary d-block d-lg-none" />
-              <li className="h4 text-white">Knowledge management</li>
+              <li className="h4 text-white">Customised Plans</li>
               <p>
-                We help our clients take over the product in-house with
-                comprehensive documentation, IP retention and knowledge transfer
-                assistance.
+              Get your own custom plan based on your required number of accounts.
               </p>
               <hr className="text-primary d-block d-lg-none" />
             </ul>
@@ -584,7 +573,7 @@ function StockExchange() {
 
       <section className="bg-grey py-7">
         <div className="container text-center ">
-          <h1 className="mb-6">Shekru Labs in numbers</h1>
+          <h1 className="mb-6">Join the trading revolution with Autoprofito</h1>
           <div className="row">
             <div className="col-lg-4 col-md-6 d-flex align-items-center">
               <div className="p-1 position-relative">
@@ -593,9 +582,9 @@ function StockExchange() {
                   style={{ height: "190px" }}
                 >
                   <div className="text-start ms-4">
-                    <h1 className="">20+</h1>
+                    <h1 className="">4784+</h1>
                     <div className="fs-3 fw-bold  h2 ">
-                      years of financial markets software development experience
+                     Users
                     </div>
                   </div>
                 </div>
@@ -608,9 +597,9 @@ function StockExchange() {
                   style={{ height: "190px" }}
                 >
                   <div className="text-start ms-4">
-                    <h1 className="">70+</h1>
+                    <h1 className="">6155+</h1>
                     <div className="fs-3 fw-bold  h2 ">
-                      countries we operate in
+                     Demat Accounts
                     </div>
                   </div>
                 </div>
@@ -623,9 +612,9 @@ function StockExchange() {
                   style={{ height: "190px" }}
                 >
                   <div className="text-start ms-4">
-                    <h1 className="">&gt;70%</h1>
+                    <h1 className="">1807091</h1>
                     <div className="fs-3 fw-bold  h2 ">
-                      of Shekru Lab’s engineers have advanced degrees
+                     Order Placed
                     </div>
                   </div>
                 </div>
@@ -637,7 +626,7 @@ function StockExchange() {
 
       <div className="container">
         <h1 className="text-lg-center text-md-center my-lg-5 my-2">
-          Our custom trading software development services
+          Our AutoProfito trading software  services
         </h1>
         <div className="row text-white ">
           <div className="col-md-6 col-lg-3">
@@ -647,12 +636,9 @@ function StockExchange() {
                   {/* Replace with your icon */}
                   <img src={dataAnalytics} alt="" />
                 </div>
-                <h4 className="card-title text-white">Data analytics</h4>
-                <p className="card-text mt-6">
-                  Leverage advanced trading data analytics to streamline the
-                  trading process for customers, power well-informed
-                  decision-making with AI instruments and understand user
-                  behavior.
+                <h4 className="card-title text-white">Trade Automation</h4>
+                <p className="card-text mt-6 ">
+                Automate trade from Master account to other child accounts with cross broker operation.
                 </p>
                 <Link to="#" className="">
                   LEARN MORE &gt;
@@ -668,13 +654,11 @@ function StockExchange() {
                   {/* Replace with your icon */}
                   <img src={design} alt="" />
                 </div>
-                <h4 className="card-title text-white">Design</h4>
+                <h4 className="card-title text-white">Dynamic Multiplier</h4>
                 <p className="card-text mt-6">
-                  Enhance your customers' user experience with an intuitive
-                  navigation scheme, powerful data visualization tools (e.g.,
-                  stock exchange charts) and gamification features.
+                Place trades in multiple custom quantities in child accounts.
                 </p>
-                <div className="pt-md-4 pt-lg-0">
+                <div className="pt-md-4 pt-lg-4">
                   <Link to="#">LEARN MORE &gt;</Link>
                 </div>
               </div>
@@ -688,13 +672,11 @@ function StockExchange() {
                   {/* Replace with your icon */}
                   <img src={qa} alt="" />
                 </div>
-                <h4 className="card-title text-white">QA automation</h4>
+                <h4 className="card-title text-white">Multiple Brokers</h4>
                 <p className="card-text mt-6">
-                  Ensure your trading platform runs as intended after a recent
-                  change to the code with streamlined regression, performance
-                  and security testing.
+                Place trades in multiple broker accounts simultaneously.
                 </p>
-                <div className=" ">
+                <div className="pt-lg-4 ">
                   <Link to="#" className="">
                     LEARN MORE &gt;
                   </Link>
@@ -710,12 +692,11 @@ function StockExchange() {
                   {/* Replace with your icon */}
                   <img src={cloud} alt="" />
                 </div>
-                <h4 className="card-title text-white">Cloud solutions</h4>
+                <h4 className="card-title text-white">Customised Plans</h4>
                 <p className="card-text mt-6">
-                  Scale up real-time risk analysis automatically and at an
-                  optimal cost with public, private, or hybrid cloud computing.
+                Get your own custom plan based on your required number of accounts.
                 </p>
-                <div className=" mt-8">
+                <div className=" ">
                   <Link href="#" className="">
                     LEARN MORE &gt;
                   </Link>
@@ -725,8 +706,6 @@ function StockExchange() {
           </div>
         </div>
       </div>
-
-     
 
       <section
         className="parallax pt-7 pb-5"
@@ -740,10 +719,10 @@ function StockExchange() {
         <div className="container text-center">
           <div className="section-heading title-style5 half white">
             <h2 className="mb-2">
-              Let’s discuss how Shekru Lab’s trading software
+              Let’s discuss how AutoProfito trading software
             </h2>
             <h2 className="mb-2">
-              development expertise can help you attain your goals
+              expertise can help you attain your goals
             </h2>
           </div>
           <Link to="#!" className="butn primary white-hover">
@@ -837,7 +816,7 @@ function StockExchange() {
                       aria-expanded="false"
                       aria-controls="collapseOne"
                     >
-                      How can i purchase this item ?
+                     What type of orders are copied in child account?
                     </button>
                   </h5>
                 </div>
@@ -849,17 +828,7 @@ function StockExchange() {
                   style={{}}
                 >
                   <div className="card-body">
-                    Tempora incidunt ut labore et dolore exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                    irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                    cupidatat non proident, sunt in culpa qui officia deserunt
-                    mollit anim id est laborum. Sed ut perspiciatis unde omnis
-                    iste natus error sit voluptatem accusantium doloremque
-                    laudantium, totam rem aperiam, eaque ipsa quae ab illo
-                    inventore veritatis et quasi architecto beatae vitae dicta
-                    sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-                    aspernatur aut odit aut fugit.
+                  No matter what type of order you place in master account (SL/Limit/Market/SL-M), in child account it will always place MARKET orders to ensure execution
                   </div>
                 </div>
               </div>
@@ -873,7 +842,7 @@ function StockExchange() {
                       aria-expanded="false"
                       aria-controls="collapseTwo"
                     >
-                      why unique and creative design ?
+                      Which broker can be added as master account?
                     </button>
                   </h5>
                 </div>
@@ -884,17 +853,7 @@ function StockExchange() {
                   data-bs-parent="#accordion"
                 >
                   <div className="card-body">
-                    Neque porro quisquam est quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                    irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                    cupidatat non proident, sunt in culpa qui officia deserunt
-                    mollit anim id est laborum. Sed ut perspiciatis unde omnis
-                    iste natus error sit voluptatem accusantium doloremque
-                    laudantium, totam rem aperiam, eaque ipsa quae ab illo
-                    inventore veritatis et quasi architecto beatae vitae dicta
-                    sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-                    aspernatur aut odit aut fugit.
+                  Out of all added accounts in Account Configuration page, only Angel One, Zerodha, Fyers, Finvasia, Flattrade, AC Agarwal can be added as Master Account
                   </div>
                 </div>
               </div>
@@ -908,7 +867,7 @@ function StockExchange() {
                       aria-expanded="false"
                       aria-controls="collapseThree"
                     >
-                      are you ready to buy this theme ?
+                     What are the limitations of the platform?
                     </button>
                   </h5>
                 </div>
@@ -919,17 +878,7 @@ function StockExchange() {
                   data-bs-parent="#accordion"
                 >
                   <div className="card-body">
-                    Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                    laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                    irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                    cupidatat non proident, sunt in culpa qui officia deserunt
-                    mollit anim id est laborum. Sed ut perspiciatis unde omnis
-                    iste natus error sit voluptatem accusantium doloremque
-                    laudantium, totam rem aperiam, eaque ipsa quae ab illo
-                    inventore veritatis et quasi architecto beatae vitae dicta
-                    sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
-                    aspernatur aut odit aut fugit.
+                  As we always place market orders in child accounts to ensure execution, few cases where liquidity is less, broker doesn't allow market orders, it will not work. Most of the time Stock, Commodity, Currency Options doesn't have good liquidity, hence orders might not reflect in the child accounts however, Futures order will go when it has good liquidity
                   </div>
                 </div>
               </div>

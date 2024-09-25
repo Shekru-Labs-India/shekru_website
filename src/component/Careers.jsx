@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import careerimage from "../assets/img/content/services/careerImage.svg"
+import careerimage from "../assets/img/content/careerImage.png"
 import Navbar2 from './Navbar2'
 
 function Careers() {
@@ -59,7 +59,7 @@ function Careers() {
       <h2 className="text-white my-lg-3 p-lg-5">Dive into endless job opportunities and discover your next big career move!</h2>
       
       <div className="ms-lg-5 mt-3">
-        <Link to="#" className="butn primary white-hover">
+        <Link to="/contact" className="butn primary white-hover">
           <span>Explore Job Opportunities</span>
         </Link>
       </div>

@@ -74,14 +74,14 @@ function Industries() {
                   <h4 className="title h5 font-weight-600 alt-font mb-2">
                     E-Commerce Solutions
                   </h4>
-                  <Link to="/eCommercer" className="read-more h6">
+                  <Link to="/eCommerce" className="read-more h6">
                     Retail
                   </Link>
                   <p className="feature-desc mb-4">
                     Enhance operational efficiency, Improve customer
                     satisfaction, drive business growth.
                   </p>
-                  <Link className="read-more " to="eCommerce">
+                  <Link className="read-more " to="/eCommerce">
                     E-Commerce use cases
                     <i class="fa-solid fa-right-long ms-2" />
                   </Link>
@@ -98,17 +98,17 @@ function Industries() {
                   <h4 className="title h5 font-weight-600 alt-font mb-2">
                     Trading Solutions
                   </h4>
-                  <a href="" className="read-more h6">
+                  <Link to="/stock-exchange" className="read-more h6">
                    Stock Exchange
-                  </a>
+                  </Link>
                   <p className="feature-desc ">
                     Partner with us to understand the power of Smart Machine
                     Monitoring to achieve your business goals.
                   </p>
-                  <a className="read-more" href="#!">
+                  <Link className="read-more" to="/stock-exchange">
                    Trading use cases
                     <i class="fa-solid fa-right-long ms-2 " />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

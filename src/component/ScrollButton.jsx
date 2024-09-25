@@ -28,7 +28,7 @@ const ScrollToTopButton = () => {
       {isVisible && (
         <button
           onClick={scrollToTop}
-          className="btn btn-success position-fixed bottom-0 end-0 m-3 d-none d-sm-block"
+          className="btn btn-success position-fixed bottom-0 end-0 m-3"
           style={{
             borderRadius: '50%',
             width: '50px',

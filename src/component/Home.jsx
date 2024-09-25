@@ -13,6 +13,7 @@ function Home() {
       <Navbar />
 
       <div className="main-wrapper">
+     
         <section
           className="bg-img cover-background"
           data-overlay-dark={7}
@@ -189,10 +190,10 @@ function Home() {
           <LazyLoadImage
             src={slice2}
             alt="About Shekru Lab CEO"
-            width={513}
-            height={331}
+            width={600}
+            height={500}
           />
-          <div className="inner-border" />
+         
         </div>
       </div>
     </div>

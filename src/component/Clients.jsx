@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import clientBanner from "../assets/img/content/clientBanner.jpg";
 import solticAfrica from "../assets/img/content/soltic-africa.jpg";
 import ons from "../assets/img/content/ons.jpg";
@@ -37,12 +38,12 @@ function Clients() {
     <h1 className="text-white">Our Clients</h1>
     
     <div className="mt-5">
-  <a 
-    href="#!" 
+  <Link 
+    to="/contact" 
     className="butn primary white-hover btn btn-lg btn-md btn-sm"
   >
     <span>Talk to our Solution Specialist</span>
-  </a>
+  </Link>
 </div>
 
   </div>

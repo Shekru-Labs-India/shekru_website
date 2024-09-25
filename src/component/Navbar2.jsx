@@ -54,6 +54,18 @@ function Navbar2() {
             >
               Products
             </NavLink>
+            <ul className="">
+                      <li>
+                        <NavLink
+                          to="/menu-mitra"
+                          className={({ isActive }) => (isActive ? "text-primary" : "")}
+                        >
+                         Menu Mitra
+                        </NavLink>
+                      </li>
+                      
+                    
+                    </ul>
           </li>
          
           <li>

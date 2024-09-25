@@ -7,10 +7,9 @@ const ScriptsManager = () => {
   useEffect(() => {
     const scriptSources = [
        
-        `${process.env.PUBLIC_URL}/js/core.min.js`,
+        `${process.env.PUBLIC_URL}/js/combined.js`,
        
-    `${process.env.PUBLIC_URL}/js/main.js`,
-        `${process.env.PUBLIC_URL}/js/plugins.js`,
+    
         
       ];
 
