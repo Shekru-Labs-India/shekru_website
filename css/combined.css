@@ -17281,6 +17281,15 @@ pre[class*="language-"] {
    height: 100px;
 }
 
+.custom-nav-link {
+    transition: all 0.3s ease;
+  }
+  
+  .custom-nav-link:hover {
+    
+    
+    transform: translateY(-2px);
+  }
 /* CLS FIX FOR ABOUT US SECTION */
 
 @charset "UTF-8";
