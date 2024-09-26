@@ -1,5 +1,7 @@
 
 
+/* Your other CSS rules */
+
 
 *,body{
     font-family: "Lato", sans-serif;
@@ -953,7 +955,7 @@ select:focus {
     -moz-border-radius: 100px;
     -o-border-radius: 100px;
     z-index: 2;
-    color: #282b2d
+    color: #86bc42
 }
 
 .list-style-15 li:hover {
@@ -17269,13 +17271,14 @@ pre[class*="language-"] {
 
 .logo_size{
     
-    width:180px;
+    height: 170px;
+    width: 200px;
 
 }
 
 .logo_size2{
-    width: 155px;
-   height: 60px;
+    width: 180px;
+   height: 100px;
 }
 
 /* CLS FIX FOR ABOUT US SECTION */
