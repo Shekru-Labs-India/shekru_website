@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/shekru_website/static/css/main.dc4d6ff2.css",
-    "main.js": "/shekru_website/static/js/main.9b4eb5c9.js",
+    "main.js": "/shekru_website/static/js/main.10ccd4af.js",
     "static/js/453.30bf59f8.chunk.js": "/shekru_website/static/js/453.30bf59f8.chunk.js",
     "static/media/billing-software_lg.png": "/shekru_website/static/media/billing-software_lg.9b45bb14d88ffa73bd5c.png",
+    "static/media/bringRole.png": "/shekru_website/static/media/bringRole.b05f1def7cd590052f98.png",
     "static/media/projectInMind.jpg": "/shekru_website/static/media/projectInMind.0739a177fd555543a150.jpg",
     "static/media/blog1.jpg": "/shekru_website/static/media/blog1.f2217bf0c31842883107.jpg",
     "static/media/slice-2.jpg": "/shekru_website/static/media/slice-2.d441278373cef11e7a15.jpg",
@@ -72,17 +73,17 @@
     "static/media/greenbrier-living.jpg": "/shekru_website/static/media/greenbrier-living.93dd712883cd327e53eb.jpg",
     "static/media/kabhib.png": "/shekru_website/static/media/kabhib.fc02aae6910fd3f34594.png",
     "static/media/StockSync.png": "/shekru_website/static/media/StockSync.ff7c7a22770ce4f35889.png",
+    "index.html": "/shekru_website/index.html",
     "static/media/cloudSolutions.svg": "/shekru_website/static/media/cloudSolutions.2337de999c7734f2391c390793ffe45f.svg",
     "static/media/design.svg": "/shekru_website/static/media/design.d9ea819fa29726996f92dd767019b2fc.svg",
     "static/media/dataAnalytics.svg": "/shekru_website/static/media/dataAnalytics.b8987a5b9c7ecf1c922c3da9f017626b.svg",
     "static/media/qaAutomation.svg": "/shekru_website/static/media/qaAutomation.d4db099d5ad11cc2f72a34836429018c.svg",
-    "index.html": "/shekru_website/index.html",
     "main.dc4d6ff2.css.map": "/shekru_website/static/css/main.dc4d6ff2.css.map",
-    "main.9b4eb5c9.js.map": "/shekru_website/static/js/main.9b4eb5c9.js.map",
+    "main.10ccd4af.js.map": "/shekru_website/static/js/main.10ccd4af.js.map",
     "453.30bf59f8.chunk.js.map": "/shekru_website/static/js/453.30bf59f8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dc4d6ff2.css",
-    "static/js/main.9b4eb5c9.js"
+    "static/js/main.10ccd4af.js"
   ]
 }
