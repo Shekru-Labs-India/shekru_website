@@ -13,9 +13,9 @@ const Navbar = React.memo(() => {
                 <div className="navbar-header navbar-header-custom row">
                   <div className="col-xl-2 col-lg-3">
                    
-                    <NavLink to="/" className="navbar-brand h-default">
-                      <img id="logo" src={logo2} alt="logo" className='img-fluid logo_size' />
-                    </NavLink>
+                  <NavLink to="/" className="navbar-brand h-default">
+  <img id="logo" src={logo2} alt="logo" className=" enlarged-logo" />
+</NavLink>
                    
                   </div>
                   <div className="col-lg-9 offset-xl-1 offset-lg-0 d-none d-lg-block extracontent">
@@ -27,10 +27,10 @@ const Navbar = React.memo(() => {
                           </span>
                           <p className="d-inline-block m-0 w-75 align-top ps-2">
                             <span className=" d-block">
-                              Mon-Fri 09:00 AM-9:00 PM
+                              Mon-Sat 09:00 AM-9:00 PM
                             </span>
                             <span className="">
-                              Sat - Sun: Closed
+                              Sun: Closed
                             </span>
                           </p>
                         </div>
@@ -59,7 +59,7 @@ const Navbar = React.memo(() => {
                           </span>
                           <p className="d-inline-block m-0 w-75 align-top">
                             <span className=" d-block">
-                              Office no 6, 2nd Floor Manogat Appt, Swarget, Pune, Maharashtra-411037
+                              Office no 6, 2nd Floor Manogat Appt, Swarget, Pune, MH-411037
                             </span>
                           </p>
                         </div>
@@ -80,7 +80,9 @@ const Navbar = React.memo(() => {
                     <NavLink
                     
                       to="/"
-                      className={({ isActive }) => (isActive ? "text-primary" : "")}
+                      className={({ isActive }) => 
+                       `nav-link custom-nav-link ${isActive ? "text-primary" : ""}`
+                    }
                     >
                       Home
                     </NavLink>
@@ -88,7 +90,9 @@ const Navbar = React.memo(() => {
                   <li>
                     <NavLink
                       to="/about"
-                      className={({ isActive }) => (isActive ? "text-primary" : "")}
+                      className={({ isActive }) => 
+                       `nav-link custom-nav-link ${isActive ? "text-primary" : ""}`
+                    }
                     >
                       About
                     </NavLink>
@@ -96,25 +100,43 @@ const Navbar = React.memo(() => {
                   <li>
                     <NavLink
                       to="/services"
-                      className={({ isActive }) => (isActive ? "text-primary" : "")}
+                      className={({ isActive }) => 
+                       `nav-link custom-nav-link ${isActive ? "text-primary" : ""}`
+                    }
                     >
                       Services
                     </NavLink>
                   </li>
+                  
                   <li>
                     <NavLink
                       to="/products"
-                      className={({ isActive }) => (isActive ? "text-primary" : "")}
+                      className={({ isActive }) => 
+                       `nav-link custom-nav-link ${isActive ? "text-primary" : ""}`
+                    }
                     >
                       Products
                     </NavLink>
                     <ul className="">
+                      
                       <li>
                         <NavLink
                           to="/menu-mitra"
-                          className={({ isActive }) => (isActive ? "text-primary" : "")}
+                          className={({ isActive }) => 
+                       `nav-link custom-nav-link ${isActive ? "text-primary" : ""}`
+                    }
                         >
-                         Menu Mitra
+                         MenuMitra
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink
+                          to="/auto-profito"
+                          className={({ isActive }) => 
+                       `nav-link custom-nav-link ${isActive ? "text-primary" : ""}`
+                    }
+                        >
+                         AutoProfito
                         </NavLink>
                       </li>
                       
@@ -125,7 +147,9 @@ const Navbar = React.memo(() => {
                   <li>
                     <NavLink
                       to="/partners"
-                      className={({ isActive }) => (isActive ? "text-primary" : "")}
+                      className={({ isActive }) => 
+                       `nav-link custom-nav-link ${isActive ? "text-primary" : ""}`
+                    }
                     >
                       Partners
                     </NavLink>
@@ -133,7 +157,9 @@ const Navbar = React.memo(() => {
                   <li>
                     <NavLink
                       to="/technologies"
-                      className={({ isActive }) => (isActive ? "text-primary" : "")}
+                      className={({ isActive }) => 
+                       `nav-link custom-nav-link ${isActive ? "text-primary" : ""}`
+                    }
                     >
                       Technologies
                     </NavLink>
@@ -142,7 +168,9 @@ const Navbar = React.memo(() => {
                     <span className="" />
                     <NavLink
                       to="/industries"
-                      className={({ isActive }) => (isActive ? "text-primary" : "")}
+                      className={({ isActive }) => 
+                       `nav-link custom-nav-link ${isActive ? "text-primary" : ""}`
+                    }
                     >
                       Industries
                     </NavLink>
@@ -150,7 +178,9 @@ const Navbar = React.memo(() => {
                       <li>
                         <NavLink
                           to="/stock-exchange"
-                          className={({ isActive }) => (isActive ? "text-primary" : "")}
+                          className={({ isActive }) => 
+                       `nav-link custom-nav-link ${isActive ? "text-primary" : ""}`
+                    }
                         >
                           Stock Exchange
                         </NavLink>
@@ -158,7 +188,9 @@ const Navbar = React.memo(() => {
                       <li >
                         <NavLink
                           to="/eCommerce"
-                          className={({ isActive }) => (isActive ? "text-primary" : "")}
+                          className={({ isActive }) => 
+                       `nav-link custom-nav-link ${isActive ? "text-primary" : ""}`
+                    }
                         >
                           E-Commerce
                         </NavLink>
@@ -166,7 +198,9 @@ const Navbar = React.memo(() => {
                       <li>
                         <NavLink
                           to="/transportation"
-                          className={({ isActive }) => (isActive ? "text-primary" : "")}
+                          className={({ isActive }) => 
+                       `nav-link custom-nav-link ${isActive ? "text-primary" : ""}`
+                    }
                         >
                           Transportation
                         </NavLink>
@@ -176,7 +210,9 @@ const Navbar = React.memo(() => {
                   <li>
                     <NavLink
                       to="/careers"
-                      className={({ isActive }) => (isActive ? "text-primary" : "")}
+                      className={({ isActive }) => 
+                       `nav-link custom-nav-link ${isActive ? "text-primary" : ""}`
+                    }
                     >
                       Careers
                     </NavLink>
@@ -184,7 +220,9 @@ const Navbar = React.memo(() => {
                   <li>
                     <NavLink
                       to="/clients"
-                      className={({ isActive }) => (isActive ? "text-primary" : "")}
+                      className={({ isActive }) => 
+                       `nav-link custom-nav-link ${isActive ? "text-primary" : ""}`
+                    }
                     >
                       Clients
                     </NavLink>
@@ -192,7 +230,9 @@ const Navbar = React.memo(() => {
                   <li>
                     <NavLink
                       to="/contact"
-                      className={({ isActive }) => (isActive ? "text-primary" : "")}
+                      className={({ isActive }) => 
+                       `nav-link custom-nav-link ${isActive ? "text-primary" : ""}`
+                    }
                     >
                       Contact
                     </NavLink>

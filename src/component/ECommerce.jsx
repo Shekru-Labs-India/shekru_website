@@ -56,7 +56,7 @@ function  ECommerce() {
 
 <section className="p-3 p-lg-6 bg-light m-2 m-lg-5">
   <div className="container text-center">
-    <img src={retail} alt="" className="img-fluid" />
+    <img src={retail} alt="" className="img-fluid rounded" />
   </div>
   
   <div className="container mt-4 mt-lg-6">
@@ -221,93 +221,21 @@ function  ECommerce() {
         </h1>
         <h5 className="fw-normal my-4 fs-5 ">Choosing Infysion as your partner, Our architects and business analysts are ready to transform legacy app modernization services for your specific case and help you and Step into the Future with Legacy Application Modernization Solutions.</h5>
       </div>
-      <div className="container mt-5">
-        <div className="row">
-          <div className="col-lg-6 order-2 order-lg-1">
-            <form
-              className="quform"
-              action="quform/contact.php"
-              method="post"
-              encType="multipart/form-data"
-             
-            >
-              <div className="quform-elements">
-                <div className="row">
-                
-                  <div className="col-md-6">
-                    <div className="quform-element form-group">
-                      <div className="quform-input">
-                        <input
-                          id="name"
-                          className="form-control"
-                          type="text"
-                          name="name"
-                          placeholder="Your name here"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  
-                  <div className="col-md-6">
-                    <div className="quform-element form-group">
-                      <div className="quform-input">
-                        <input
-                          id="email"
-                          className="form-control"
-                          type="text"
-                          name="email"
-                          placeholder="Your email here"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                 
-                  <div className="col-md-12">
-                    <div className="quform-element form-group">
-                      <div className="quform-input">
-                        <input
-                          id="phone"
-                          className="form-control"
-                          type="text"
-                          name="phone"
-                          placeholder="Your phone number"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                 
-                  <div className="col-md-12">
-                    <div className="quform-element form-group">
-                      <div className="quform-input">
-                        <textarea
-                          id="message"
-                          className="form-control"
-                          name="message"
-                          rows={5}
-                          placeholder="Tell us a few words"
-                          defaultValue={""}
-                        />
-                      </div>
-                    </div>
-                  </div>
-                 
-                  <div className="col-md-12">
-                    <div className="quform-submit-inner">
-                      <button className="butn" type="submit">
-                        <span>Get A Free Consultation</span>
-                      </button>
-                    </div>
-                    <div className="quform-loading-wrap text-start">
-                      <span className="quform-loading" />
-                    </div>
-                  </div>
-                  
-                </div>
-              </div>
-            </form>
+
+     <div className="container mt-8  pb-2">
+  <h4 className="text-center  text-uppercase my-5">Reach Out Now!</h4>
+        <div className="row border border-2 border-gray rounded p-3">
+        
+          <div className="col-lg-6 order-2 order-lg-1 ">
+          <iframe
+      className="contact-map rounded"
+      id="gmap_canvas"
+      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d60541.903684004654!2d73.853951!3d18.489593!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c1982877f07b%3A0x1627e42ae3e8b0c2!2sShekru%20labs%20India%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1721196205198!5m2!1sen!2sin"
+     
+    />
           </div>
-            <h4 className="text-center my-5 text-uppercase">Reach Out Now!</h4>
-          <div className="col-lg-6 order-1 order-lg-2">
+          
+          <div className="col-lg-6 order-1 order-lg-2 ">
             <div className="contact-info ps-lg-1-9 mb-1-9 mb-lg-0">
 
               <div className="item bg-white">
@@ -340,6 +268,7 @@ function  ECommerce() {
               </div>
             </div>
           </div>
+          
         </div>
       </div>
      </div>

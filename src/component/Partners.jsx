@@ -33,7 +33,7 @@ function Partners() {
         <img
           src={rightImage}
           alt="Company Affiliations"
-          className="img-fluid"
+          className="img-fluid rounded"
         />
         
       </div>

@@ -31,8 +31,6 @@ import outlet7 from "../assets/img/content/Outlet-Types-Icons-7.png";
 import outlet8 from "../assets/img/content/Outlet-Types-Icons-8.png";
 import outlet9 from "../assets/img/content/Outlet-Types-Icons-9.png";
 import outlet10 from "../assets/img/content/Outlet-Types-Icons-10.png";
-import t7 from "../assets/img/testmonials/t-7.jpg";
-import bg13 from "../assets/img/bg/bg13.jpg";
 import happyCustomers from "../assets/img/content/Happy-customers.png";
 import bills from "../assets/img/content/Bills-processed-everyday.png";
 import errors from "../assets/img/content/Processing-errors.png";
@@ -231,7 +229,7 @@ function MenuMitra() {
                 src={billing}
                 alt=""
                 className="img-fluid"
-                style={{ width: "500px", height: "300px" }}
+                style={{ width: "450px", height: "350px" }}
               />
             </div>
             <div className="col-lg-6 pt-3 pt-md-5 ">
@@ -251,12 +249,12 @@ function MenuMitra() {
           </div>
 
           <div className="row my-6 ">
-            <div className="col-lg-6 text-center">
+            <div className="col-lg-6 text-center p-2">
               <img
                 src={billing}
                 alt=""
-                className="img-fluid"
-                style={{ width: "500px", height: "300px" }}
+                className="img-fluid "
+                style={{ width: "450px", height: "350px" }}
               />
             </div>
             <div className="col-lg-6 pt-lg-5 pt-3 pt-md-8">
@@ -282,7 +280,7 @@ function MenuMitra() {
                 src={billing}
                 alt=""
                 className="img-fluid"
-                style={{ width: "500px", height: "300px" }}
+                style={{ width: "450px", height: "350px" }}
               />
             </div>
             <div className="col-lg-6 pt-3 pt-md-5">
@@ -307,7 +305,7 @@ function MenuMitra() {
                 src={billing}
                 alt=""
                 className="img-fluid"
-                style={{ width: "500px", height: "300px" }}
+                style={{ width: "450px", height: "350px" }}
               />
             </div>
             <div className="col-lg-6 pt-3 pt-md-5">
@@ -352,7 +350,7 @@ function MenuMitra() {
                     <div className="row align-items-center">
                       <div className="col-lg-6 mb-4 mb-lg-0 text-center text-lg-start">
                         <div className="box-shadow-large p-2">
-                          <img src={crm} alt="..." className="img-fluid" />
+                          <img src={crm} alt="..." className="img-fluid rounded" />
                         </div>
                       </div>
                       <div className="col-lg-6">
@@ -385,7 +383,7 @@ function MenuMitra() {
                       </div>
                       <div className="col-lg-6 order-lg-2 order-1 text-center text-lg-start mb-4 mb-lg-0">
                         <div className="box-shadow-large p-2">
-                          <img src={analytics} alt="..." />
+                          <img src={analytics} alt="..."  className="img-fluid rounded" />
                         </div>
                       </div>
                     </div>
@@ -396,7 +394,7 @@ function MenuMitra() {
                     <div className="row align-items-center">
                       <div className="col-lg-6 mb-4 mb-lg-0 text-center text-lg-start">
                         <div className="box-shadow-large p-2">
-                          <img src={customerService} alt="..." />
+                          <img src={customerService} alt="..."  className="img-fluid rounded" />
                         </div>
                       </div>
                       <div className="col-lg-6">
@@ -428,7 +426,7 @@ function MenuMitra() {
                       </div>
                       <div className="col-lg-6 order-lg-2 order-1 text-center text-lg-start mb-4 mb-lg-0">
                         <div className="box-shadow-large p-2">
-                          <img src={operations} alt="..." />
+                          <img src={operations} alt="..."  className="img-fluid rounded" />
                         </div>
                       </div>
                     </div>
@@ -471,7 +469,7 @@ function MenuMitra() {
         <div className="container p-4">
           <Link to="https://menumitra.com/" target="_blank">
             {" "}
-            <img src={multipledsktp} alt="" className="img-fluid" />
+            <img src={multipledsktp} alt="" className="img-fluid rounded" />
           </Link>
         </div>
       </section>
@@ -499,6 +497,7 @@ function MenuMitra() {
           width: "100%",
           height: "170px",
           border: "2px solid #ddd",
+          borderRadius: "10px", 
           padding: "10px",
         }}
       >
@@ -520,6 +519,7 @@ function MenuMitra() {
           height: "170px",
           border: "2px solid #ddd",
           padding: "10px",
+          borderRadius: "10px", 
         }}
       >
         <img
@@ -534,18 +534,19 @@ function MenuMitra() {
 
     <div className="col-lg-2 col-md-4 col-6 my-2">
       <div
-        className="d-flex flex-column justify-content-center align-items-center"
+        className="d-flex flex-column justify-content-center align-items-center "
         style={{
           width: "100%",
           height: "170px",
-          border: "2px solid #ddd",
+          border: "2px solid #ddd ",
+          borderRadius: "10px", 
           padding: "10px",
         }}
       >
         <img
           src={outlet3}
           alt="Fine dine"
-          className="img-fluid"
+          className="img-fluid "
           style={{ maxWidth: "80px", maxHeight: "80px" }}
         />
         <h5 className="text-center mt-2">Fine dine</h5>
@@ -560,6 +561,7 @@ function MenuMitra() {
           height: "170px",
           border: "2px solid #ddd",
           padding: "10px",
+          borderRadius: "10px", 
         }}
       >
         <img
@@ -580,6 +582,7 @@ function MenuMitra() {
           height: "170px",
           border: "2px solid #ddd",
           padding: "10px",
+          borderRadius: "10px", 
         }}
       >
         <img
@@ -602,6 +605,7 @@ function MenuMitra() {
           height: "170px",
           border: "2px solid #ddd",
           padding: "10px",
+          borderRadius: "10px", 
         }}
       >
         <img
@@ -622,6 +626,7 @@ function MenuMitra() {
           height: "170px",
           border: "2px solid #ddd",
           padding: "10px",
+          borderRadius: "10px", 
         }}
       >
         <img
@@ -642,6 +647,7 @@ function MenuMitra() {
           height: "170px",
           border: "2px solid #ddd",
           padding: "10px",
+          borderRadius: "10px", 
         }}
       >
         <img
@@ -662,6 +668,7 @@ function MenuMitra() {
           height: "170px",
           border: "2px solid #ddd",
           padding: "10px",
+          borderRadius: "10px", 
         }}
       >
         <img
@@ -682,6 +689,7 @@ function MenuMitra() {
           height: "170px",
           border: "2px solid #ddd",
           padding: "10px",
+          borderRadius: "10px", 
         }}
       >
         <img
@@ -698,58 +706,7 @@ function MenuMitra() {
 
       </div>
 
-      <section
-        className="bg-img cover-background"
-        data-overlay-dark={8}
-        style={{ backgroundImage: `url(${bg13})` }}
-      >
-        <div className="container">
-          <div className="section-heading title-style7 white"></div>
-          <div
-            className="testimonial-style8 owl-theme owl-carousel"
-            data-slider-id={1}
-          >
-            <div className="text-center">
-              <p className="lead w-sm-85 w-md-75 w-lg-55 mx-auto text-white mb-2-3">
-                “Thank god we had Menu Mitra with us during the Covid-19
-                lockdown. We wouldn’t have been able to offer delivery or online
-                services with our old POS system. What really sets Menu Mitra
-                aside is its direct integration with different third-party
-                aggregators like Zomato, Swiggy, etc. Because of this, we were
-                able to take huge volumes of orders and serve more customers.
-                Menu Mitra helped us transition from regular business to home
-                delivery.”
-              </p>
-              <h5 className="text-white mb-1 h6">Kiran Shah</h5>
-              <h6 className="small letter-spacing-1 font-weight-500 text-white opacity6 mb-2-9">
-                Managing Director
-              </h6>
-            </div>
-            <div className="text-center">
-              <p className="lead w-sm-85 w-md-75 w-lg-55 mx-auto text-white mb-2-3">
-                “The decision to switch to Menu Mitra from our existing POS has
-                been one of the most impactful ones I have made at Apsara Ice
-                Creams. We have a network of more than 100 outlets pan India,
-                and I wanted a one-stop solution for our retail sales
-                management. Menu Mitra has almost everything under the sun
-                regarding features, and its support team is super responsive.”
-              </p>
-              <h5 className="text-white mb-1 h6">Somesh Jha,</h5>
-              <h6 className="small letter-spacing-1 font-weight-500 text-white opacity6 mb-2-9">
-                General IT Manager at HRPL
-              </h6>
-            </div>
-          </div>
-          <div className="owl-thumbs text-center" data-slider-id={1}>
-            <button className="owl-thumb-item border-radius-50 w-60px me-1">
-              <img src={t7} className="border-radius-50" alt="..." />
-            </button>
-            <button className="owl-thumb-item w-60px border-radius-50 me-1">
-              <img src={t7} className="border-radius-50" alt="..." />
-            </button>
-          </div>
-        </div>
-      </section>
+     
 
       <div className="container mt-4 mb-4">
   <div className="text-center position-relative">

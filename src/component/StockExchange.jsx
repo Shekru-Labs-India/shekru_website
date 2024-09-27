@@ -8,10 +8,20 @@ import dataAnalytics from "../assets/img/content/services/dataAnalytics.svg";
 import design from "../assets/img/content/services/design.svg";
 import qa from "../assets/img/content/services/qaAutomation.svg";
 import cloud from "../assets/img/content/services/cloudSolutions.svg";
-import blacktwillpng from "../assets/img/bg/black_twill.png";
+import blacktwillpng from "../assets/img/bg/bg1.jpg";
 import blog1 from "../assets/img/content/blog1.jpg";
 import blog2 from "../assets/img/content/blog2.jpg";
 import blog3 from "../assets/img/content/blog3.jpg";
+import lowCharges from "../assets/img/bg/lowCost.png";
+import fastOrder from "../assets/img/bg/fastOrder.png";
+import safeSecure from "../assets/img/bg/safeAndSecure.png";
+import equities from "../assets/img/bg/equities.png";
+import fx from "../assets/img/bg/fx.png";
+import rates from "../assets/img/bg/rates.png";
+import credit from "../assets/img/bg/credit.png";
+import commodities from "../assets/img/bg/commodities.png";
+import energy from "../assets/img/bg/energy.png";
+import whyChoose from "../assets/img/bg/whyChoose.png";
 import Navbar2 from "./Navbar2";
 
 function StockExchange() {
@@ -97,8 +107,8 @@ function StockExchange() {
       name: "",
       position: "",
       description:
-        "Add as many accounts as you want with custom plans with practical features.",
-      h3Content: "Rapid Scale up in cloud",
+        "Low latency trading with no software installation and VPS requirement.",
+      h3Content: "Low Latency",
     },
     {
       id: 6,
@@ -199,7 +209,7 @@ function StockExchange() {
           <div className="row align-items-center">
             <div className="col-lg-6 text-md-center">
               <div className="about-ceo ms-lg-2">
-                <img src={approach} alt="..." className="img-fluid" />
+                <img src={approach} alt="..." className="img-fluid rounded" />
               </div>
             </div>
             <div className="col-lg-6">
@@ -238,7 +248,7 @@ function StockExchange() {
         <div className="row mt-n1-9">
           <div className="col-md-6 col-lg-4 mt-1-9">
             <div className="service-02">
-              <img className="border-radius-10" src={approach} alt="..." />
+              <img className="border-radius-10" src={equities} alt="..." />
               <div className="opacity-light bg-extra-dark-gray border-radius-10" />
               <div className="service-overlay bg-dark" />
               <div className="service-inner">
@@ -257,7 +267,7 @@ function StockExchange() {
           </div>
           <div className="col-md-6 col-lg-4 mt-1-9">
             <div className="service-02">
-              <img className="border-radius-10" src={approach} alt="..." />
+              <img className="border-radius-10" src={fx} alt="..." />
               <div className="opacity-light bg-extra-dark-gray border-radius-10" />
               <div className="service-overlay bg-dark" />
               <div className="service-inner">
@@ -276,7 +286,7 @@ function StockExchange() {
           </div>
           <div className="col-md-6 col-lg-4 mt-1-9">
             <div className="service-02">
-              <img className="border-radius-10" src={approach} alt="..." />
+              <img className="border-radius-10" src={rates} alt="..." />
               <div className="opacity-light bg-extra-dark-gray border-radius-10" />
               <div className="service-overlay bg-dark" />
               <div className="service-inner">
@@ -297,7 +307,7 @@ function StockExchange() {
         <div className="row my-3">
           <div className="col-md-6 col-lg-4 mt-1-9">
             <div className="service-02">
-              <img className="border-radius-10" src={approach} alt="..." />
+              <img className="border-radius-10" src={credit} alt="..." />
               <div className="opacity-light bg-extra-dark-gray border-radius-10" />
               <div className="service-overlay bg-dark" />
               <div className="service-inner">
@@ -316,7 +326,7 @@ function StockExchange() {
           </div>
           <div className="col-md-6 col-lg-4 mt-1-9">
             <div className="service-02">
-              <img className="border-radius-10" src={approach} alt="..." />
+              <img className="border-radius-10" src={commodities} alt="..." />
               <div className="opacity-light bg-extra-dark-gray border-radius-10" />
               <div className="service-overlay bg-dark" />
               <div className="service-inner">
@@ -335,7 +345,7 @@ function StockExchange() {
           </div>
           <div className="col-md-6 col-lg-4 mt-1-9">
             <div className="service-02">
-              <img className="border-radius-10" src={approach} alt="..." />
+              <img className="border-radius-10" src={energy} alt="..." />
               <div className="opacity-light bg-extra-dark-gray border-radius-10" />
               <div className="service-overlay bg-dark" />
               <div className="service-inner">
@@ -366,21 +376,23 @@ function StockExchange() {
             <div className="services-grids owl-carousel">
               {/* start feature box item*/}
               <div className="bg-white border border-color-light-black p-1-6 p-lg-1-9 feature-box-03">
-                <div className="col-md-12 p-0 mb-2 mb-md-3 alt-font">
-                  <h4 className=" h2 mb-2 w-100 font-weight-600 text-center">
+                <div className="col-md-12 p-0 mb-2 mb-md-3 alt-font">  
+                  <h4 className=" h2 mb-2 w-100 font-weight-600 text-center"> 
+                  
                     Low Charges
                   </h4>
+                  <div className="image-container">
+  <img src={lowCharges} alt="..." className="feature-image"/>
+</div>
+
+
                 </div>
-                <p className="w-95 text-white pt-2">
-                Optimize development and rollout costs and de-risk product
-                  delivery with Shekru Lab’s trading platform software
-                  development expertise.
-                </p>
+                
 
                 <div className="show-details">
-                  <img src={approach} alt="..." />
+                 
                   <div className="feature-box-detail p-1-9">
-                    <div className="border border-color-light-white h-100 p-4 text-white h5">
+                    <div className=" h-100 p-4 text-white h5">
                       Opt for a copy trading platform with competitive pricing
                       to maximize your returns. Consider the costs associated
                       with using the copy trading software.
@@ -395,17 +407,18 @@ function StockExchange() {
                   <h4 className=" h2 mb-2 w-100 font-weight-600 text-center">
                     Fast Order Execution
                   </h4>
+                  <div className="image-container">
+  <img src={fastOrder} alt="..." className="feature-image"/>
+</div>
+
+
                 </div>
-                <p className="w-95 text-white ">
-                  Optimize development and rollout costs and de-risk product
-                  delivery with Shekru Lab’s trading platform software
-                  development expertise.trading platform
-                </p>
+               
 
                 <div className="show-details">
-                  <img src={approach} alt="..." />
+                 
                   <div className="feature-box-detail p-1-9">
-                    <div className="border border-color-light-white h-100 p-4 text-white h5">
+                    <div className=" h-100 p-4 text-white h5">
                       Look for a platform that ensures swift execution of copied
                       trades, minimizing delays and slippage.
                     </div>
@@ -414,22 +427,24 @@ function StockExchange() {
               </div>
               {/* end feature box item*/}
               {/* start feature box item*/}
-              <div className="bg-white border border-color-light-black p-1-6 p-lg-1-9 feature-box-03">
+              <div className="bg-white border border-color-light-black p-1-6 p-lg-1-9 feature-box-03" >
+                
                 <div className="col-md-12 p-0 mb-2 mb-md-3 alt-font">
                   <h4 className="h2 mb-lg-2 w-100 font-weight-600 text-center">
                     Safe and Secure
                   </h4>
+                  <div className="image-container">
+  <img src={safeSecure} alt="..." className="feature-image"/>
+</div>
+
+
                 </div>
-                <p className="w-95 text-white pt-lg-3 ">
-                Optimize development and rollout costs and de-risk product
-                  delivery with Shekru Lab’s trading platform software
-                  development expertise.
-                </p>
+                
 
                 <div className="show-details">
-                  <img src={approach} alt="..." />
+                 
                   <div className="feature-box-detail p-1-9">
-                    <div className="border border-color-light-white h-100 p-4 text-white h5">
+                    <div className=" h-100 p-4 text-white h5">
                       Security is of utmost importance when selecting a copy
                       trading platform. Ensure the platform implements robust
                       security measures to protect your personal and financial
@@ -451,42 +466,42 @@ function StockExchange() {
           </h1>
         </div>
         <div className="container mt-5">
-          <div className="row">
-            {/* H3 Section */}
-            <div className="col-md-6 order-md-2 order-lg-2">
-              <div className="row">
-                {teamMembers.map((member) => (
-                  <div
-                    key={member.id}
-                    className="col-6  mb-5 "
-                    onMouseEnter={() => handleMemberHover(member)}
-                    onMouseLeave={handleMemberMouseLeave}
-                    style={{ cursor: "pointer" }}
-                  >
-                    <h5
-                      className={`text-center ${
-                        activeMember.id === member.id
-                          ? "text-primary"
-                          : "text-dark"
-                      }`}
-                    >
-                      {member.h3Content}
-                    </h5>
-                  </div>
-                ))}
-              </div>
-            </div>
+        <div className="row">
+  {/* H3 Section */}
+  <div className="col-md-6 order-md-2 order-lg-2">
+    <div className="row">
+      {teamMembers.map((member) => (
+        <div
+          key={member.id}
+          className="col-6 mb-5"
+          onMouseEnter={() => handleMemberHover(member)}
+          onMouseLeave={handleMemberMouseLeave}
+          style={{ cursor: "pointer" }}
+        >
+          <h5
+            className={`text-center p-lg-3 px-md-4 py-md-2 p-3 px-3 py-2 border rounded ${
+              activeMember.id === member.id
+                ? "text-primary border-success"
+                : "text-dark border-secondary"
+            }`}
+          >
+            {member.h3Content}
+          </h5>
+        </div>
+      ))}
+    </div>
+  </div>
 
-            {/* Content Section */}
-            <div className="col-md-5 order-md-1 order-lg-1">
-              <h1 className="h3 h-sm2 d-lg-block d-md-block d-none">
-                How AutoProfito helps to beat the competition
-              </h1>
-              <h2 className="h4">{activeMember.name}</h2>
-              <h5 className="text-muted">{activeMember.position}</h5>
-              <h5 className="mt-5 fw-normal">{activeMember.description}</h5>
-            </div>
-          </div>
+  {/* Content Section */}
+  <div className="col-md-5 order-md-1 order-lg-1">
+    <h1 className="h3 h-sm2 d-lg-block d-md-block d-none">
+      How AutoProfito helps to beat the competition
+    </h1>
+    <h2 className="h4">{activeMember.name}</h2>
+    <h5 className="text-muted">{activeMember.position}</h5>
+    <h5 className="mt-5 fw-normal">{activeMember.description}</h5>
+  </div>
+</div>
         </div>
       </section>
 
@@ -498,7 +513,7 @@ function StockExchange() {
               <img
                 src={projectInMind}
                 alt="Project in mind"
-                className="img-fluid"
+                className="img-fluid rounded"
               />
             </div>
             {/* Text column */}
@@ -524,103 +539,132 @@ function StockExchange() {
 
       <div className="container">
         <h1 className=" text-center">
-          Why choose <span className="text-info">AutoProfito</span> for your
+          Why choose <span className="text-primary">AutoProfito</span> for your
           trading software needs
         </h1>
 
-        <div className="row mt-6 ">
-          <div className="col-lg-6 px-lg-6 py-lg-4 pt-md-4 pt-4 bg-secondary">
-            <ul className="list-style-15 list-unstyled ">
-              <li className="h4 text-white">Trade Automation</li>
-              <p>
+        <div 
+        className="row mt-6"
+        style={{
+          backgroundImage: `url(${whyChoose})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+          position: 'relative',
+        }}
+      >
+        <div 
+          style={{
+            position: 'absolute',
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            backgroundColor: 'rgba(0, 0, 0, 0.6)', // Adjust opacity as needed
+          }}
+        ></div>
+        
+        <div className="col-lg-6 px-lg-6 py-lg-4 pt-md-4 pt-4 rounded position-relative">
+          <ul className="list-style-15 list-unstyled">
+            <li className="h4 text-white">Trade Automation</li>
+            <p className="text-white">
               Automate trade from Master account to other child accounts with cross broker operation.
-              </p>
-              <hr className="text-primary d-block d-lg-none" />
-              <li className="h4 text-white">Dynamic Multiplier</li>
-              <p>
+            </p>
+            <hr className="text-primary d-block d-lg-none" />
+            <li className="h4 text-white">Dynamic Multiplier</li>
+            <p className="text-white">
               Place trades in multiple custom quantities in child accounts and manages the accounts.
-              </p>
-              <hr className="text-primary d-block d-lg-none" />
-              <li className="h4 text-white">Multiple Brokers</li>
-              <p>
+            </p>
+            <hr className="text-primary d-block d-lg-none" />
+            <li className="h4 text-white">Multiple Brokers</li>
+            <p className="text-white">
               Place trades in multiple broker accounts simultaneously and manage without any issues.
-              </p>
-              <hr className="text-primary d-block d-lg-none" />
-            </ul>
-          </div>
-
-          <div className="col-lg-6 px-lg-6 py-lg-4 bg-secondary">
-            <ul className="list-style-15 list-unstyled">
-              <li className="h4 text-white">Automated Login</li>
-              <p>
-              Add your broker account and enjoy the automated loging on every trading day.
-              </p>
-              <hr className="text-primary d-block d-lg-none" />
-              <li className="h4 text-white">Monitoring and Management</li>
-              <p>
-              Monitor child accounts from one single dashboard / Emergency exit feature.
-              </p>
-              <hr className="text-primary d-block d-lg-none" />
-              <li className="h4 text-white">Customised Plans</li>
-              <p>
-              Get your own custom plan based on your required number of accounts.
-              </p>
-              <hr className="text-primary d-block d-lg-none" />
-            </ul>
-          </div>
+            </p>
+            <hr className="text-primary d-block d-lg-none" />
+          </ul>
         </div>
+
+        <div className="col-lg-6 px-lg-6 py-lg-4 rounded position-relative">
+          <ul className="list-style-15 list-unstyled">
+            <li className="h4 text-white">Automated Login</li>
+            <p className="text-white">
+              Add your broker account and enjoy the automated loging on every trading day.
+            </p>
+            <hr className="text-primary d-block d-lg-none" />
+            <li className="h4 text-white">Monitoring and Management</li>
+            <p className="text-white">
+              Monitor child accounts from one single dashboard / Emergency exit feature.
+            </p>
+            <hr className="text-primary d-block d-lg-none" />
+            <li className="h4 text-white">Customised Plans</li>
+            <p className="text-white">
+              Get your own custom plan based on your required number of accounts.
+            </p>
+            <hr className="text-primary d-block d-lg-none" />
+          </ul>
+        </div>
+      </div>
       </div>
 
       <section className="bg-grey py-7">
         <div className="container text-center ">
           <h1 className="mb-6">Join the trading revolution with Autoprofito</h1>
           <div className="row">
-            <div className="col-lg-4 col-md-6 d-flex align-items-center">
-              <div className="p-1 position-relative">
-                <div
-                  className="border-start d-flex flex-column justify-content-between"
-                  style={{ height: "190px" }}
-                >
-                  <div className="text-start ms-4">
-                    <h1 className="">4784+</h1>
-                    <div className="fs-3 fw-bold  h2 ">
-                     Users
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 d-flex align-items-center">
-              <div className="p-1 position-relative">
-                <div
-                  className="border-start d-flex flex-column justify-content-between"
-                  style={{ height: "190px" }}
-                >
-                  <div className="text-start ms-4">
-                    <h1 className="">6155+</h1>
-                    <div className="fs-3 fw-bold  h2 ">
-                     Demat Accounts
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-6 d-flex align-items-center">
-              <div className="p-1 position-relative">
-                <div
-                  className="border-start d-flex flex-column justify-content-between"
-                  style={{ height: "190px" }}
-                >
-                  <div className="text-start ms-4">
-                    <h1 className="">1807091</h1>
-                    <div className="fs-3 fw-bold  h2 ">
-                     Order Placed
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+  <div className="col-lg-4 col-md-6 d-flex align-items-center">
+    <div className="p-1 position-relative">
+      <div
+        className="border-start d-flex flex-column justify-content-between"
+        style={{ height: "140px" }}
+      >
+        <div className="text-start ms-4">
+          <h1 className="d-flex align-items-center">
+            <i className="fas fa-users me-2"></i>
+            4784+
+          </h1>
+          <div className="fs-3 fw-bold h2 ms-lg-9 ms-md-7 ms-5 ps-lg-3 ps-md-2">
+            Users
           </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div className="col-lg-4 col-md-6 d-flex align-items-center">
+    <div className="p-1 position-relative">
+      <div
+        className="border-start d-flex flex-column justify-content-between"
+        style={{ height: "140px" }}
+      >
+        <div className="text-start ms-4">
+          <h1 className="d-flex align-items-center">
+            <i className="fas fa-file-invoice me-2"></i>
+            6155+
+          </h1>
+          <div className="fs-3 fw-bold h2 ms-lg-4 ms-md-4 ms-3 ps-3 ">
+            Demat Accounts
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div className="col-lg-4 col-md-6 d-flex align-items-center">
+    <div className="p-1 position-relative">
+      <div
+        className="border-start d-flex flex-column justify-content-between"
+        style={{ height: "140px" }}
+      >
+        <div className="text-start ms-4">
+          <h1 className="d-flex align-items-center">
+            <i className="fas fa-chart-line me-2"></i>
+            1807091
+          </h1>
+          <div className="fs-3 fw-bold h2 ms-lg-8 ms-md-6 ms-4 ps-lg-4 ps-md-4  ps-3">
+            Order Placed
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
         </div>
       </section>
 
@@ -630,6 +674,7 @@ function StockExchange() {
         </h1>
         <div className="row text-white ">
           <div className="col-md-6 col-lg-3">
+            {/* Add an background image here */}
             <div className="card bg-dark border-0">
               <div className="card-body">
                 <div className="mb-4">
@@ -640,7 +685,7 @@ function StockExchange() {
                 <p className="card-text mt-6 ">
                 Automate trade from Master account to other child accounts with cross broker operation.
                 </p>
-                <Link to="#" className="">
+                <Link to="https://autoprofito.com" target="_blank" className="">
                   LEARN MORE &gt;
                 </Link>
               </div>
@@ -648,6 +693,7 @@ function StockExchange() {
           </div>
 
           <div className="col-md-6 col-lg-3 mt-lg-0 mt-4 mt-md-0">
+            {/* Add an background image here */}
             <div className="card bg-dark border-0">
               <div className="card-body">
                 <div className="mb-4">
@@ -659,7 +705,7 @@ function StockExchange() {
                 Place trades in multiple custom quantities in child accounts.
                 </p>
                 <div className="pt-md-4 pt-lg-4">
-                  <Link to="#">LEARN MORE &gt;</Link>
+                  <Link to="https://autoprofito.com" target="_blank">LEARN MORE &gt;</Link>
                 </div>
               </div>
             </div>
@@ -667,6 +713,7 @@ function StockExchange() {
 
           <div className="col-md-6 col-lg-3 mt-lg-0 mt-4">
             <div className="card bg-dark border-0 mb-2">
+              {/* Add an background image here */}
               <div className="card-body ">
                 <div className="mb-4">
                   {/* Replace with your icon */}
@@ -677,7 +724,7 @@ function StockExchange() {
                 Place trades in multiple broker accounts simultaneously.
                 </p>
                 <div className="pt-lg-4 ">
-                  <Link to="#" className="">
+                  <Link to="https://autoprofito.com" target="_blank" className="">
                     LEARN MORE &gt;
                   </Link>
                 </div>
@@ -687,6 +734,7 @@ function StockExchange() {
 
           <div className="col-md-6 col-lg-3 mt-lg-0 mt-md-4 mt-3">
             <div className="card bg-dark border-0">
+              {/* Add an background image here */}
               <div className="card-body">
                 <div className="mb-4">
                   {/* Replace with your icon */}
@@ -697,7 +745,7 @@ function StockExchange() {
                 Get your own custom plan based on your required number of accounts.
                 </p>
                 <div className=" ">
-                  <Link href="#" className="">
+                  <Link to="https://autoprofito.com" target="_blank" className="">
                     LEARN MORE &gt;
                   </Link>
                 </div>
@@ -709,7 +757,7 @@ function StockExchange() {
 
       <section
         className="parallax pt-7 pb-5"
-        data-overlay-dark={5}
+        data-overlay-dark={0}
         style={{
           backgroundImage: `url(${blacktwillpng})`,
           backgroundSize: "cover",
@@ -725,7 +773,7 @@ function StockExchange() {
               expertise can help you attain your goals
             </h2>
           </div>
-          <Link to="#!" className="butn primary white-hover">
+          <Link to="/contact" className="butn primary white-hover">
             <span>Contact Us</span>
           </Link>
         </div>
@@ -799,93 +847,7 @@ function StockExchange() {
           </div>
         </div>
       </div>
-      <div className="container">
-        <div className="row">
-          <div className="col-12">
-            <div className="text-center my-2">
-              <h1>FAQ</h1>
-            </div>
-            <div id="accordion" className="accordion-style">
-              <div className="card mb-2">
-                <div className="card-header" id="headingOne">
-                  <h5 className="mb-0">
-                    <button
-                      className="btn btn-link collapsed"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapseOne"
-                      aria-expanded="false"
-                      aria-controls="collapseOne"
-                    >
-                     What type of orders are copied in child account?
-                    </button>
-                  </h5>
-                </div>
-                <div
-                  id="collapseOne"
-                  className="collapse"
-                  aria-labelledby="headingOne"
-                  data-bs-parent="#accordion"
-                  style={{}}
-                >
-                  <div className="card-body">
-                  No matter what type of order you place in master account (SL/Limit/Market/SL-M), in child account it will always place MARKET orders to ensure execution
-                  </div>
-                </div>
-              </div>
-              <div className="card mb-2">
-                <div className="card-header" id="headingTwo">
-                  <h5 className="mb-0">
-                    <button
-                      className="btn btn-link collapsed"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapseTwo"
-                      aria-expanded="false"
-                      aria-controls="collapseTwo"
-                    >
-                      Which broker can be added as master account?
-                    </button>
-                  </h5>
-                </div>
-                <div
-                  id="collapseTwo"
-                  className="collapse"
-                  aria-labelledby="headingTwo"
-                  data-bs-parent="#accordion"
-                >
-                  <div className="card-body">
-                  Out of all added accounts in Account Configuration page, only Angel One, Zerodha, Fyers, Finvasia, Flattrade, AC Agarwal can be added as Master Account
-                  </div>
-                </div>
-              </div>
-              <div className="card mb-2">
-                <div className="card-header" id="headingThree">
-                  <h5 className="mb-0">
-                    <button
-                      className="btn btn-link collapsed"
-                      data-bs-toggle="collapse"
-                      data-bs-target="#collapseThree"
-                      aria-expanded="false"
-                      aria-controls="collapseThree"
-                    >
-                     What are the limitations of the platform?
-                    </button>
-                  </h5>
-                </div>
-                <div
-                  id="collapseThree"
-                  className="collapse"
-                  aria-labelledby="headingThree"
-                  data-bs-parent="#accordion"
-                >
-                  <div className="card-body">
-                  As we always place market orders in child accounts to ensure execution, few cases where liquidity is less, broker doesn't allow market orders, it will not work. Most of the time Stock, Commodity, Currency Options doesn't have good liquidity, hence orders might not reflect in the child accounts however, Futures order will go when it has good liquidity
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      
     </div>
   );
 }

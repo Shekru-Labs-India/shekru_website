@@ -15,9 +15,9 @@ function Navbar2() {
       <nav className="navbar navbar-expand-lg navbar-light p-0">
         <div className="navbar-header navbar-header-custom">
          
-          <NavLink to="/" className="navbar-brand h-default">
-            <img id="logo" src={logo2} alt="logo" className='img-fluid logo_size2' />
-          </NavLink>
+        <NavLink to="/" className="navbar-brand h-default">
+  <img id="logo" src={logo2} alt="logo" className="img-fluid" />
+</NavLink>
          
         </div>
         <div className="navbar-toggler" />
@@ -26,7 +26,9 @@ function Navbar2() {
           <li>
             <NavLink
               to="/"
-              className={({ isActive }) => (isActive ? "text-primary" : "")}
+              className={({ isActive }) =>
+               `nav-link custom-nav-link ${isActive ? "text-primary" : ""}`
+            }
             >
               Home
             </NavLink>
@@ -34,7 +36,9 @@ function Navbar2() {
           <li>
             <NavLink
               to="/about"
-              className={({ isActive }) => (isActive ? "text-primary" : "")}
+              className={({ isActive }) =>
+               `nav-link custom-nav-link ${isActive ? "text-primary" : ""}`
+            }
             >
               About
             </NavLink>
@@ -42,7 +46,9 @@ function Navbar2() {
           <li>
             <NavLink
               to="/services"
-              className={({ isActive }) => (isActive ? "text-primary" : "")}
+              className={({ isActive }) =>
+               `nav-link custom-nav-link ${isActive ? "text-primary" : ""}`
+            }
             >
               Services
             </NavLink>
@@ -50,7 +56,9 @@ function Navbar2() {
           <li>
             <NavLink
               to="/products"
-              className={({ isActive }) => (isActive ? "text-primary" : "")}
+              className={({ isActive }) =>
+               `nav-link custom-nav-link ${isActive ? "text-primary" : ""}`
+            }
             >
               Products
             </NavLink>
@@ -58,9 +66,21 @@ function Navbar2() {
                       <li>
                         <NavLink
                           to="/menu-mitra"
-                          className={({ isActive }) => (isActive ? "text-primary" : "")}
+                          className={({ isActive }) =>
+                           `nav-link custom-nav-link ${isActive ? "text-primary" : ""}`
+                        }
                         >
-                         Menu Mitra
+                         MenuMitra
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink
+                          to="/auto-profito"
+                          className={({ isActive }) =>
+                           `nav-link custom-nav-link ${isActive ? "text-primary" : ""}`
+                        }
+                        >
+                         AutoProfito
                         </NavLink>
                       </li>
                       
@@ -71,7 +91,9 @@ function Navbar2() {
           <li>
             <NavLink
               to="/partners"
-              className={({ isActive }) => (isActive ? "text-primary" : "")}
+              className={({ isActive }) =>
+               `nav-link custom-nav-link ${isActive ? "text-primary" : ""}`
+            }
             >
               Partners
             </NavLink>
@@ -79,7 +101,9 @@ function Navbar2() {
           <li>
             <NavLink
               to="/technologies"
-              className={({ isActive }) => (isActive ? "text-primary" : "")}
+              className={({ isActive }) =>
+               `nav-link custom-nav-link ${isActive ? "text-primary" : ""}`
+            }
             >
               Technologies
             </NavLink>
@@ -88,7 +112,9 @@ function Navbar2() {
             <span className="" />
             <NavLink
               to="/industries"
-              className={({ isActive }) => (isActive ? "text-primary" : "")}
+              className={({ isActive }) =>
+               `nav-link custom-nav-link ${isActive ? "text-primary" : ""}`
+            }
             >
               Industries
             </NavLink>
@@ -96,7 +122,9 @@ function Navbar2() {
             <li>
                 <NavLink
                   to="/stock-exchange"
-                  className={({ isActive }) => (isActive ? "text-primary" : "")}
+                  className={({ isActive }) =>
+               `nav-link custom-nav-link ${isActive ? "text-primary" : ""}`
+            }
                 >
                   Stock Exchange
                 </NavLink>
@@ -105,7 +133,9 @@ function Navbar2() {
               <li>
                 <NavLink
                   to="/eCommerce"
-                  className={({ isActive }) => (isActive ? "text-primary" : "")}
+                  className={({ isActive }) =>
+               `nav-link custom-nav-link ${isActive ? "text-primary" : ""}`
+            }
                 >
                   E-Commerce
                 </NavLink>
@@ -113,7 +143,9 @@ function Navbar2() {
                <li>
                 <NavLink
                   to="/transportation"
-                  className={({ isActive }) => (isActive ? "text-primary" : "")}
+                  className={({ isActive }) =>
+               `nav-link custom-nav-link ${isActive ? "text-primary" : ""}`
+            }
                 >
                   Transportation
                 </NavLink>
@@ -123,7 +155,9 @@ function Navbar2() {
           <li>
             <NavLink
               to="/careers"
-              className={({ isActive }) => (isActive ? "text-primary" : "")}
+              className={({ isActive }) =>
+               `nav-link custom-nav-link ${isActive ? "text-primary" : ""}`
+            }
             >
               Careers
             </NavLink>
@@ -131,7 +165,9 @@ function Navbar2() {
           <li>
             <NavLink
               to="/clients"
-              className={({ isActive }) => (isActive ? "text-primary" : "")}
+              className={({ isActive }) =>
+               `nav-link custom-nav-link ${isActive ? "text-primary" : ""}`
+            }
             >
               Clients
             </NavLink>
@@ -139,7 +175,9 @@ function Navbar2() {
           <li>
             <NavLink
               to="/contact"
-              className={({ isActive }) => (isActive ? "text-primary" : "")}
+              className={({ isActive }) =>
+               `nav-link custom-nav-link ${isActive ? "text-primary" : ""}`
+            }
             >
               Contact
             </NavLink>

@@ -19,7 +19,7 @@ import ScrollToTop from './component/ScrollToTop';
 import ScrollToTopButton from './component/ScrollButton';
 import ScriptsManager from './component/ScriptsManager';
 import MenuMitra from './component/MenuMitra';
-
+import AutoProfito from './component/AutoProfito';
 
 function App() {
   return (
@@ -42,6 +42,7 @@ function App() {
         <Route path="/clients" element={<Clients />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/menu-mitra" element={<MenuMitra />} />
+        <Route path="/auto-profito" element={<AutoProfito />} />
         
       </Routes>
       <Footer/>

@@ -297,7 +297,7 @@ function Products() {
 
       <div className="container mt-5">
         <div class="row feature-boxes-container mt-n1-9">
-          <div class="col-md-6 col-lg-4 mt-1-9 feature-box-04">
+          <div class="col-md-6 col-lg-6 mt-1-9 feature-box-04">
             <div class="feature-box-inner h-100">
               <img
                 src={autoProfito}
@@ -312,7 +312,7 @@ function Products() {
                 process of handling stock market-related activities within an
                 educational setting.
               </p>
-              <div className="mt-2">
+              <div className="">
                 <Link to="https://autoprofito.com/" className="text-dark fs-1 " target="_blank">
                   →
                 </Link>
@@ -320,26 +320,8 @@ function Products() {
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-4 mt-1-9 feature-box-04">
-            <div class="feature-box-inner h-100">
-              <img
-                src={stockSync}
-                alt=""
-                style={{ width: "40px", height: "40px" }}
-              />
-              <h4 class=" mt-2  font-weight-600 text-uppercase ">StockSync</h4>
-              <div class="sepratar"></div>
-              <p>
-                Our copy trading platform allows investors to automatically
-                replicate the trades of experienced traders, making investment
-                opportunities accessible to everyone.
-              </p>
-              <Link to="https://stocksync.xyz/" className="text-dark fs-1" target="_blank">
-                →
-              </Link>
-            </div>
-          </div>
-          <div class="col-md-6 col-lg-4 mt-1-9 feature-box-04">
+        
+          <div class="col-md-6 col-lg-6 mt-1-9 feature-box-04">
             <div class="feature-box-inner h-100">
               <img
                 src={menuMitra}
@@ -355,7 +337,7 @@ function Products() {
                 ordering process, enhancing operational efficiency and guest
                 satisfaction.
               </p>
-              <div className="mt-4">
+              <div className="mt-5">
                 <Link to="https://menumitra.com/" className="text-dark fs-1" target="_blank">
                   →
                 </Link>

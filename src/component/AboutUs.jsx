@@ -173,7 +173,7 @@ function AboutUs() {
                     <div className="row align-items-center">
                       <div className="col-lg-6 mb-4 mb-lg-0 text-center text-lg-start">
                         <div className="box-shadow-large p-2">
-                          <img src={content4} alt="..." />
+                          <img src={content4} alt="..." className="img-fluid rounded"  />
                         </div>
                       </div>
                       <div className="col-lg-6">
@@ -231,7 +231,7 @@ function AboutUs() {
                       </div>
                       <div className="col-lg-6 order-lg-2 order-1 text-center text-lg-start mb-4 mb-lg-0">
                         <div className="box-shadow-large p-2">
-                          <img src={content1} alt="..." />
+                          <img src={content1} alt="..." className="img-fluid rounded" />
                         </div>
                       </div>
                     </div>
@@ -242,7 +242,7 @@ function AboutUs() {
                     <div className="row align-items-center">
                       <div className="col-lg-6 mb-4 mb-lg-0 text-center text-lg-start">
                         <div className="box-shadow-large p-2">
-                          <img src={content2} alt="..." />
+                          <img src={content2} alt="..." className="img-fluid rounded" />
                         </div>
                       </div>
                       <div className="col-lg-6">
@@ -303,7 +303,7 @@ function AboutUs() {
                       </div>
                       <div className="col-lg-6 order-lg-2 order-1 text-center text-lg-start mb-4 mb-lg-0">
                         <div className="box-shadow-large p-2">
-                          <img src={content3} alt="..." />
+                          <img src={content3} alt="..." className="img-fluid rounded"   />
                         </div>
                       </div>
                     </div>

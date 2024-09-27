@@ -1,6 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import careerimage from "../assets/img/content/careerImage.png"
+import career from "../assets/img/bg/bg13.jpg";
+import bg2 from "../assets/img/bg/bg2.jpg";
+import bringRole from "../assets/img/bg/bringRole.png"
 import Navbar2 from './Navbar2'
 
 function Careers() {
@@ -9,19 +11,21 @@ function Careers() {
     <div>
       <Navbar2/>
 
-      <section className="pt-4 p-lg-5 bg-secondary text-white">
+      <section className="pt-4 p-lg-5  text-white" 
+      style={{backgroundImage: `url(${career})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}> 
+       
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-7">
               <div className="section-heading title-style5 left half mt-0 ms-0 ms-lg-5">
-                <h1 className="text-white ">
+                <h1 className="">
                   Let's shape the future with tech together!
                 </h1>
                 <div className="square">
                   <span className="separator-left bg-primary" />
                   <span className="separator-right bg-primary" />
                 </div>
-                <p className="mt-3 fs-5 fs-md-4 fs-lg-3">
+                <p className="mt-3 fs-5 fs-md-4 fs-lg-3 ">
                   At Shekru Technologies, we're passionate about innovation and
                   shaping the future. Be part of a team that's dedicated to
                   creating solutions that make a difference.
@@ -52,24 +56,39 @@ function Careers() {
         </div>
       </section>
 
-      <div className="container position-relative bg-secondary ">
-  <div className="row">
-  
-    <div className="col-lg-6 order-2 order-lg-2 d-flex flex-column justify-content-center position-relative p-4 text-center text-lg-start">
-      <h2 className="text-white my-lg-3 p-lg-5">Dive into endless job opportunities and discover your next big career move!</h2>
-      
-      <div className="ms-lg-5 mt-3">
-        <Link to="/contact" className="butn primary white-hover">
-          <span>Explore Job Opportunities</span>
-        </Link>
+      <div 
+        className="container position-relative border border-2 border-gray rounded overflow-hidden"
+        style={{
+          backgroundImage: `url(${bg2})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+          borderRadius: '10px'
+        }}
+      >
+        <div className="row">
+          <div 
+            className="col-lg-6 order-2 order-lg-2 d-flex flex-column justify-content-center position-relative p-4 text-center text-lg-start"
+            style={{
+              backgroundColor: 'rgba(33, 37, 41, 0.8)', // semi-transparent dark background
+              backdropFilter: 'blur(5px)' // adds a blur effect
+            }}
+          >
+            <h2 className="text-white my-lg-3 p-lg-5">Dive into endless job opportunities and discover your next big career move!</h2>
+            
+            <div className="ms-lg-5 mt-3">
+              <Link to="/contact" className="butn primary white-hover">
+                <span>Explore Job Opportunities</span>
+              </Link>
+            </div>
+          </div>
+         
+          <div className="col-lg-6 text-center order-1 order-lg-1">
+            
+            {/* Replace the image */}
+          </div>
+        </div>
       </div>
-    </div>
-   
-    <div className="col-lg-6  text-center order-1 order-lg-1">
-      <img src={careerimage} alt="Career Opportunities" className="img-fluid " />
-    </div>
-  </div>
-</div>
 
       <div className="container mt-lg-6 mt-md-4 mt-4">
             <h1>Our Guiding Values</h1>
@@ -148,7 +167,7 @@ function Careers() {
       </section>
 
       <div className="my-lg-5 my-md-4 my-2 mx-4">
-        <h1>Who we Hire: The Shekru Approach</h1>
+        <h1>Who we hire: The Shekru Approach</h1>
       </div>
       <section className="p-lg-8 p-4">
         <div class="row mt-n1-9">
@@ -159,8 +178,8 @@ function Careers() {
                   <i class="fa-solid fa-ship"></i>
                 </div>
               </div>
-              <div class="text-white">
-                <h4 class="font-weight-600 h5 mb-2 text-white">
+              <div class="">
+                <h4 class="font-weight-600 h5 mb-2 ">
                   Be the captain, of your own ship
                 </h4>
                 <p class="mb-0">
@@ -178,8 +197,8 @@ function Careers() {
                   <i class="fa-solid fa-brain"></i>
                 </div>
               </div>
-              <div class="text-white">
-                <h4 class="font-weight-600 h5 mb-2 text-white">
+              <div class="">
+                <h4 class="font-weight-600 h5 mb-2 ">
                   Adaptable Mindset
                 </h4>
                 <p class="mb-0">
@@ -197,8 +216,8 @@ function Careers() {
                   <i class="fa-solid fa-spinner"></i>
                 </div>
               </div>
-              <div class="text-white">
-                <h4 class="font-weight-600 h5 mb-2 text-white">
+              <div class="">
+                <h4 class="font-weight-600 h5 mb-2 ">
                   Progress-oriented outlook
                 </h4>
                 <p class="mb-0">
@@ -216,8 +235,8 @@ function Careers() {
                   <i class="fas fa-hands-helping"></i>
                 </div>
               </div>
-              <div class="text-white">
-                <h4 class="font-weight-600 h5 mb-2 text-white">
+              <div class="">
+                <h4 class="font-weight-600 h5 mb-2 ">
                   Empathy in Action
                 </h4>
                 <p class="mb-0">
@@ -234,10 +253,22 @@ function Careers() {
 
      
 
-      <section className="bg-secondary">
-        <div className="container">
+      <section 
+        className="position-relative"
+        style={{
+          backgroundImage: `url(${bringRole})`,
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat'
+        }}
+      >
+        <div 
+          className="position-absolute top-0 start-0 w-100 h-100" 
+          style={{backgroundColor: 'rgba(33, 37, 41, 0.85)'}}
+        ></div>
+        <div className="container position-relative">
           <div className="row">
-            <div className="col-lg-6">
+            <div className="col-lg-6 order-2 order-lg-1">
               <h1 className="text-white">Bring Your Own Role</h1>
               <p className="fs-5 text-white mt-4">
                 We believe in the power of individuality and creativity. We
@@ -246,103 +277,37 @@ function Careers() {
                 expertise and create your own role within our organization.
               </p>
             </div>
-            <div className="col-lg-6 ">
-             
-              <form
-                className="quform"
-                action="quform/contact.php"
-                method="post"
-                encType="multipart/form-data"
-              >
-                <div className="quform-elements">
-                  <div className="row">
-                    
-                    <div className="col-md-6 my-2">
-                      <div className="quform-element form-group">
-                        <div className="quform-input">
-                          <input
-                            id="name"
-                            className="form-control"
-                            type="text"
-                            name="name"
-                            placeholder="Your name here"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                   
-                    <div className="col-md-6 my-2">
-                      <div className="quform-element form-group">
-                        <div className="quform-input">
-                          <input
-                            id="email"
-                            className="form-control"
-                            type="text"
-                            name="email"
-                            placeholder="Your email here"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                   
-                    <div className="col-md-6 my-2">
-                      <div className="quform-element form-group">
-                        <div className="quform-input">
-                          <input
-                            id="phone"
-                            className="form-control"
-                            type="text"
-                            name="phone"
-                            placeholder="Your phone number"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                  
-                    <div className="col-md-6 my-2">
-                      <div className="quform-element form-group">
-                        <div className="quform-input">
-                          <input
-                            id="subject"
-                            className="form-control"
-                            type="text"
-                            name="subject"
-                            placeholder="Bring Your Own Job Role"
-                          />
-                        </div>
-                      </div>
-                    </div>
-                   
-                    <div className="col-md-12 my-2">
-                      <div className="quform-element form-group">
-                        <div className="quform-input">
-                          <textarea
-                            id="message"
-                            className="form-control"
-                            name="message"
-                            rows={3}
-                            placeholder="Message Two lines to capture your essence. Make them count!"
-                            defaultValue={""}
-                          />
-                        </div>
-                      </div>
-                    </div>
-                  
-                    <div className="col-md-12">
-                      <div className="quform-submit-inner">
-                        <button className="butn" type="submit">
-                          <span>Submit</span>
-                        </button>
-                      </div>
-                      <div className="quform-loading-wrap text-start">
-                        <span className="quform-loading" />
-                      </div>
-                    </div>
-                   
+            <div className="col-lg-6 order-1 order-lg-2 ">
+              <div className="contact-info ps-lg-1-9 mb-1-9 mb-lg-0">
+                <div className="item bg-white">
+                  <span className="icon">
+                    <i className="fas fa-phone text-primary" />
+                  </span>
+                  <div className="cont">
+                    <h6 className="mb-1 font-weight-600">Phone: </h6>
+                    <p>+91 7776827177</p>
                   </div>
                 </div>
-              </form>
-              
+                <div className="item bg-white">
+                  <span className="icon">
+                    <i className="fas fa-map-marker-alt text-primary" />
+                  </span>
+                  <div className="cont">
+                    <h6 className="mb-1 font-weight-600">Address: </h6>
+                    <p className="m-0">Office no 6 , 2nd Floor Manogat Appt , Swarget, </p>
+                    <p className="m-0">Pune , Maharashtra-411037</p>
+                  </div>
+                </div>
+                <div className="item bg-white">
+                  <span className="icon">
+                    <i className="fas fa-envelope text-primary" />
+                  </span>
+                  <div className="cont">
+                    <h6 className="mb-1 font-weight-600">Email: </h6>
+                    <p>info@shekruweb.com</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>

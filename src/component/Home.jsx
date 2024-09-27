@@ -13,7 +13,6 @@ function Home() {
       <Navbar />
 
       <div className="main-wrapper">
-     
         <section
           className="bg-img cover-background"
           data-overlay-dark={7}
@@ -22,15 +21,15 @@ function Home() {
           <div className="container py-10">
             <div className="row align-items-center">
               <div className="col-xl-7 col-lg-6 mb-1-9 mb-lg-0">
-                <h2 className="text-white">When service matters</h2>
+                <span className="text-white fs-2">When service matters</span>
                 <h1 className="text-white display-md-10 font-weight-700 m-0">
                   <span class="text-primary">We Are the best </span>
                   <span>IT Solutions</span>
                 </h1>
-                <div className="separator-line-horrizontal-medium-light3 bg-white mt-3 mb-4" />
+                <div className="separator-line-horrizontal-full bg-white opacity3 my-1-9 my-sm-2-3 my-md-2-9" />
                 <p className="text-white mb-1-9 w-xl-85">
-                  Configurable application capture to enhance customer
-                  experience &amp; collaboration for quick sales win
+                  Shekru Lab is a leading IT solutions provider, offering
+                  comprehensive services to meet your business needs.
                 </p>
               </div>
             </div>
@@ -42,18 +41,16 @@ function Home() {
             <div
               className="bg-img cover-background primary-overlay"
               data-overlay-dark={9}
-              
             >
               <div className="position-relative z-index-1 p-1-9 p-sm-2-3 p-md-2-9 p-lg-6">
                 <div className="w-md-85 mx-auto text-center">
-                  <h2 className="text-white font-weight-700">
-                    The Best IT Solution With 10 Years of Experience
-                  </h2>
+                  <p className="text-white font-weight-700 h2">
+                    Expert IT Solutions with a Decade of Experience
+                  </p>
                   <p className="text-white m-0">
-                    Shekru Lab is a professionally managed Executive Search
-                    Firm. Our strength is the level of professionalism,
-                    attention provided to the clients, delivery within the time
-                    span, and confientiality.
+                    Shekru Lab delivers professional IT services with unmatched
+                    expertise, ensuring timely delivery and utmost
+                    confidentiality for all your technology needs.
                   </p>
                 </div>
                 <div className="separator-line-horrizontal-full bg-white opacity3 my-1-9 my-sm-2-3 my-md-2-9" />
@@ -68,11 +65,11 @@ function Home() {
                           <div className="features-flex-square-content">
                             <h4>
                               <i class="fa-solid fa-money-bill me-2"></i>
-                              <a href="#!">Saving Investments</a>
+                              <span>Saving Investments</span>
                             </h4>
                             <p>
-                              Smart technology investments today yield
-                              exponential growth tomorrow.
+                              Optimize your technology investments for long-term
+                              growth and success.
                             </p>
                           </div>
                         </div>
@@ -89,11 +86,11 @@ function Home() {
                           <div className="features-flex-square-content">
                             <h4>
                               <i class="fa-solid fa-globe me-2"></i>
-                              <a href="#!">Online Consulting</a>
+                              <span>Online Consulting</span>
                             </h4>
                             <p>
-                              Save time and resources with our efficient online
-                              consulting solutions.
+                              Access expert IT consulting services anytime,
+                              anywhere for efficient problem-solving.
                             </p>
                           </div>
                         </div>
@@ -110,11 +107,11 @@ function Home() {
                           <div className="features-flex-square-content">
                             <h4>
                               <i class="fa-solid fa-building-columns me-2"></i>
-                              <a href="#!">Tech Innovation</a>
+                                <span>Tech Innovation</span>
                             </h4>
                             <p>
-                              Stay ahead of the curve—invest in tech innovation
-                              to lead the future with us.
+                              Stay ahead with our innovative tech solutions,
+                              designed to future-proof your business.
                             </p>
                           </div>
                         </div>
@@ -128,89 +125,85 @@ function Home() {
         </section>
 
         <section aria-labelledby="about-heading">
-  <div className="container">
-    <div className="row align-items-center">
-      {/* Content Column */}
-      <div className="col-lg-6 order-md-2 order-sm-2 order-lg-1">
-        <div className="section-heading title-style5 left half">
-          <span id="about-heading" className="visually-hidden">About Us</span>
-          <h2>Welcome to Shekru Lab</h2>
-          <div className="square">
-            <span className="separator-left bg-primary" />
-            <span className="separator-right bg-primary" />
+          <div className="container">
+            <div className="row align-items-center">
+              <div className="col-lg-6 order-md-2 order-sm-2 order-lg-1">
+                <div className="section-heading title-style5 left half">
+                  <h2 id="about-heading" className="fs-2">Shekru Lab: Your IT Partner</h2>
+                  <div className="square">
+                    <span className="separator-left bg-primary" />
+                    <span className="separator-right bg-primary" />
+                  </div>
+                </div>
+                <p>
+                  At Shekru Labs, we combine comprehensive business strategies
+                  with cutting-edge technology to deliver tailored IT solutions.
+                  Our focus is on fostering collaborative partnerships that
+                  drive your business forward.
+                </p>
+                <p>
+                  Founded in 2018, we've quickly become a leading IT service
+                  provider, known for our exceptional processes and innovative
+                  solutions. We understand the critical role of quality and
+                  reliability in modern business operations.
+                </p>
+                <p>
+                  Discover how Shekru Labs can elevate your business with our
+                  premium IT services and products.
+                </p>
+                <div className="mb-4">
+                  <span>
+                    24/7 Support Available. We're here to answer{" "}
+                    <strong className="font-weight-600 lead">
+                      all your IT-related questions.
+                    </strong>
+                  </span>
+                </div>
+                <div className="border-bottom mb-3 mb-lg-4 pb-3 pb-lg-4">
+                  <a href="tel:+91 7776827177">
+                    <h4 className="d-inline-block h6 mb-0 me-4">
+                      +91 7776827177
+                    </h4>
+                  </a>
+                  <div className="d-inline-block me-4 align-top">
+                    <strong className="font-weight-700 text-primary">or</strong>
+                  </div>
+                  <h4 className="d-inline-block h6 mb-0">
+                    <a href="mailto:info@shekruweb.com">info@shekruweb.com</a>
+                  </h4>
+                </div>
+                <div className="text-start w-100">
+                  <p className="mb-0">
+                    <span className="font-weight-700 d-block">Anil Shinde</span>
+                    CEO, Shekru Lab
+                  </p>
+                </div>
+              </div>
+
+              <div className="col-lg-6 order-md-1  order-sm-1 order-lg-2">
+                <div className="about-ceo ms-lg-5 ms-md-8 mb-md-3  ">
+                  <LazyLoadImage
+                    className="img-fluid rounded"
+                    src={slice2}
+                    alt="Anil Shinde, CEO of Shekru Lab - Leading IT Solutions Provider"
+                    width={600}
+                    height={500}
+                  />
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-        <p>
-          At Shekru Labs, we adopt a comprehensive business approach that
-          encompasses process management, delivery excellence, and cutting-edge
-          technology innovations. Our focus is on fostering collaborative
-          partnerships with our clients to deliver tailored IT solutions.
-        </p>
-        <p>
-          Founded in 2018, Shekru Labs is a leading IT service and
-          product-based company dedicated to providing exceptional IT processes
-          and solutions. With a vision to excel in the IT sector, we understand
-          that businesses require quality and reliability. Our expert team is
-          committed to delivering innovative solutions that meet the unique
-          needs of each client, ensuring their success in today’s competitive
-          landscape.
-        </p>
-        <p>
-          Explore how Shekru Labs can elevate your business with our premium IT
-          services and products.
-        </p>
-        <div className="mb-4">
-          <span>
-            Call us 24/7. We can answer{" "}
-            <strong className="font-weight-600 lead">all your questions.</strong>
-          </span>
-        </div>
-        <div className="border-bottom mb-3 mb-lg-4 pb-3 pb-lg-4">
-          <a href="tel:+91 7776827177">
-            <h4 className="d-inline-block h6 mb-0 me-4">+91 7776827177</h4>
-          </a>
-          <div className="d-inline-block me-4 align-top">
-            <strong className="font-weight-700 text-primary">or</strong>
-          </div>
-          <h4 className="d-inline-block h6 mb-0">
-            <a href="mailto:info@shekruweb.com">info@shekruweb.com</a>
-          </h4>
-        </div>
-        <div className="text-start w-100">
-          <p className="mb-0">
-            <span className="font-weight-700 d-block">Anil Shinde</span>
-            CEO of Company
-          </p>
-        </div>
-      </div>
+        </section>
 
-      {/* Image Column */}
-      <div className="col-lg-6 order-md-1  order-sm-1 order-lg-2">
-        <div className="about-ceo ms-lg-5 ms-md-8 mb-md-3 ">
-          <LazyLoadImage
-            src={slice2}
-            alt="About Shekru Lab CEO"
-            width={600}
-            height={500}
-          />
-         
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-        <section className="bg-light-gray" aria-labelledby="what-we-do-heading">
+        <section className="bg-light-gray pt-3" aria-labelledby="what-we-do-heading">
           <div className="container">
             <div className="section-heading title-style5">
-              <span>Services</span>
-              <h2
-                className="text-uppercase font-weight-600"
+              <p
+                className="text-uppercase font-weight-600  fs-2"
                 id="what-we-do-heading"
               >
                 What we do
-              </h2>
+              </p>
               <div className="square">
                 <span className="separator-left bg-primary" />
                 <span className="separator-right bg-primary" />
@@ -230,8 +223,8 @@ function Home() {
                         01
                       </span>
                       <div className="tab-box">
-                        <h6>Planning</h6>
-                        <span>Vision to plan</span>
+                        <p className="h6"> Planning</p>
+                        <span>Vision to Execution</span>
                       </div>
                     </li>
                     <li className="ms-4">
@@ -239,7 +232,7 @@ function Home() {
                         02
                       </span>
                       <div className="tab-box">
-                        <h6>Marketing</h6>
+                        <p className="h6">Marketing</p>
                         <span>Plan to market</span>
                       </div>
                     </li>
@@ -248,7 +241,7 @@ function Home() {
                         03
                       </span>
                       <div className="tab-box">
-                        <h6>Growth</h6>
+                        <p className="h6">Growth</p>
                         <span>Start to growth</span>
                       </div>
                     </li>
@@ -264,58 +257,54 @@ function Home() {
                           <div className="col-lg-6 mb-4 mb-lg-0 text-center text-lg-start">
                             <LazyLoadImage
                               src={content1}
-                              alt="..."
+                              className="img-fluid rounded"
+                              alt="Strategic IT planning and vision at Shekru Lab"
                               width={545}
                               height={348}
                             />
                           </div>
 
                           <div className="col-lg-6">
-                            <div>
-                              {" "}
-                              <span className="fw-bolder fs-3"> Vision</span>
-                            </div>
+                            <h4 className="fw-bolder fs-3">
+                              Strategic Vision in IT
+                            </h4>
                             <div>
                               <span className="fw-bold me-1">
                                 Long-term Goals:
-                              </span>{" "}
-                              At Shekru Labs, our vision is a future-oriented
-                              commitment to becoming a leader in the IT
-                              industry. We strive to set the standard for
-                              innovation and excellence, inspiring our
-                              employees, customers, and stakeholders to achieve
-                              their highest potential.
+                              </span>
+                              At Shekru Labs, we're committed to becoming
+                              industry leaders in IT innovation, setting new
+                              standards and inspiring both our team and clients
+                              to reach their full potential.
                             </div>
                             <div>
                               <span className="fw-bold me-1">Innovation:</span>
-                              At Shekru Labs, we share the ambition of many
-                              software companies to lead in technology
-                              innovation.
+                              We're at the forefront of technological
+                              advancements, constantly exploring new ways to
+                              enhance business operations through IT solutions.
                             </div>
                             <div>
-                              <span className="fw-bold me-1 ">
+                              <span className="fw-bold me-1">
                                 Customer Focus:
-                              </span>{" "}
-                              Our vision at Shekru Labs includes a strong
-                              commitment to understanding and meeting customer
-                              needs.
+                              </span>
+                              Our strategies are built around understanding and
+                              exceeding client expectations in the IT sector.
                             </div>
                             <div>
                               <span className="fw-bold me-1">
                                 Market Leadership:
                               </span>
-                              At Shekru Labs, we aspire to be a leader in the IT
-                              industry by setting trends and establishing
-                              standards for others to follow.
+                              We aim to set industry trends and establish
+                              benchmarks in IT services that others aspire to
+                              follow.
                             </div>
                             <div>
-                              {" "}
-                              <span className="fw-bold me-1 ">
+                              <span className="fw-bold me-1">
                                 Social Impact:
-                              </span>{" "}
-                              At Shekru Labs, we recognize the importance of
-                              social responsibility and strive to improve lives
-                              through technology.
+                              </span>
+                              We leverage technology to create positive change,
+                              improving lives and communities through our IT
+                              initiatives.
                             </div>
                           </div>
                         </div>
@@ -326,23 +315,31 @@ function Home() {
                         <div className="row align-items-center">
                           <div className="col-lg-6 order-lg-1 order-2">
                             <div className="pe-1-9">
-                              <h3 className="fw-bolder fs-3">Plan to marketing</h3>
+                              <h4 className="fw-bolder fs-3">
+                                IT Marketing Strategies
+                              </h4>
                               <p>
-                              At Shekru Labs, we prioritize understanding market needs and addressing pain points within the IT industry. Our marketing strategy involves analyzing current trends such as cloud adoption, cybersecurity concerns, and the rising demand for remote solutions.
+                                At Shekru Labs, we develop targeted marketing
+                                strategies for IT services, focusing on current
+                                trends such as cloud adoption, cybersecurity,
+                                and remote work solutions.
                               </p>
                               <ul className="list-style-16">
-                                <li>Growing IT Spending</li>
-                                <li>Cloud Dominance</li>
-                                <li>Cybersecurity Demand</li>
-                                <li>Content Impact</li>
-                                <li>Your business deserves best software</li>
+                                <li>Analyzing IT Spending Patterns</li>
+                                <li>Promoting Cloud Service Solutions</li>
+                                <li>Addressing Cybersecurity Concerns</li>
+                                <li>Content Marketing for IT Services</li>
+                                <li>
+                                  Showcasing Cutting-Edge Software Solutions
+                                </li>
                               </ul>
                             </div>
                           </div>
                           <div className="col-lg-6 order-lg-2 order-1 text-center text-lg-start mb-4 mb-lg-0">
                             <LazyLoadImage
                               src={content2}
-                              alt="..."
+                              className="img-fluid rounded"
+                              alt="IT marketing strategies and digital promotion at Shekru Lab"
                               width={545}
                               height={348}
                             />
@@ -356,28 +353,30 @@ function Home() {
                           <div className="col-lg-6 mb-4 mb-lg-0 text-center text-lg-start">
                             <LazyLoadImage
                               src={content3}
-                              alt="..."
+                              className="img-fluid rounded"
+                              alt="Technology growth and scaling IT solutions with Shekru Lab"
                               width={545}
                               height={348}
                             />
                           </div>
                           <div className="col-lg-6">
                             <div className="ps-lg-1-9">
-                              <h3 className="fw-bolder fs-3">From Start to Growth at Shekru Labs</h3>
+                              <h4 className="fw-bolder fs-3">
+                                Scaling IT Success
+                              </h4>
                               <p>
-                                The IT consulting industry is experiencing robust
-                                growth driven by several factors. The
-                                integration of artificial intelligence is
-                                becoming increasingly critical, with
-                                approximately 50% of organizations implementing
-                                AI solutions.
+                                The IT consulting industry is experiencing
+                                robust growth, driven by digital transformation
+                                initiatives. At Shekru Labs, we're at the
+                                forefront of this evolution, helping businesses
+                                leverage cutting-edge technologies.
                               </p>
                               <ul className="list-style-16">
-                                <li>Cloud Consulting Growth</li>
-                                <li>Cybersecurity Focus</li>
-                                <li>Data-Driven Decisions</li>
-                                <li>Remote Work Solutions</li>
-                                <li>Market Expansion</li>
+                                <li>Cloud Consulting and Implementation</li>
+                                <li>Advanced Cybersecurity Solutions</li>
+                                <li>Data-Driven IT Decision Making</li>
+                                <li>Remote Work Technology Integration</li>
+                                <li>AI and Machine Learning Applications</li>
                               </ul>
                             </div>
                           </div>

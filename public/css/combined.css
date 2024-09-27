@@ -1,5 +1,7 @@
 
 
+/* Your other CSS rules */
+
 
 *,body{
     font-family: "Lato", sans-serif;
@@ -953,7 +955,7 @@ select:focus {
     -moz-border-radius: 100px;
     -o-border-radius: 100px;
     z-index: 2;
-    color: #282b2d
+    color: #86bc42
 }
 
 .list-style-15 li:hover {
@@ -17269,14 +17271,69 @@ pre[class*="language-"] {
 
 .logo_size{
     
-    width:180px;
+    height: 170px;
+    width: 200px;
 
 }
 
 .logo_size2{
-    width: 155px;
-   height: 60px;
+    width: 180px;
+   height: 100px;
 }
+
+.enlarged-logo {
+    transform: scale(0.9);
+    transform-origin: left center;
+    max-width: none;
+    width: auto;
+    height: auto;
+  }
+
+  .image-container {
+    width: 100%;
+    height: 200px; /* Adjust this value as needed */
+    overflow: hidden;
+  }
+  
+  .feature-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .feature-box-03 {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.feature-box-03 .feature-content {
+  transition: opacity 0.3s ease;
+}
+
+.feature-box-03 .show-details {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(49, 27, 146, 0.9);/* Adjust color and opacity as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.feature-box-03:hover .feature-content {
+  opacity: 0;
+}
+
+.feature-box-03:hover .show-details {
+  opacity: 1;
+}
+  
 
 /* CLS FIX FOR ABOUT US SECTION */
 
@@ -21879,7 +21936,7 @@ fieldset:disabled .btn {
 
 .navbar-nav .nav-link {
     padding-right: 0;
-    padding-left: 0
+   
 }
 
 .navbar-nav .dropdown-menu {
@@ -35211,7 +35268,7 @@ a:focus {
 
 a:hover,
 a:active {
-    color: #1e2022;
+    color: #86bc42;
     text-decoration: none
 }
 

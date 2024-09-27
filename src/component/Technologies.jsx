@@ -1,9 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import bg13 from "../assets/img/bg/bg13.jpg";
-import t7 from "../assets/img/testmonials/t-7.jpg";
-import t8 from "../assets/img/testmonials/t-8.jpg";
-import t9 from "../assets/img/testmonials/t-8.jpg";
+
 import android from "../assets/img/brand-logos/android.png";
 import angularjs from "../assets/img/brand-logos/angularjs.png";
 import aws from "../assets/img/brand-logos/aws.png";
@@ -1111,83 +1108,11 @@ function Technologies() {
                 </p>
               </div>
             </div>
-            <div className="text-center">
-              <Link to="/contact" className="butn primary white-hover">
-                <span>Contact Us Now</span>
-              </Link>
-            </div>
+           
           </div>
         </section>
         {/* Why hire Developers End */}
-        {/* Testimonials Start */}
-        <section
-          className="bg-img cover-background"
-          data-overlay-dark={8}
-          style={{ backgroundImage: `url(${bg13})` }}
-        >
-          <div className="container">
-            <div className="section-heading title-style7 white">
-              <h2 className="mb-0">Our Client Words</h2>
-              <span>Testimonials</span>
-            </div>
-            <div
-              className="testimonial-style8 owl-theme owl-carousel"
-              data-slider-id={1}
-            >
-              <div className="text-center">
-                <p className="lead w-sm-85 w-md-75 w-lg-55 mx-auto text-white mb-2-3">
-                  "We experienced a complete transformation in our operations
-                  thanks to the exceptional services provided by Shekru Labs.
-                  Their expertise and dedication helped us navigate complex
-                  challenges, resulting in innovative solutions that exceeded
-                  our expectations."
-                </p>
-                <h5 className="text-white mb-1 h6">Stepha Kruse</h5>
-                <h6 className="small letter-spacing-1 font-weight-500 text-white opacity6 mb-2-9">
-                  Designer
-                </h6>
-              </div>
-              <div className="text-center">
-                <p className="lead w-sm-85 w-md-75 w-lg-55 mx-auto text-white mb-2-3">
-                  "Working with Shekru Labs has been a game-changer for our
-                  business. Their team took the time to understand our specific
-                  challenges and crafted tailored solutions that significantly
-                  improved our efficiency."
-                </p>
-                <h5 className="text-white mb-1 h6">Dunican keithly</h5>
-                <h6 className="small letter-spacing-1 font-weight-500 text-white opacity6 mb-2-9">
-                  Networking
-                </h6>
-              </div>
-              <div className="text-center">
-                <p className="lead w-sm-85 w-md-75 w-lg-55 mx-auto text-white mb-2-3">
-                  "Shekru Labs exceeded our expectations at every turn. Their
-                  innovative approach to IT solutions transformed our
-                  operations, and their ongoing support has been invaluable. We
-                  appreciate their commitment to quality and their ability to
-                  adapt to our evolving needs."
-                </p>
-                <h5 className="text-white mb-1 h6">Alivin Corondo</h5>
-                <h6 className="small letter-spacing-1 font-weight-500 text-white opacity6 mb-2-9">
-                  Developer
-                </h6>
-              </div>
-            </div>
-            <div className="owl-thumbs text-center" data-slider-id={1}>
-              <button className="owl-thumb-item border-radius-50 w-60px me-1">
-                <img src={t7} className="border-radius-50" alt="..." />
-              </button>
-              <button className="owl-thumb-item w-60px border-radius-50 me-1">
-                <img src={t8} className="border-radius-50" alt="..." />
-              </button>
-              <button className="owl-thumb-item w-60px border-radius-50">
-                <img src={t9} className="border-radius-50" alt="..." />
-              </button>
-            </div>
-          </div>
-        </section>
-
-        {/* Footer */}
+       
       </div>
     </>
   );
