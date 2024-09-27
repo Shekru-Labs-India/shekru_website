@@ -1,10 +1,9 @@
 {
   "files": {
     "main.css": "/shekru_website/static/css/main.dc4d6ff2.css",
-    "main.js": "/shekru_website/static/js/main.397d9d2a.js",
+    "main.js": "/shekru_website/static/js/main.fed40976.js",
     "static/js/453.30bf59f8.chunk.js": "/shekru_website/static/js/453.30bf59f8.chunk.js",
     "static/media/billing-software_lg.png": "/shekru_website/static/media/billing-software_lg.9b45bb14d88ffa73bd5c.png",
-    "static/media/stockExchangeBanner.jpg": "/shekru_website/static/media/stockExchangeBanner.3d82c2d66dcb922d1618.jpg",
     "static/media/projectInMind.jpg": "/shekru_website/static/media/projectInMind.0739a177fd555543a150.jpg",
     "static/media/blog1.jpg": "/shekru_website/static/media/blog1.f2217bf0c31842883107.jpg",
     "static/media/slice-2.jpg": "/shekru_website/static/media/slice-2.d441278373cef11e7a15.jpg",
@@ -14,12 +13,12 @@
     "static/media/Home-hero_md.png": "/shekru_website/static/media/Home-hero_md.b9e1aae4a2e260cb7b25.png",
     "static/media/bg15.jpg": "/shekru_website/static/media/bg15.ba2c898274231366dd1d.jpg",
     "static/media/bg1.jpg": "/shekru_website/static/media/bg1.3925cccf054105604181.jpg",
-    "static/media/careerImage.png": "/shekru_website/static/media/careerImage.fbbb2048daff19bc3920.png",
     "static/media/bg13.jpg": "/shekru_website/static/media/bg13.0be1b2b4d7b5778af93e.jpg",
     "static/media/success.png": "/shekru_website/static/media/success.3985e6cb92805e2c741d.png",
     "static/media/blog3.jpg": "/shekru_website/static/media/blog3.923737c16706ac5c6159.jpg",
     "static/media/slide21.jpg": "/shekru_website/static/media/slide21.77c78b8a50cda127a657.jpg",
     "static/media/clientBanner.jpg": "/shekru_website/static/media/clientBanner.ea3dacd16e6c197a1b1f.jpg",
+    "static/media/stockExchangeBanner.jpg": "/shekru_website/static/media/stockExchangeBanner.9d5c1d5177a237dcef88.jpg",
     "static/media/about-02.jpg": "/shekru_website/static/media/about-02.1109c3ec77af67dee193.jpg",
     "static/media/logo.png": "/shekru_website/static/media/logo.bd9dfc74dd8181409bfa.png",
     "static/media/team-02.jpg": "/shekru_website/static/media/team-02.5af2d3ade98c08ae1094.jpg",
@@ -54,7 +53,12 @@
     "static/media/tigera.png": "/shekru_website/static/media/tigera.ff5ed29c4c08c3dc0828.png",
     "static/media/Menu_Mitra.png": "/shekru_website/static/media/Menu_Mitra.f2669b4d1fd2fad7e4ff.png",
     "static/media/ERP.jpg": "/shekru_website/static/media/ERP.555c02815c274ffc4098.jpg",
-    "static/media/black_twill.png": "/shekru_website/static/media/black_twill.b1bd7c8fc26865f8a189.png",
+    "static/media/energy.png": "/shekru_website/static/media/energy.70fe659f76322b3971cf.png",
+    "static/media/equities.png": "/shekru_website/static/media/equities.032ea8d5d8e86efd576b.png",
+    "static/media/rates.png": "/shekru_website/static/media/rates.d39eac864a2e6d3e474b.png",
+    "static/media/lowCost.png": "/shekru_website/static/media/lowCost.1065bf19a58771b20839.png",
+    "static/media/credit.png": "/shekru_website/static/media/credit.879ab81f52ee551bfc33.png",
+    "static/media/whyChoose.png": "/shekru_website/static/media/whyChoose.ec73f527fce4636a45ac.png",
     "static/media/HRM.jpg": "/shekru_website/static/media/HRM.d64bb9cdb485e0a2dc63.jpg",
     "static/media/gitLab.png": "/shekru_website/static/media/gitLab.e6e8b35f56920ce0a2bb.png",
     "static/media/Outlet-Types-Icons-6.png": "/shekru_website/static/media/Outlet-Types-Icons-6.110e30ba01e1ae06b03d.png",
@@ -63,6 +67,7 @@
     "static/media/manatarang.jpg": "/shekru_website/static/media/manatarang.3e9fb7afb5d721e6411f.jpg",
     "static/media/Outlet-Types-Icons-10.png": "/shekru_website/static/media/Outlet-Types-Icons-10.81989f824a8b6606ae02.png",
     "static/media/Outlet-Types-Icons-4.png": "/shekru_website/static/media/Outlet-Types-Icons-4.f09ec6a88d6a86306110.png",
+    "static/media/safeAndSecure.png": "/shekru_website/static/media/safeAndSecure.0ef1faf332455867e980.png",
     "static/media/apsara.png": "/shekru_website/static/media/apsara.519497f1e7e3afa0c6a4.png",
     "static/media/greenbrier-living.jpg": "/shekru_website/static/media/greenbrier-living.93dd712883cd327e53eb.jpg",
     "static/media/kabhib.png": "/shekru_website/static/media/kabhib.fc02aae6910fd3f34594.png",
@@ -73,11 +78,11 @@
     "static/media/qaAutomation.svg": "/shekru_website/static/media/qaAutomation.d4db099d5ad11cc2f72a34836429018c.svg",
     "index.html": "/shekru_website/index.html",
     "main.dc4d6ff2.css.map": "/shekru_website/static/css/main.dc4d6ff2.css.map",
-    "main.397d9d2a.js.map": "/shekru_website/static/js/main.397d9d2a.js.map",
+    "main.fed40976.js.map": "/shekru_website/static/js/main.fed40976.js.map",
     "453.30bf59f8.chunk.js.map": "/shekru_website/static/js/453.30bf59f8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dc4d6ff2.css",
-    "static/js/main.397d9d2a.js"
+    "static/js/main.fed40976.js"
   ]
 }

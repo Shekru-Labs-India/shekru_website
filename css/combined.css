@@ -17281,9 +17281,60 @@ pre[class*="language-"] {
    height: 100px;
 }
 
+.enlarged-logo {
+    transform: scale(0.9);
+    transform-origin: left center;
+    max-width: none;
+    width: auto;
+    height: auto;
+  }
 
+  .image-container {
+    width: 100%;
+    height: 200px; /* Adjust this value as needed */
+    overflow: hidden;
+  }
   
+  .feature-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
   
+  .feature-box-03 {
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.feature-box-03 .feature-content {
+  transition: opacity 0.3s ease;
+}
+
+.feature-box-03 .show-details {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(49, 27, 146, 0.9);/* Adjust color and opacity as needed */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.feature-box-03:hover .feature-content {
+  opacity: 0;
+}
+
+.feature-box-03:hover .show-details {
+  opacity: 1;
+}
+  
+
 /* CLS FIX FOR ABOUT US SECTION */
 
 @charset "UTF-8";
