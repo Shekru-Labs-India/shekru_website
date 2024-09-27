@@ -85,12 +85,12 @@ function Careers() {
          
           <div className="col-lg-6 text-center order-1 order-lg-1">
             
-            {/* Replace the image */}
+          
           </div>
         </div>
       </div>
 
-      <div className="container mt-lg-6 mt-md-4 mt-4">
+      <div className="container  mt-6">
             <h1>Our Guiding Values</h1>
           </div>
       <section className="p-lg-8 p-4">
@@ -264,7 +264,7 @@ function Careers() {
       >
         <div 
           className="position-absolute top-0 start-0 w-100 h-100" 
-          style={{backgroundColor: 'rgba(33, 37, 41, 0.85)'}}
+          
         ></div>
         <div className="container position-relative">
           <div className="row">

@@ -20,7 +20,7 @@ function AutoProfito() {
               Alice Blue across NSE, BSE, and MCX exchanges.
             </p>
             <div className="d-flex flex-wrap gap-2">
-              <a href="https://autoprofito.com/" target="_blank" className="btn " style={{backgroundColor:"#007bff",color:"white"}}>Dashboard</a>
+              
               <a href="https://autoprofito.com/" target="_blank" className="btn btn-outline-primary" >Explore Now</a>
             </div>
           </div>
@@ -499,108 +499,7 @@ function AutoProfito() {
      
 
 
-<section className="py-4">
-  <div className="container my-0">
-    <h5 className="text-center text-muted mb-4 text-uppercase">Pricing Plans</h5>
-  </div>
-  <div className="container pb-5">
-    <h2 className="text-center fw-bold mb-5">The right plan for your business</h2>
-    <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-      {/* Professional Plan */}
-      <div className="col">
-        <div className="card h-100 shadow-sm p-4">
-          <div className="card-body d-flex flex-column">
-            <h3 className="card-title text-center ">Professional</h3>
-            <div className="my-4 fw-bold text-center">
-              <span className="fs-3">₹ 1499</span> <del className="ms-2">₹ 1799</del>
-              <br />
-              <small>+18% GST applicable</small>
-            </div>
-            <ul className="list-unstyled flex-grow-1">
-              <li className="mb-2">
-                <i className="fas fa-check text-success me-2"></i>Auto Login
-              </li>
-              <li className="mb-2">
-                <i className="fas fa-check text-success me-2"></i>30 Days
-              </li>
-              <li className="mb-2">
-                <i className="fas fa-check text-success me-2"></i>Copy Trading up to 9 Accounts (Excluding Master)
-              </li>
-              <li className="mb-2">
-                <i className="fas fa-check text-success me-2"></i>1 Master Account
-              </li>
-            </ul>
-            <div className="text-center mt-auto">
-              <button className="btn btn-outline-primary btn-lg w-100">Subscribe</button>
-            </div>
-          </div>
-        </div>
-      </div>
 
-      {/* Enterprise Plan */}
-      <div className="col">
-        <div className="card h-100 shadow p-4">
-          <div className="card-body d-flex flex-column">
-            <h3 className="card-title text-center ">Enterprise</h3>
-            <div className="my-4 fw-bold text-center">
-              <span className="fs-3">₹ 2499</span> <del className="ms-2">₹ 2999</del>
-              <br />
-              <small>+18% GST applicable</small>
-            </div>
-            <ul className="list-unstyled flex-grow-1">
-              <li className="mb-2">
-                <i className="fas fa-check text-success me-2"></i>Auto Login
-              </li>
-              <li className="mb-2">
-                <i className="fas fa-check text-success me-2"></i>30 Days
-              </li>
-              <li className="mb-2">
-                <i className="fas fa-check text-success me-2"></i>Copy Trading up to 24 Accounts (Excluding Master)
-              </li>
-              <li className="mb-2">
-                <i className="fas fa-check text-success me-2"></i>2 Master Accounts
-              </li>
-            </ul>
-            <div className="text-center mt-auto">
-              <button className="btn btn-outline-primary btn-lg w-100">Subscribe</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      {/* Custom Plan */}
-      <div className="col">
-        <div className="card h-100 shadow-sm p-4">
-          <div className="card-body d-flex flex-column">
-            <h3 className="card-title text-center ">Custom</h3>
-            <div className="my-4 fw-bold text-center">
-              <span className="fs-3">₹ 675</span>
-              <br />
-              <small>+18% GST applicable</small>
-            </div>
-            <ul className="list-unstyled flex-grow-1">
-              <li className="mb-2">
-                <i className="fas fa-check text-success me-2"></i>Auto Login
-              </li>
-              <li className="mb-2">
-                <i className="fas fa-check text-success me-2"></i>30 Days
-              </li>
-              <li className="mb-2">
-                <i className="fas fa-check text-success me-2"></i>Copy Trading up to 24 Accounts (Excluding Master)
-              </li>
-              <li className="mb-2">
-                <i className="fas fa-check text-success me-2"></i>2 Master Accounts
-              </li>
-            </ul>
-            <div className="text-center mt-auto">
-              <button className="btn btn-outline-primary btn-lg w-100">Subscribe</button>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
 
      
     </div>

@@ -52,7 +52,10 @@ function Clients() {
   <img
     src={clientBanner}
     alt="Client Banner"
-    className="img-fluid"
+    className="img-fluid w-100 "
+    style={{height: '370px',
+      objectFit: 'cover',
+      objectPosition: 'center'}}
   />
 </div>
 

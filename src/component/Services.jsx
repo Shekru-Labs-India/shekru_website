@@ -42,7 +42,7 @@ function Services() {
         </section>
         {/* SERVICES
   ================================================== */}
-        <section>
+        <section className="pt-1">
           <div className="container">
             <div className="section-heading">
               <h2>What We Offer</h2>
@@ -130,7 +130,7 @@ function Services() {
           </div>
         </section>
 
-        <section className="py-3">
+        <section className="pt-0">
           <div className="container">
             <div className="row text-center">
               <div className="col-12 mb-5">
@@ -139,7 +139,7 @@ function Services() {
             </div>
             <div className="row justify-content-center">
               <ServiceItem
-                icon="fa-solid fa-gear fa-spin"
+                icon="fa-solid fa-gear "
                 title="Digital Transformation"
                 description="Revolutionizing businesses through tech integration for agility, innovation..."
               />

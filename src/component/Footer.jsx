@@ -64,60 +64,56 @@ function Footer() {
                   </Link>
                 </ul>
                 <div className="footer-social-icons small mt-3">
-  <ul className="ps-0 d-flex flex-wrap justify-content-start">
-    <li className="me-2 mb-2">
-      <a
-        href="https://www.facebook.com/profile.php?id=61563537635780&mibextid=ZbWKwL"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Facebook"
-      >
-        <i className="fab fa-facebook-f"></i>
-      </a>
-    </li>
-    <li className="me-2 mb-2">
-      <a
-        href="https://x.com/shekrulabs91242"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Twitter"
-      >
-        <i className="fab fa-twitter"></i>
-      </a>
-    </li>
-    <li className="me-2 mb-2">
-      <a
-        href="https://www.instagram.com/shekrulabsindia/?next=%2F"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Instagram"
-      >
-        <i className="fab fa-instagram"></i>
-      </a>
-    </li>
-    <li className="me-2 mb-2">
-      <a
-        href="https://www.youtube.com/@shekrulabs"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="YouTube"
-      >
-        <i className="fab fa-youtube"></i>
-      </a>
-    </li>
-    <li className="me-2 mb-2">
-      <a
-        href="https://www.linkedin.com/company/82583160/admin/dashboard/"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="LinkedIn"
-      >
-        <i className="fab fa-linkedin-in"></i>
-      </a>
-    </li>
-  </ul>
-  <ul className="ps-0 d-flex flex-wrap justify-content-start mt-2">
-    <li className="me-2 mb-2">
+                <ul className="ps-0 d-flex flex-wrap justify-content-start">
+  <li className="me-3 mb-3">
+    <a
+      href="https://www.facebook.com/profile.php?id=61563537635780&mibextid=ZbWKwL"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Facebook"
+      className="d-inline-block"
+    >
+      <i className="fab fa-facebook-f"></i>
+    </a>
+  </li>
+  <li className="me-3 mb-3">
+    <a
+      href="https://x.com/shekrulabs91242"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Twitter"
+      className="d-inline-block"
+    >
+      <i className="fab fa-twitter"></i>
+    </a>
+  </li>
+  <li className="me-3 mb-3">
+    <a
+      href="https://www.instagram.com/shekrulabsindia/?next=%2F"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="Instagram"
+      className="d-inline-block"
+    >
+      <i className="fab fa-instagram"></i>
+    </a>
+  </li>
+  <li className="me-3 mb-3">
+    <a
+      href="https://www.youtube.com/@shekrulabs"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="YouTube"
+      className="d-inline-block"
+    >
+      <i className="fab fa-youtube"></i>
+    </a>
+  </li>
+  
+  
+</ul>
+  <ul className="ps-0 d-flex flex-wrap justify-content-start ">
+      <li className="me-3 mb-2 d-block d-lg-none">
       <a
         href="https://t.me/Shekrulabs"
         target="_blank"
@@ -127,7 +123,8 @@ function Footer() {
         <i className="fab fa-telegram-plane"></i>
       </a>
     </li>
-    <li className="me-2 mb-2">
+    
+    <li className="me-3 mb-2">
       <a
         href="https://www.google.com/search?q=Shekru+labs+India+Pvt.+Ltd."
         target="_blank"
@@ -137,7 +134,7 @@ function Footer() {
         <i className="fab fa-google"></i>
       </a>
     </li>
-    <li className="me-2 mb-2">
+    <li className="me-3 mb-2">
       <a
         href="https://pin.it/1mCDkBOsW"
         target="_blank"
@@ -147,7 +144,7 @@ function Footer() {
         <i className="fab fa-pinterest-p"></i>
       </a>
     </li>
-    <li className="me-2 mb-2">
+    <li className="me-3 mb-2 ">
       <a
         href="https://www.threads.net/@shekrulabsindia"
         target="_blank"
@@ -157,6 +154,18 @@ function Footer() {
         <i className="fab fa-threads"></i>
       </a>
     </li>
+    <li className="me-3 mb-2">
+    <a
+      href="https://www.linkedin.com/company/82583160/admin/dashboard/"
+      target="_blank"
+      rel="noopener noreferrer"
+      aria-label="LinkedIn"
+      className="d-inline-block"
+    >
+      <i className="fab fa-linkedin-in"></i>
+    </a>
+  </li>
+    
   </ul>
 </div>
               </div>
@@ -288,16 +297,7 @@ function Footer() {
         <i className="fab fa-linkedin-in"></i>
       </a>
     </span>
-    <span className="px-2 py-1">
-      <a
-        href="https://t.me/shekrulabs"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Telegram"
-      >
-        <i className="fab fa-telegram-plane"></i>
-      </a>
-    </span>
+   
     <span className="px-2 py-1">
       <a
         href="https://www.google.com/search?q=Shekru+labs+India+Pvt.+Ltd."

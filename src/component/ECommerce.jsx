@@ -224,9 +224,9 @@ function  ECommerce() {
 
      <div className="container mt-8  pb-2">
   <h4 className="text-center  text-uppercase my-5">Reach Out Now!</h4>
-        <div className="row border border-2 border-gray rounded p-3">
+        <div className="row  p-3">
         
-          <div className="col-lg-6 order-2 order-lg-1 ">
+          <div className="col-lg-6 order-2 order-lg-1 border border-2 border-gray rounded px-0 ">
           <iframe
       className="contact-map rounded"
       id="gmap_canvas"

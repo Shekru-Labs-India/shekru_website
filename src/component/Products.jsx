@@ -297,7 +297,9 @@ function Products() {
 
       <div className="container mt-5">
         <div class="row feature-boxes-container mt-n1-9">
+          
           <div class="col-md-6 col-lg-6 mt-1-9 feature-box-04">
+            <Link to="/auto-profito" >
             <div class="feature-box-inner h-100">
               <img
                 src={autoProfito}
@@ -318,10 +320,12 @@ function Products() {
                 </Link>
               </div>
             </div>
+            </Link>
           </div>
-
+          
         
           <div class="col-md-6 col-lg-6 mt-1-9 feature-box-04">
+            <Link to="/menu-mitra"  >
             <div class="feature-box-inner h-100">
               <img
                 src={menuMitra}
@@ -343,6 +347,7 @@ function Products() {
                 </Link>
               </div>
             </div>
+            </Link>
           </div>
         </div>
       </div>

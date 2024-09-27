@@ -28,17 +28,13 @@ const ScrollToTopButton = () => {
       {isVisible && (
         <button
           onClick={scrollToTop}
-          className="btn btn-success position-fixed bottom-0 end-0 m-3"
-          style={{
-            borderRadius: '50%',
-            width: '50px',
-            height: '50px',
-            zIndex: 99, // Ensure it's on top
-            boxShadow: '0 4px 8px rgba(0,0,0,0.3)' // Optional: add shadow for better visibility
-          }}
+          className="btn btn-success rounded-circle position-fixed bottom-0 end-0 m-3  py-2 px-3  "
+         style={{
+          zIndex:999
+         }}
           title="Scroll to Top"
         >
-          ↑
+          <i className="fas fa-arrow-up"></i>
         </button>
       )}
     </>
