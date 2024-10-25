@@ -64,7 +64,7 @@ function Footer() {
                   </Link>
                 </ul>
                 <div className="footer-social-icons small mt-3">
-                <ul className="ps-0 d-flex flex-wrap justify-content-start">
+                <ul className="ps-0  text-center text-lg-start text-md-start">
   <li className="me-3 mb-3">
     <a
       href="https://www.facebook.com/profile.php?id=61563537635780&mibextid=ZbWKwL"
@@ -98,6 +98,7 @@ function Footer() {
       <i className="fab fa-instagram"></i>
     </a>
   </li>
+  
   <li className="me-3 mb-3">
     <a
       href="https://www.youtube.com/@shekrulabs"
@@ -111,18 +112,8 @@ function Footer() {
   </li>
   
   
-</ul>
-  <ul className="ps-0 d-flex flex-wrap justify-content-start ">
-      <li className="me-3 mb-2 d-block d-lg-none">
-      <a
-        href="https://t.me/Shekrulabs"
-        target="_blank"
-        rel="noopener noreferrer"
-        aria-label="Telegram"
-      >
-        <i className="fab fa-telegram-plane"></i>
-      </a>
-    </li>
+
+      
     
     <li className="me-3 mb-2">
       <a

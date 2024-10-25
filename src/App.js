@@ -20,7 +20,7 @@ import ScrollToTopButton from './component/ScrollButton';
 import ScriptsManager from './component/ScriptsManager';
 import MenuMitra from './component/MenuMitra';
 import AutoProfito from './component/AutoProfito';
-
+import CoreBankingSolution from './component/CoreBankingSolution';
 function App() {
   return (
     <Router>
@@ -43,7 +43,8 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/menu-mitra" element={<MenuMitra />} />
         <Route path="/auto-profito" element={<AutoProfito />} />
-        
+        <Route path="/core-banking-solution" element={<CoreBankingSolution />} />
+
       </Routes>
       <Footer/>
       <ScrollToTopButton/>

@@ -83,6 +83,16 @@ function Navbar2() {
                          AutoProfito
                         </NavLink>
                       </li>
+                      <li>
+                        <NavLink
+                          to="/core-banking-solution"
+                          className={({ isActive }) =>
+                           `nav-link custom-nav-link ${isActive ? "text-primary" : ""}`
+                        }
+                        >
+                         Core Banking Solutions
+                        </NavLink>
+                      </li>
                       
                     
                     </ul>

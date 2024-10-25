@@ -1,5 +1,4 @@
 
-
 /* Your other CSS rules */
 
 
@@ -55556,3 +55555,10 @@ pre[class*="language-"] {
     cursor: help
 }
 
+.bg-circuit-pattern {
+    background-color: #00BFA5;
+    background-image: url('../../../src/assets/img/bg/circuit-pattern.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: auto 100%;
+}
