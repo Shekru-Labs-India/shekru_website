@@ -121,6 +121,18 @@ function Navbar2() {
                               E-Commerce
                             </NavLink>
                           </li>
+                          <li>
+                            <NavLink
+                              to="/big-data"
+                              className={({ isActive }) =>
+                                `nav-link custom-nav-link ${
+                                  isActive ? "text-primary" : ""
+                                }`
+                              }
+                            >
+                              Big Data
+                            </NavLink>
+                          </li>
                         </ul>
                       </li>
 

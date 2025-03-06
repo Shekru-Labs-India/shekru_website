@@ -21,6 +21,9 @@ import ScriptsManager from './component/ScriptsManager';
 import MenuMitra from './component/MenuMitra';
 import AutoProfito from './component/AutoProfito';
 import CoreBankingSolution from './component/CoreBankingSolution';
+import BigData from './component/BigData';
+
+
 function App() {
   return (
     <Router>
@@ -44,6 +47,7 @@ function App() {
         <Route path="/menu-mitra" element={<MenuMitra />} />
         <Route path="/auto-profito" element={<AutoProfito />} />
         <Route path="/core-banking-solution" element={<CoreBankingSolution />} />
+        <Route path="/big-data" element={<BigData />} />
 
       </Routes>
       <Footer/>

@@ -1,9 +1,12 @@
 import React from 'react'
+import Navbar2 from './Navbar2';
 
 function BigData() {
   return (
-    <div>BigData</div>
-  )
+    <>
+      <Navbar2 />
+    </>
+  );
 }
 
 export default BigData
