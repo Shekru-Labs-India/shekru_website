@@ -215,14 +215,13 @@ function Footer() {
 
         <div className="footer-bar bg-transparent border-top border-color-light-white position-relative z-index-1"></div>
       </footer>
-      <div className="container bg-white mx-0">
+      <div className="container-fluid bg-white mx-0">
         <div className="text-center my-3">
-          <p className="mb-1">
+          <p className="mb-1 mx-auto text-center px-3">
             Shekru Labs India Pvt. Ltd., 2nd Floor, Manogat Appt., Muktangan
             English School & Jr College, Sahakar Nagar, Pune, 411009
           </p>
-          <p className="ms-3">
-            {" "}
+          <p className="text-center px-3">
             Email:{" "}
             <a href="mailto:shekrulabs@gmail.com">shekrulabs@gmail.com</a>|CIN:
             U74999PN2018PTC174371
