@@ -44,7 +44,7 @@ const Navbar = React.memo(() => {
                           <p className="d-inline-block m-0 w-75 align-top">
                             <span className="d-block">
                               +91 7776827177 <br />
-                              +91 9172530151
+                              +91 9172530151 
                             </span>
                             <a href="mailto:info@shekruweb.com">
                               info@shekruweb.com
