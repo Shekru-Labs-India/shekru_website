@@ -9,18 +9,22 @@ function Careers() {
 
   return (
     <div>
-      <Navbar2/>
+      <Navbar2 />
 
-      <section className="pt-4 p-lg-5  text-white" 
-      style={{backgroundImage: `url(${career})`, backgroundSize: 'cover', backgroundPosition: 'center', backgroundRepeat: 'no-repeat'}}> 
-       
+      <section
+        className="pt-4 p-lg-5  text-white"
+        style={{
+          backgroundImage: `url(${career})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+        }}
+      >
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-7">
               <div className="section-heading title-style5 left half mt-0 ms-0 ms-lg-5">
-                <h1 className="">
-                  Let's shape the future with tech together!
-                </h1>
+                <h1 className="">Let's shape the future with tech together!</h1>
                 <div className="square">
                   <span className="separator-left bg-primary" />
                   <span className="separator-right bg-primary" />
@@ -56,46 +60,45 @@ function Careers() {
         </div>
       </section>
 
-      <div 
+      <div
         className="container position-relative border border-2 border-gray rounded overflow-hidden"
         style={{
           backgroundImage: `url(${bg2})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          backgroundRepeat: 'no-repeat',
-          borderRadius: '10px'
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          borderRadius: "10px",
         }}
       >
         <div className="row">
-          <div 
+          <div
             className="col-lg-6 order-2 order-lg-2 d-flex flex-column justify-content-center position-relative p-4 text-center text-lg-start"
             style={{
-              backgroundColor: 'rgba(33, 37, 41, 0.8)', // semi-transparent dark background
-              backdropFilter: 'blur(5px)' // adds a blur effect
+              backgroundColor: "rgba(33, 37, 41, 0.8)", // semi-transparent dark background
+              backdropFilter: "blur(5px)", // adds a blur effect
             }}
           >
-            <h2 className="text-white my-lg-3 p-lg-5">Dive into endless job opportunities and discover your next big career move!</h2>
-            
+            <h2 className="text-white my-lg-3 p-lg-5">
+              Dive into endless job opportunities and discover your next big
+              career move!
+            </h2>
+
             <div className="ms-lg-5 mt-3">
               <Link to="/contact" className="butn primary white-hover">
                 <span>Explore Job Opportunities</span>
               </Link>
             </div>
           </div>
-         
-          <div className="col-lg-6 text-center order-1 order-lg-1">
-            
-          
-          </div>
+
+          <div className="col-lg-6 text-center order-1 order-lg-1"></div>
         </div>
       </div>
 
       <div className="container  mt-6">
-            <h1>Our Guiding Values</h1>
-          </div>
+        <h1>Our Guiding Values</h1>
+      </div>
       <section className="p-lg-8 p-4">
         <div class="row mt-n1-9">
-          
           <div class="col-md-6 col-lg-3 mt-1-9 text-center">
             <div class="feature-box-05 py-2-3 px-1-9 bg-white h-100 d-flex flex-column align-items-center justify-content-center">
               <div class="mb-3">
@@ -198,9 +201,7 @@ function Careers() {
                 </div>
               </div>
               <div class="">
-                <h4 class="font-weight-600 h5 mb-2 ">
-                  Adaptable Mindset
-                </h4>
+                <h4 class="font-weight-600 h5 mb-2 ">Adaptable Mindset</h4>
                 <p class="mb-0">
                   Change is Inevitable. We seek those who can readily adjust to
                   changes, embrace new opportunities, and thrive in uncertain
@@ -236,9 +237,7 @@ function Careers() {
                 </div>
               </div>
               <div class="">
-                <h4 class="font-weight-600 h5 mb-2 ">
-                  Empathy in Action
-                </h4>
+                <h4 class="font-weight-600 h5 mb-2 ">Empathy in Action</h4>
                 <p class="mb-0">
                   We look for team members who embrace empathy and
                   collaboration, valuing the contributions of others and working
@@ -247,25 +246,19 @@ function Careers() {
               </div>
             </div>
           </div>
-          
         </div>
       </section>
 
-     
-
-      <section 
+      <section
         className="position-relative"
         style={{
           backgroundImage: `url(${bringRole})`,
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          backgroundRepeat: 'no-repeat'
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
         }}
       >
-        <div 
-          className="position-absolute top-0 start-0 w-100 h-100" 
-          
-        ></div>
+        <div className="position-absolute top-0 start-0 w-100 h-100"></div>
         <div className="container position-relative">
           <div className="row">
             <div className="col-lg-6 order-2 order-lg-1">
@@ -294,8 +287,10 @@ function Careers() {
                   </span>
                   <div className="cont">
                     <h6 className="mb-1 font-weight-600">Address: </h6>
-                    <p className="m-0">Office no 6 , 2nd Floor Manogat Appt , Swarget, </p>
-                    <p className="m-0">Pune , Maharashtra-411037</p>
+                    <p className="m-0">
+                      Office no 6 , 2nd Floor Manogat Appt , Swarget,{" "}
+                    </p>
+                    <p className="m-0">Pune , Maharashtra-411009</p>
                   </div>
                 </div>
                 <div className="item bg-white">
