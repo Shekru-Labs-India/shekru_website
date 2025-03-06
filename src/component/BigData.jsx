@@ -22,19 +22,17 @@ function BigData() {
 
       {/* 2. Hero Section */}
       <section className="text-body bg-white">
-        <div className="container mx-auto px-4 py-5">
+        <div className="container mx-auto px-4 py-3">
           <div className="row align-items-center">
-            <div className="col-md-6 text-center text-md-start mb-4 mb-md-0">
-              <h2 className="display-5 pt-5 mb-4 fw-medium text-dark">
+            <div className="col-md-6 text-center text-md-start mb-3">
+              <h2 className="display-6 mb-2 fw-medium text-dark">
                 India's No 1 Data Providers
               </h2>
-              <h1 className="display-5 mb-4 fw-medium text-dark">
+              <h1 className="display-6 mb-2 fw-medium text-dark text-nowrap">
                 EMPOWER YOUR DECISIONS WITH TRIDENT DATABASE PROVIDERS.
-                <br className="d-none d-lg-block" />
               </h1>
-              <p className="mb-4 lead">
-                Elevate your Data Experience with trident and Also Experience
-                Seamless Data Experience Management with trident
+              <p className="mb-3 lead fs-6 text-nowrap">
+                Elevate your Data Experience with trident and Also Experience Seamless Data Experience Management with trident
               </p>
               <div className="d-flex justify-content-center">
                 <a href="https://wa.me/+917385869036"></a>
@@ -48,8 +46,8 @@ function BigData() {
       </section>
 
       <section className="bg-black text-white py-5">
-        <div className="container px-5 py-20 mx-auto">
-          <div className="text-center mb-20">
+        <div className="container px-5 mx-auto">
+          <div className="text-center">
             <h2 className="sm:text-3xl text-2xl font-medium mb-4 text-white">
               Data Collections
             </h2>
@@ -958,41 +956,119 @@ function BigData() {
         </div>
       </section>
 
-      <section className="bg-dark text-white py-5">
-        <div className="container py-4">
-          <div className="text-center mb-5">
-            <h2 className="display-6 mb-3">CUSTOMER REVIEWS</h2>
-            <p className="lead text-primary">
-              DON'T JUST TAKE OUR WORDS FOR IT - READ OUR CUSTOMER REVIEWS
+      <section className="bg-black text-white py-5">
+        <div className="container px-5">
+          <div className="text-center">
+            <h1 className="text-2xl font-bold mb-6 text-white">CUSTOMER REVIEWS</h1>
+            <p className="text-indigo-500 fw-bold fs-5 mx-auto text-center" style={{maxWidth: "66.666667%"}}>
+              DONT JUST TAKE OUR WORDS FOR IT - READ OUR CUSTOMER REVIEWS
             </p>
           </div>
 
           <div className="row g-4">
             {/* Review Card 1 */}
-            <div className="col-lg-3 col-md-6">
-              <div className="text-center">
+            <div className="col-lg-3 col-md-6 p-4">
+              <div className="h-100 d-flex flex-column align-items-center text-center">
                 <img
-                  src="sumeet.jpg"
+                  src="https://tridentdatabaseproviders.in/sumeet.jpg"
                   className="rounded-circle mb-4"
-                  style={{ width: "224px", height: "224px" }}
+                  style={{ width: "224px", height: "224px", objectFit: "cover" }}
                   alt="Reviewer"
                 />
-                <h5 className="mb-3">Sumeet Patel</h5>
-                <p className="mb-4">
-                  Seamless Service Recommended for Quality Data Buyers.
-                  Exceptional Service By trident.
-                </p>
-                <div className="text-warning">
-                  <i className="bi bi-star-fill"></i>
-                  <i className="bi bi-star-fill"></i>
-                  <i className="bi bi-star-fill"></i>
-                  <i className="bi bi-star-fill"></i>
-                  <i className="bi bi-star"></i>
+                <div className="w-100">
+                  <h2 className="fs-4 fw-medium text-white mb-3">Sumeet Patel</h2>
+                  <p className="mb-4 text-center">
+                    Seamless Service Recommended for Quality Data Buyers.
+                    Exceptional Service By trident.
+                  </p>
+                  <div>
+                    <i className="fas fa-star text-warning"></i>
+                    <i className="fas fa-star text-warning"></i>
+                    <i className="fas fa-star text-warning"></i>
+                    <i className="fas fa-star text-warning"></i>
+                    <i className="fas fa-star text-secondary"></i>
+                  </div>
                 </div>
               </div>
             </div>
 
-            {/* Continue with other review cards... */}
+            {/* Review Card 2 */}
+            <div className="col-lg-3 col-md-6 p-4">
+              <div className="h-100 d-flex flex-column align-items-center text-center">
+                <img
+                  src="https://tridentdatabaseproviders.in/aarav.jpg"
+                  className="rounded-circle mb-4"
+                  style={{ width: "224px", height: "224px", objectFit: "cover" }}
+                  alt="Reviewer"
+                />
+                <div className="w-100">
+                  <h2 className="fs-4 fw-medium text-white mb-3">Aarav Tiwari</h2>
+                  <p className="mb-4 text-center">
+                    Efficent & Great value for money Affordable and High Quality.
+                    Worth Every Penny. Satisfied With the service
+                  </p>
+                  <div>
+                    <i className="fas fa-star text-warning"></i>
+                    <i className="fas fa-star text-warning"></i>
+                    <i className="fas fa-star text-warning"></i>
+                    <i className="fas fa-star text-warning"></i>
+                    <i className="fas fa-star text-secondary"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Review Card 3 */}
+            <div className="col-lg-3 col-md-6 p-4">
+              <div className="h-100 d-flex flex-column align-items-center text-center">
+                <img
+                  src="https://tridentdatabaseproviders.in/suhani.jpg"
+                  className="rounded-circle mb-4"
+                  style={{ width: "224px", height: "224px", objectFit: "cover" }}
+                  alt="Reviewer"
+                />
+                <div className="w-100">
+                  <h2 className="fs-4 fw-medium text-white mb-3">Suhani Shah</h2>
+                  <p className="mb-4 text-center">
+                    Impressive And Excellent Quantity, But Quite Delay in Providing Services.
+                    Overall Great Experience
+                  </p>
+                  <div>
+                    <i className="fas fa-star text-warning"></i>
+                    <i className="fas fa-star text-warning"></i>
+                    <i className="fas fa-star text-warning"></i>
+                    <i className="fas fa-star text-warning"></i>
+                    <i className="fas fa-star text-secondary"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            {/* Review Card 4 */}
+            <div className="col-lg-3 col-md-6 p-4">
+              <div className="h-100 d-flex flex-column align-items-center text-center">
+                <img
+                  src="https://tridentdatabaseproviders.in/priya.jpg"
+                  className="rounded-circle mb-4"
+                  style={{ width: "224px", height: "224px", objectFit: "cover" }}
+                  alt="Reviewer"
+                />
+                <div className="w-100">
+                  <h2 className="fs-4 fw-medium text-white mb-3">Priya Goel</h2>
+                  <p className="mb-4 text-center">
+                    Not Expected The Type of Quality provided by trident Database Solutions.
+                    Impressive Customer Support
+                  </p>
+                  <div>
+                    <i className="fas fa-star text-warning"></i>
+                    <i className="fas fa-star text-warning"></i>
+                    <i className="fas fa-star text-warning"></i>
+                    <i className="fas fa-star text-secondary"></i>
+                    <i className="fas fa-star text-secondary"></i>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </section>
