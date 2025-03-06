@@ -185,6 +185,17 @@ function Footer() {
                   <li>
                     <Link to="/auto-profito">AutoProfito</Link>
                   </li>
+                  <li>
+                    <Link to="/core-banking-solution">
+                      Core Banking Solutions
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to="/eCommerce">E-Commerce</Link>
+                  </li>
+                  <li>
+                    <Link to="/big-data">Big Data</Link>
+                  </li>
                 </ul>
               </div>
             </div>
