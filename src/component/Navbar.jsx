@@ -44,7 +44,7 @@ const Navbar = React.memo(() => {
                           <p className="d-inline-block m-0 w-75 align-top">
                             <span className="d-block">
                               +91 7776827177 <br />
-                              +91 9172530151 
+                              +91 9172530151
                             </span>
                             <a href="mailto:info@shekruweb.com">
                               info@shekruweb.com
@@ -164,6 +164,18 @@ const Navbar = React.memo(() => {
                           Core Banking Solutions
                         </NavLink>
                       </li>
+                      <li>
+                        <NavLink
+                          to="/eCommerce"
+                          className={({ isActive }) =>
+                            `nav-link custom-nav-link ${
+                              isActive ? "text-primary" : ""
+                            }`
+                          }
+                        >
+                          E-Commerce
+                        </NavLink>
+                      </li>
                     </ul>
                   </li>
 
@@ -216,18 +228,7 @@ const Navbar = React.memo(() => {
                           Stock Exchange
                         </NavLink>
                       </li>
-                      <li>
-                        <NavLink
-                          to="/eCommerce"
-                          className={({ isActive }) =>
-                            `nav-link custom-nav-link ${
-                              isActive ? "text-primary" : ""
-                            }`
-                          }
-                        >
-                          E-Commerce
-                        </NavLink>
-                      </li>
+
                       <li>
                         <NavLink
                           to="/transportation"
