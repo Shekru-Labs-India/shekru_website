@@ -39,18 +39,17 @@ function Products() {
     
 
       <div className="container mt-5">
-        <div class="row feature-boxes-container mt-n1-9">
-          
-          <div class="col-md-6 col-lg-6 mt-1-9 feature-box-04">
-            <Link to="/auto-profito" >
-            <div class="feature-box-inner h-100">
+        <div className="row feature-boxes-container mt-n1-9">
+          <div className="col-md-6 col-lg-6 mt-1-9 feature-box-04">
+            <Link to="/auto-profito">
+            <div className="feature-box-inner h-100">
               <img
                 src={autoProfito}
                 alt=""
                 style={{ width: "40px", height: "40px" }}
               />
-              <h4 class=" mt-2 text-uppercase font-weight-600 ">AutoProfito</h4>
-              <div class="sepratar"></div>
+              <h4 className="mt-2 text-uppercase font-weight-600">AutoProfito</h4>
+              <div className="sepratar"></div>
               <p>
                 Auto Profito is a platform designed to help teachers manage the
                 demat accounts of students efficiently. It simplifies the
@@ -65,20 +64,18 @@ function Products() {
             </div>
             </Link>
           </div>
-          
-        
-          <div class="col-md-6 col-lg-6 mt-1-9 feature-box-04">
-            <Link to="/menu-mitra"  >
-            <div class="feature-box-inner h-100">
+          <div className="col-md-6 col-lg-6 mt-1-9 feature-box-04">
+            <Link to="/menu-mitra">
+            <div className="feature-box-inner h-100">
               <img
                 src={menuMitra}
                 alt=""
                 style={{ width: "40px", height: "40px" }}
               />
-              <h4 class=" mt-2 e font-weight-600  text-uppercase">
+              <h4 className="mt-2 e font-weight-600 text-uppercase">
                 Menu Mitra
               </h4>
-              <div class="sepratar"></div>
+              <div className="sepratar"></div>
               <p>
                 Our hotel order management system streamlines the entire
                 ordering process, enhancing operational efficiency and guest
@@ -95,12 +92,36 @@ function Products() {
         </div>
       </div>
       <div className="container mt-5 mb-4">
-        <div class="row feature-boxes-container mt-n1-9">
-          <div class="col-md-6 col-lg-4 mt-1-9 feature-box-04">
-            <div class="feature-box-inner h-100">
+        <div className="row feature-boxes-container mt-n1-9">
+          <div className="col-md-6 col-lg-4 mt-1-9 feature-box-04">
+            <Link to="/smart-kyc">
+              <div className="feature-box-inner h-100">
+                <img
+                  src={stockSync}
+                  alt="Smart KYC"
+                  style={{ width: "40px", height: "40px" }}
+                />
+                <h4 className="mt-2 font-weight-600 text-uppercase">
+                  Smart KYC System
+                </h4>
+                <div className="sepratar"></div>
+                <p>
+                  AI-driven KYC platform to digitize onboarding, automate
+                  verification, and reduce fraud across branches and digital
+                  channels.
+                </p>
+                <span className="text-dark fs-1">→</span>
+              </div>
+            </Link>
+          </div>
+        </div>
+
+        <div className="row feature-boxes-container mt-n1-9">
+          <div className="col-md-6 col-lg-4 mt-1-9 feature-box-04">
+            <div className="feature-box-inner h-100">
               <img src={erp} alt="" style={{ width: "50px", height: "50px" }} />
-              <h4 class=" mt-2  font-weight-600 ">ERP</h4>
-              <div class="sepratar"></div>
+              <h4 className="mt-2  font-weight-600">ERP</h4>
+              <div className="sepratar"></div>
               <p>
                 Affordable ERP alternative — Upgrade to a better ERP alternative
                 with advanced integration and automation workflows. Get started
@@ -112,11 +133,11 @@ function Products() {
             </div>
           </div>
 
-          <div class="col-md-6 col-lg-4 mt-1-9 feature-box-04">
-            <div class="feature-box-inner h-100">
+          <div className="col-md-6 col-lg-4 mt-1-9 feature-box-04">
+            <div className="feature-box-inner h-100">
               <img src={hrm} alt="" style={{ width: "50px", height: "50px" }} />
-              <h4 class=" mt-2  font-weight-600  ">HRM</h4>
-              <div class="sepratar "></div>
+              <h4 className="mt-2  font-weight-600">HRM</h4>
+              <div className="sepratar "></div>
               <p className="mb-md-4 mb-lg-0">
                 Best HRMS & Payroll Software — Manage Entire Employee Lifecycle
                 On One HRMS Platform. Automate & Simplify Your HR Process.
@@ -126,17 +147,17 @@ function Products() {
               </Link>
             </div>
           </div>
-          <div class="col-md-6 col-lg-4 mt-1-9 feature-box-04">
-            <div class="feature-box-inner h-100">
+          <div className="col-md-6 col-lg-4 mt-1-9 feature-box-04">
+            <div className="feature-box-inner h-100">
               <img
                 src={healthCare}
                 alt=""
                 style={{ width: "40px", height: "40px" }}
               />
-              <h4 class=" mt-2 e font-weight-600 text-uppercase ">
+              <h4 className="mt-2 e font-weight-600 text-uppercase">
                 Health Care
               </h4>
-              <div class="sepratar"></div>
+              <div className="sepratar"></div>
               <p>
                 Our healthcare management system is designed to improve patient
                 care and streamline administrative processes within medical

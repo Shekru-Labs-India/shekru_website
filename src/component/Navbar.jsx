@@ -154,6 +154,18 @@ const Navbar = React.memo(() => {
                       </li>
                       <li>
                         <NavLink
+                          to="/smart-kyc"
+                          className={({ isActive }) =>
+                            `nav-link custom-nav-link ${
+                              isActive ? "text-primary" : ""
+                            }`
+                          }
+                        >
+                          Smart KYC System
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink
                           to="/core-banking-solution"
                           className={({ isActive }) =>
                             `nav-link custom-nav-link ${

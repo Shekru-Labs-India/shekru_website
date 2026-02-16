@@ -191,6 +191,9 @@ function Footer() {
                     </Link>
                   </li>
                   <li>
+                    <Link to="/smart-kyc">Smart KYC System</Link>
+                  </li>
+                  <li>
                     <Link to="/eCommerce">E-Commerce</Link>
                   </li>
                   <li>

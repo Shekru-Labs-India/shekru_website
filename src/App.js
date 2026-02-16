@@ -22,6 +22,7 @@ import MenuMitra from './component/MenuMitra';
 import AutoProfito from './component/AutoProfito';
 import CoreBankingSolution from './component/CoreBankingSolution';
 import BigData from './component/BigData';
+import SmartKYC from './component/SmartKYC';
 
 
 function App() {
@@ -48,6 +49,7 @@ function App() {
         <Route path="/auto-profito" element={<AutoProfito />} />
         <Route path="/core-banking-solution" element={<CoreBankingSolution />} />
         <Route path="/big-data" element={<BigData />} />
+        <Route path="/smart-kyc" element={<SmartKYC />} />
 
       </Routes>
       <Footer/>
