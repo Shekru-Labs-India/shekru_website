@@ -149,6 +149,99 @@ function Products() {
             </Link>
           </div>
           <div className="col-md-6 col-lg-4 mt-1-9 feature-box-04">
+            <Link to="/salon-software">
+              <div className="feature-box-inner h-100">
+                <img
+                  src={stockSync}
+                  alt="Salon Software"
+                  style={{ width: "40px", height: "40px" }}
+                />
+                <h4 className="mt-2 font-weight-600">Salon &amp; Spa Software</h4>
+                <div className="sepratar"></div>
+                <p>
+                  All-in-one appointment booking, inventory, billing, and
+                  client management for salons and spas.
+                </p>
+                <span className="text-dark fs-1">→</span>
+              </div>
+            </Link>
+          </div>
+        </div>
+
+        <div className="row feature-boxes-container mt-n1-9">
+          <div className="col-md-6 col-lg-4 mt-1-9 feature-box-04">
+            <Link to="/deepfake-detection">
+              <div className="feature-box-inner h-100">
+                <img
+                  src={stockSync}
+                  alt="Deepfake Detection"
+                  style={{ width: "40px", height: "40px" }}
+                />
+                <h4 className="mt-2 font-weight-600">Deepfake Detection</h4>
+                <div className="sepratar"></div>
+                <p>
+                  AI-powered detection of synthetic or manipulated media —
+                  images, video, and audio — for fraud prevention.
+                </p>
+                <span className="text-dark fs-1">→</span>
+              </div>
+            </Link>
+          </div>
+          <div className="col-md-6 col-lg-4 mt-1-9 feature-box-04">
+            <Link to="/legal-ai">
+              <div className="feature-box-inner h-100">
+                <img
+                  src={stockSync}
+                  alt="Legal AI"
+                  style={{ width: "40px", height: "40px" }}
+                />
+                <h4 className="mt-2 font-weight-600">Legal AI</h4>
+                <div className="sepratar"></div>
+                <p>
+                  AI-powered legal research, contract review, and due diligence
+                  to accelerate legal workflows.
+                </p>
+                <span className="text-dark fs-1">→</span>
+              </div>
+            </Link>
+          </div>
+          <div className="col-md-6 col-lg-4 mt-1-9 feature-box-04">
+            <Link to="/cctv-surveillance">
+              <div className="feature-box-inner h-100">
+                <img
+                  src={stockSync}
+                  alt="CCTV Surveillance"
+                  style={{ width: "40px", height: "40px" }}
+                />
+                <h4 className="mt-2 font-weight-600">CCTV Surveillance</h4>
+                <div className="sepratar"></div>
+                <p>
+                  Smart video analytics — people counting, event detection,
+                  and forensics for security and operations.
+                </p>
+                <span className="text-dark fs-1">→</span>
+              </div>
+            </Link>
+          </div>
+          <div className="col-md-6 col-lg-4 mt-1-9 feature-box-04">
+            <Link to="/smart-exam">
+              <div className="feature-box-inner h-100">
+                <img
+                  src={stockSync}
+                  alt="Smart Exam"
+                  style={{ width: "40px", height: "40px" }}
+                />
+                <h4 className="mt-2 font-weight-600">Smart Exam</h4>
+                <div className="sepratar"></div>
+                <p>
+                  End-to-end exam management — question banks, scheduling,
+                  auto-grading, proctoring, and analytics.
+                </p>
+                <span className="text-dark fs-1">→</span>
+              </div>
+            </Link>
+          </div>
+          <div className="col-md-6 col-lg-4 mt-1-9 feature-box-04">
             <div className="feature-box-inner h-100">
               <img
                 src={healthCare}

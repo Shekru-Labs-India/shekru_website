@@ -7,11 +7,11 @@ This file tracks the requested website changes and their implementation status.
 - [x] Smart KYC system
 - [x] HRMS
 - [x] Construction & Real Estate (ERP)
-- [ ] One software for Salon
-- [ ] Deepfake detection
-- [ ] Legal AI
-- [ ] CCTV surveillance
-- [ ] Smart exam
+- [x] One software for Salon
+- [x] Deepfake detection
+- [x] Legal AI
+- [x] CCTV surveillance
+- [x] Smart exam
 
 ### AI Section
 

@@ -25,6 +25,11 @@ import BigData from './component/BigData';
 import SmartKYC from './component/SmartKYC';
 import HRMS from './component/HRMS';
 import ConstructionERP from './component/ConstructionERP';
+import SalonSoftware from './component/SalonSoftware';
+import DeepfakeDetection from './component/DeepfakeDetection';
+import LegalAI from './component/LegalAI';
+import CCTVSurveillance from './component/CCTVSurveillance';
+import SmartExam from './component/SmartExam';
 
 
 function App() {
@@ -54,6 +59,11 @@ function App() {
         <Route path="/smart-kyc" element={<SmartKYC />} />
         <Route path="/hrms" element={<HRMS />} />
         <Route path="/construction-erp" element={<ConstructionERP />} />
+        <Route path="/salon-software" element={<SalonSoftware />} />
+        <Route path="/deepfake-detection" element={<DeepfakeDetection />} />
+        <Route path="/legal-ai" element={<LegalAI />} />
+        <Route path="/cctv-surveillance" element={<CCTVSurveillance />} />
+        <Route path="/smart-exam" element={<SmartExam />} />
 
       </Routes>
       <Footer/>

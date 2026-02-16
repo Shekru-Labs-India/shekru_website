@@ -202,6 +202,21 @@ function Footer() {
                     </Link>
                   </li>
                   <li>
+                    <Link to="/salon-software">Salon &amp; Spa Software</Link>
+                  </li>
+                  <li>
+                    <Link to="/deepfake-detection">Deepfake Detection</Link>
+                  </li>
+                  <li>
+                    <Link to="/legal-ai">Legal AI</Link>
+                  </li>
+                  <li>
+                    <Link to="/cctv-surveillance">CCTV Surveillance</Link>
+                  </li>
+                  <li>
+                    <Link to="/smart-exam">Smart Exam</Link>
+                  </li>
+                  <li>
                     <Link to="/eCommerce">E-Commerce</Link>
                   </li>
                   <li>

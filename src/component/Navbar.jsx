@@ -190,6 +190,66 @@ const Navbar = React.memo(() => {
                       </li>
                       <li>
                         <NavLink
+                          to="/salon-software"
+                          className={({ isActive }) =>
+                            `nav-link custom-nav-link ${
+                              isActive ? "text-primary" : ""
+                            }`
+                          }
+                        >
+                          Salon &amp; Spa Software
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink
+                          to="/deepfake-detection"
+                          className={({ isActive }) =>
+                            `nav-link custom-nav-link ${
+                              isActive ? "text-primary" : ""
+                            }`
+                          }
+                        >
+                          Deepfake Detection
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink
+                          to="/legal-ai"
+                          className={({ isActive }) =>
+                            `nav-link custom-nav-link ${
+                              isActive ? "text-primary" : ""
+                            }`
+                          }
+                        >
+                          Legal AI
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink
+                          to="/cctv-surveillance"
+                          className={({ isActive }) =>
+                            `nav-link custom-nav-link ${
+                              isActive ? "text-primary" : ""
+                            }`
+                          }
+                        >
+                          CCTV Surveillance
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink
+                          to="/smart-exam"
+                          className={({ isActive }) =>
+                            `nav-link custom-nav-link ${
+                              isActive ? "text-primary" : ""
+                            }`
+                          }
+                        >
+                          Smart Exam
+                        </NavLink>
+                      </li>
+                      <li>
+                        <NavLink
                           to="/core-banking-solution"
                           className={({ isActive }) =>
                             `nav-link custom-nav-link ${
