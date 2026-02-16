@@ -1,7 +1,7 @@
 import React from "react";
-import Navbar2 from "./Navbar2";
-import autoprofitohero from "../assets/img/content/AutoProfitoHero.png";
-import trader from "../assets/img/content/traderAutoProfito.png";
+import Navbar2 from "../Navbar2";
+import autoprofitohero from "../../assets/img/content/AutoProfitoHero.png";
+import trader from "../../assets/img/content/traderAutoProfito.png";
 function AutoProfito() {
   return (
     <div>

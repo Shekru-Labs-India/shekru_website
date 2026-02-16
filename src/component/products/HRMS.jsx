@@ -1,10 +1,10 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Navbar2 from "./Navbar2";
+import Navbar2 from "../Navbar2";
 
-import bg15 from "../assets/img/bg/bg15.jpg";
-import hrmImg from "../assets/img/content/HRM.jpg";
-import circuitPattern from "../assets/img/bg/electric-services-38.png";
+import bg15 from "../../assets/img/bg/bg15.jpg";
+import hrmImg from "../../assets/img/content/HRM.jpg";
+import circuitPattern from "../../assets/img/bg/electric-services-38.png";
 
 function HRMS() {
   return (

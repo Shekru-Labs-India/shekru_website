@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Navbar2 from "./Navbar2";
+import Navbar2 from "../Navbar2";
 
-import bg13 from "../assets/img/bg/bg13.jpg";
-import analytics from "../assets/img/content/analytics.png";
-import circuitPattern from "../assets/img/bg/electric-services-38.png";
+import bg15 from "../../assets/img/bg/bg15.jpg";
+import analytics from "../../assets/img/content/analytics.png";
+import circuitPattern from "../../assets/img/bg/electric-services-38.png";
 
-function DeepfakeDetection() {
+function SmartExam() {
   return (
     <>
       <Navbar2 />
@@ -16,12 +16,12 @@ function DeepfakeDetection() {
         <section
           className="page-title-section2 bg-img cover-background"
           data-overlay-dark={6}
-          style={{ backgroundImage: `url(${bg13})` }}
+          style={{ backgroundImage: `url(${bg15})` }}
         >
           <div className="container">
             <div className="row">
               <div className="col-md-12">
-                <h1>Deepfake Detection</h1>
+                <h1>Smart Exam</h1>
               </div>
               <div className="col-md-12">
                 <ul className="ps-0">
@@ -32,7 +32,7 @@ function DeepfakeDetection() {
                     <a href="#!">Products</a>
                   </li>
                   <li>
-                    <a href="#!">Deepfake Detection</a>
+                    <a href="#!">Smart Exam</a>
                   </li>
                 </ul>
               </div>
@@ -47,7 +47,7 @@ function DeepfakeDetection() {
               <div className="col-lg-6 mb-1-9 mb-lg-0">
                 <div className="section-heading title-style5 left half">
                   <h2 className="text-uppercase h3 font-weight-700">
-                    Detect AI-generated media before it harms you
+                    End-to-end exam management made simple
                   </h2>
                   <div className="square">
                     <span className="separator-left bg-primary" />
@@ -56,10 +56,12 @@ function DeepfakeDetection() {
                 </div>
 
                 <p className="mb-1-9">
-                  Our deepfake detection solution uses advanced AI to identify
-                  synthetic or manipulated media — images, videos, and audio.
-                  Protect your brand, verify identity, and prevent fraud in
-                  an era where AI-generated content is increasingly common.
+                  Smart Exam helps schools, colleges, and training institutes
+                  conduct online and offline assessments with ease. Create
+                  question banks, schedule exams, auto-grade answers, and
+                  generate reports — all from a single platform. Reduce
+                  manual work and ensure fairness with proctoring and
+                  analytics.
                 </p>
 
                 <div className="d-flex flex-wrap gap-3">
@@ -75,7 +77,7 @@ function DeepfakeDetection() {
               <div className="col-lg-6 text-center">
                 <img
                   src={analytics}
-                  alt="Deepfake Detection"
+                  alt="Smart Exam"
                   className="img-fluid border-radius-5"
                   style={{ maxHeight: 420 }}
                 />
@@ -84,95 +86,128 @@ function DeepfakeDetection() {
           </div>
         </section>
 
-        {/* CAPABILITIES */}
+        {/* FEATURES */}
         <section className="bg-light pt-6 pb-6">
           <div className="container">
             <div className="section-heading text-center">
-              <h2>Key Capabilities</h2>
+              <h2>Key Features</h2>
+              <p className="mb-0">
+                From question creation to result analytics — one platform.
+              </p>
             </div>
 
             <div className="row feature-boxes-container mt-n1-9">
               <div className="col-md-6 col-lg-4 mt-1-9 feature-box-04">
-                <div className="feature-box-inner h-100">
+                <div className="feature-box-inner h-100 pb-4 d-flex flex-column">
+                  <div className="service-icon-box">
+                    <i className="fa-solid fa-book"></i>
+                  </div>
+                  <h4 className="mt-2 font-weight-600">Question bank</h4>
+                  <div className="sepratar"></div>
+                  <p className="mb-3">
+                    Create, organise, and reuse questions by subject, topic,
+                    and difficulty with tagging and versioning.
+                  </p>
+                  <ul className="ps-3 mb-0 mt-auto">
+                    <li>MCQ, descriptive, fill-in-blank</li>
+                    <li>Import from Excel/Word</li>
+                    <li>Randomisation &amp; shuffling</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div className="col-md-6 col-lg-4 mt-1-9 feature-box-04">
+                <div className="feature-box-inner h-100 pb-4 d-flex flex-column">
+                  <div className="service-icon-box">
+                    <i className="fa-solid fa-calendar-check"></i>
+                  </div>
+                  <h4 className="mt-2 font-weight-600">Exam scheduling</h4>
+                  <div className="sepratar"></div>
+                  <p className="mb-3">
+                    Schedule exams with time windows, duration, and access
+                    rules. Support multiple batches and shifts.
+                  </p>
+                  <ul className="ps-3 mb-0 mt-auto">
+                    <li>Time-bound assessments</li>
+                    <li>Batch &amp; shift management</li>
+                    <li>Candidate registration</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div className="col-md-6 col-lg-4 mt-1-9 feature-box-04">
+                <div className="feature-box-inner h-100 pb-4 d-flex flex-column">
+                  <div className="service-icon-box">
+                    <i className="fa-solid fa-robot"></i>
+                  </div>
+                  <h4 className="mt-2 font-weight-600">Auto-grading</h4>
+                  <div className="sepratar"></div>
+                  <p className="mb-3">
+                    Instant results for MCQs. AI-assisted grading for
+                    descriptive answers with rubrics and moderation.
+                  </p>
+                  <ul className="ps-3 mb-0 mt-auto">
+                    <li>Instant MCQ results</li>
+                    <li>Descriptive answer scoring</li>
+                    <li>Moderation workflow</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div className="col-md-6 col-lg-4 mt-1-9 feature-box-04">
+                <div className="feature-box-inner h-100 pb-4 d-flex flex-column">
                   <div className="service-icon-box">
                     <i className="fa-solid fa-video"></i>
                   </div>
-                  <h4 className="mt-2 font-weight-600">Video analysis</h4>
+                  <h4 className="mt-2 font-weight-600">Proctoring</h4>
                   <div className="sepratar"></div>
-                  <p>
-                    Detect face-swaps, lip-sync manipulations, and synthetic
-                    video frames with high accuracy.
+                  <p className="mb-3">
+                    Live and AI proctoring options — tab switching detection,
+                    face monitoring, and suspicious activity flags.
                   </p>
+                  <ul className="ps-3 mb-0 mt-auto">
+                    <li>Live proctoring</li>
+                    <li>AI-based monitoring</li>
+                    <li>Violation reports</li>
+                  </ul>
                 </div>
               </div>
 
               <div className="col-md-6 col-lg-4 mt-1-9 feature-box-04">
-                <div className="feature-box-inner h-100">
+                <div className="feature-box-inner h-100 pb-4 d-flex flex-column">
                   <div className="service-icon-box">
-                    <i className="fa-solid fa-image"></i>
+                    <i className="fa-solid fa-chart-bar"></i>
                   </div>
-                  <h4 className="mt-2 font-weight-600">Image verification</h4>
+                  <h4 className="mt-2 font-weight-600">Reports &amp; analytics</h4>
                   <div className="sepratar"></div>
-                  <p>
-                    Identify AI-generated or manipulated photos for identity
-                    verification and compliance.
+                  <p className="mb-3">
+                    Result sheets, rank lists, subject-wise analysis, and
+                    item-level difficulty insights.
                   </p>
+                  <ul className="ps-3 mb-0 mt-auto">
+                    <li>Result &amp; rank reports</li>
+                    <li>Item analysis</li>
+                    <li>Export to Excel/PDF</li>
+                  </ul>
                 </div>
               </div>
 
               <div className="col-md-6 col-lg-4 mt-1-9 feature-box-04">
-                <div className="feature-box-inner h-100">
+                <div className="feature-box-inner h-100 pb-4 d-flex flex-column">
                   <div className="service-icon-box">
-                    <i className="fa-solid fa-microphone"></i>
+                    <i className="fa-solid fa-mobile-screen"></i>
                   </div>
-                  <h4 className="mt-2 font-weight-600">Audio forensics</h4>
+                  <h4 className="mt-2 font-weight-600">Online &amp; offline</h4>
                   <div className="sepratar"></div>
-                  <p>
-                    Flag cloned or synthetic voice for call verification and
-                    fraud prevention.
+                  <p className="mb-3">
+                    Conduct exams online or in labs. OMR support for
+                    paper-based assessments with digital result processing.
                   </p>
-                </div>
-              </div>
-
-              <div className="col-md-6 col-lg-4 mt-1-9 feature-box-04">
-                <div className="feature-box-inner h-100">
-                  <div className="service-icon-box">
-                    <i className="fa-solid fa-plug-circle-bolt"></i>
-                  </div>
-                  <h4 className="mt-2 font-weight-600">API integration</h4>
-                  <div className="sepratar"></div>
-                  <p>
-                    Integrate detection into your KYC, onboarding, or content
-                    moderation workflows.
-                  </p>
-                </div>
-              </div>
-
-              <div className="col-md-6 col-lg-4 mt-1-9 feature-box-04">
-                <div className="feature-box-inner h-100">
-                  <div className="service-icon-box">
-                    <i className="fa-solid fa-shield-halved"></i>
-                  </div>
-                  <h4 className="mt-2 font-weight-600">Real-time scoring</h4>
-                  <div className="sepratar"></div>
-                  <p>
-                    Get confidence scores and explanations for audit trails
-                    and compliance.
-                  </p>
-                </div>
-              </div>
-
-              <div className="col-md-6 col-lg-4 mt-1-9 feature-box-04">
-                <div className="feature-box-inner h-100">
-                  <div className="service-icon-box">
-                    <i className="fa-solid fa-arrows-rotate"></i>
-                  </div>
-                  <h4 className="mt-2 font-weight-600">Continuous updates</h4>
-                  <div className="sepratar"></div>
-                  <p>
-                    Models evolve with new deepfake techniques to stay ahead
-                    of emerging threats.
-                  </p>
+                  <ul className="ps-3 mb-0 mt-auto">
+                    <li>Web &amp; mobile support</li>
+                    <li>OMR integration</li>
+                    <li>Offline mode for labs</li>
+                  </ul>
                 </div>
               </div>
             </div>
@@ -190,25 +225,25 @@ function DeepfakeDetection() {
               <div className="col-md-6 mt-1-9">
                 <div className="border-dotted p-3">
                   <i className="fa fa-check-circle text-success me-3 fs-4" />
-                  Reduce fraud risk in identity verification
+                  Save time with automated grading and reports
                 </div>
               </div>
               <div className="col-md-6 mt-1-9">
                 <div className="border-dotted p-3">
                   <i className="fa fa-check-circle text-success me-3 fs-4" />
-                  Protect brand reputation from fake content
+                  Fair assessments with proctoring and randomisation
                 </div>
               </div>
               <div className="col-md-6 mt-1-9">
                 <div className="border-dotted p-3">
                   <i className="fa fa-check-circle text-success me-3 fs-4" />
-                  Strengthen KYC and compliance workflows
+                  Better insights with analytics and item analysis
                 </div>
               </div>
               <div className="col-md-6 mt-1-9">
                 <div className="border-dotted p-3">
                   <i className="fa fa-check-circle text-success me-3 fs-4" />
-                  Audit-ready detection with explainability
+                  Scalable for large batches and multiple institutes
                 </div>
               </div>
             </div>
@@ -232,7 +267,7 @@ function DeepfakeDetection() {
               ></div>
               <div className="card-body d-flex flex-column flex-md-row justify-content-between align-items-center p-4 p-md-5 position-relative">
                 <h3 className="card-title text-white fw-bold mb-3 mb-md-0">
-                  Ready to protect your business from deepfakes?
+                  Ready to streamline your exam process?
                 </h3>
                 <Link
                   to="/contact"
@@ -250,4 +285,4 @@ function DeepfakeDetection() {
   );
 }
 
-export default DeepfakeDetection;
+export default SmartExam;

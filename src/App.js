@@ -11,25 +11,25 @@ import Products from './component/Products';
 import Industries from './component/Industries';
 import Transportation from './component/Transportation';
 import Footer from './component/Footer';
-import ECommerce from './component/ECommerce';
+import ECommerce from './component/products/ECommerce';
 import Clients from './component/Clients';
 import Careers from './component/Careers';
 import StockExchange from './component/StockExchange';
 import ScrollToTop from './component/ScrollToTop';
 import ScrollToTopButton from './component/ScrollButton';
 import ScriptsManager from './component/ScriptsManager';
-import MenuMitra from './component/MenuMitra';
-import AutoProfito from './component/AutoProfito';
-import CoreBankingSolution from './component/CoreBankingSolution';
-import BigData from './component/BigData';
-import SmartKYC from './component/SmartKYC';
-import HRMS from './component/HRMS';
-import ConstructionERP from './component/ConstructionERP';
-import SalonSoftware from './component/SalonSoftware';
-import DeepfakeDetection from './component/DeepfakeDetection';
-import LegalAI from './component/LegalAI';
-import CCTVSurveillance from './component/CCTVSurveillance';
-import SmartExam from './component/SmartExam';
+import MenuMitra from './component/products/MenuMitra';
+import AutoProfito from './component/products/AutoProfito';
+import CoreBankingSolution from './component/products/CoreBankingSolution';
+import BigData from './component/products/BigData';
+import SmartKYC from './component/products/SmartKYC';
+import HRMS from './component/products/HRMS';
+import ConstructionERP from './component/products/ConstructionERP';
+import SalonSoftware from './component/products/SalonSoftware';
+import DeepfakeDetection from './component/products/DeepfakeDetection';
+import LegalAI from './component/products/LegalAI';
+import CCTVSurveillance from './component/products/CCTVSurveillance';
+import SmartExam from './component/products/SmartExam';
 
 
 function App() {

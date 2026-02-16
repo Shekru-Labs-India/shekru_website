@@ -1,8 +1,8 @@
 import React from "react";
-import Navbar2 from "./Navbar2";
-import coreBanking1 from "../assets/img/content/CoreBankingHero.png";
-import coreBanking2 from "../assets/img/content/empower.png";
-import circuitPattern from "../assets/img/bg/electric-services-38.png";
+import Navbar2 from "../Navbar2";
+import coreBanking1 from "../../assets/img/content/CoreBankingHero.png";
+import coreBanking2 from "../../assets/img/content/empower.png";
+import circuitPattern from "../../assets/img/bg/electric-services-38.png";
 import { Link } from "react-router-dom";
 
 function CoreBankingSolution() {

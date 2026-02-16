@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Navbar2 from "./Navbar2";
+import Navbar2 from "../Navbar2";
 
-import bg15 from "../assets/img/bg/bg15.jpg";
-import analytics from "../assets/img/content/analytics.png";
-import circuitPattern from "../assets/img/bg/electric-services-38.png";
+import bg15 from "../../assets/img/bg/bg15.jpg";
+import analytics from "../../assets/img/content/analytics.png";
+import circuitPattern from "../../assets/img/bg/electric-services-38.png";
 
-function SmartExam() {
+function SalonSoftware() {
   return (
     <>
       <Navbar2 />
@@ -21,7 +21,7 @@ function SmartExam() {
           <div className="container">
             <div className="row">
               <div className="col-md-12">
-                <h1>Smart Exam</h1>
+                <h1>Salon &amp; Spa Software</h1>
               </div>
               <div className="col-md-12">
                 <ul className="ps-0">
@@ -32,7 +32,7 @@ function SmartExam() {
                     <a href="#!">Products</a>
                   </li>
                   <li>
-                    <a href="#!">Smart Exam</a>
+                    <a href="#!">Salon &amp; Spa Software</a>
                   </li>
                 </ul>
               </div>
@@ -47,7 +47,7 @@ function SmartExam() {
               <div className="col-lg-6 mb-1-9 mb-lg-0">
                 <div className="section-heading title-style5 left half">
                   <h2 className="text-uppercase h3 font-weight-700">
-                    End-to-end exam management made simple
+                    Run your salon like a pro
                   </h2>
                   <div className="square">
                     <span className="separator-left bg-primary" />
@@ -56,12 +56,10 @@ function SmartExam() {
                 </div>
 
                 <p className="mb-1-9">
-                  Smart Exam helps schools, colleges, and training institutes
-                  conduct online and offline assessments with ease. Create
-                  question banks, schedule exams, auto-grade answers, and
-                  generate reports — all from a single platform. Reduce
-                  manual work and ensure fairness with proctoring and
-                  analytics.
+                  Our salon and spa software streamlines appointments, staff
+                  schedules, inventory, and billing — all in one place. From
+                  single-chair salons to multi-location chains, get the right
+                  tools to grow your business and delight your clients.
                 </p>
 
                 <div className="d-flex flex-wrap gap-3">
@@ -77,7 +75,7 @@ function SmartExam() {
               <div className="col-lg-6 text-center">
                 <img
                   src={analytics}
-                  alt="Smart Exam"
+                  alt="Salon & Spa Software"
                   className="img-fluid border-radius-5"
                   style={{ maxHeight: 420 }}
                 />
@@ -86,13 +84,13 @@ function SmartExam() {
           </div>
         </section>
 
-        {/* FEATURES */}
+        {/* KEY FEATURES */}
         <section className="bg-light pt-6 pb-6">
           <div className="container">
             <div className="section-heading text-center">
               <h2>Key Features</h2>
               <p className="mb-0">
-                From question creation to result analytics — one platform.
+                Everything you need to manage appointments, staff, and revenue.
               </p>
             </div>
 
@@ -100,18 +98,18 @@ function SmartExam() {
               <div className="col-md-6 col-lg-4 mt-1-9 feature-box-04">
                 <div className="feature-box-inner h-100 pb-4 d-flex flex-column">
                   <div className="service-icon-box">
-                    <i className="fa-solid fa-book"></i>
+                    <i className="fa-solid fa-calendar-days"></i>
                   </div>
-                  <h4 className="mt-2 font-weight-600">Question bank</h4>
+                  <h4 className="mt-2 font-weight-600">Appointment booking</h4>
                   <div className="sepratar"></div>
                   <p className="mb-3">
-                    Create, organise, and reuse questions by subject, topic,
-                    and difficulty with tagging and versioning.
+                    Online and walk-in bookings with calendar sync, reminders,
+                    and waitlist management.
                   </p>
                   <ul className="ps-3 mb-0 mt-auto">
-                    <li>MCQ, descriptive, fill-in-blank</li>
-                    <li>Import from Excel/Word</li>
-                    <li>Randomisation &amp; shuffling</li>
+                    <li>Multi-staff scheduling</li>
+                    <li>SMS &amp; email reminders</li>
+                    <li>No-show tracking</li>
                   </ul>
                 </div>
               </div>
@@ -119,18 +117,18 @@ function SmartExam() {
               <div className="col-md-6 col-lg-4 mt-1-9 feature-box-04">
                 <div className="feature-box-inner h-100 pb-4 d-flex flex-column">
                   <div className="service-icon-box">
-                    <i className="fa-solid fa-calendar-check"></i>
+                    <i className="fa-solid fa-users"></i>
                   </div>
-                  <h4 className="mt-2 font-weight-600">Exam scheduling</h4>
+                  <h4 className="mt-2 font-weight-600">Client management</h4>
                   <div className="sepratar"></div>
                   <p className="mb-3">
-                    Schedule exams with time windows, duration, and access
-                    rules. Support multiple batches and shifts.
+                    Client profiles, preferences, visit history, and loyalty
+                    programs for repeat business.
                   </p>
                   <ul className="ps-3 mb-0 mt-auto">
-                    <li>Time-bound assessments</li>
-                    <li>Batch &amp; shift management</li>
-                    <li>Candidate registration</li>
+                    <li>Visit history &amp; notes</li>
+                    <li>Membership &amp; packages</li>
+                    <li>Birthday &amp; anniversary alerts</li>
                   </ul>
                 </div>
               </div>
@@ -138,18 +136,18 @@ function SmartExam() {
               <div className="col-md-6 col-lg-4 mt-1-9 feature-box-04">
                 <div className="feature-box-inner h-100 pb-4 d-flex flex-column">
                   <div className="service-icon-box">
-                    <i className="fa-solid fa-robot"></i>
+                    <i className="fa-solid fa-cash-register"></i>
                   </div>
-                  <h4 className="mt-2 font-weight-600">Auto-grading</h4>
+                  <h4 className="mt-2 font-weight-600">Billing &amp; POS</h4>
                   <div className="sepratar"></div>
                   <p className="mb-3">
-                    Instant results for MCQs. AI-assisted grading for
-                    descriptive answers with rubrics and moderation.
+                    Quick checkout, split bills, GST-ready invoices, and payment
+                    tracking.
                   </p>
                   <ul className="ps-3 mb-0 mt-auto">
-                    <li>Instant MCQ results</li>
-                    <li>Descriptive answer scoring</li>
-                    <li>Moderation workflow</li>
+                    <li>Service &amp; product pricing</li>
+                    <li>Discounts &amp; combos</li>
+                    <li>Day-end reports</li>
                   </ul>
                 </div>
               </div>
@@ -157,18 +155,18 @@ function SmartExam() {
               <div className="col-md-6 col-lg-4 mt-1-9 feature-box-04">
                 <div className="feature-box-inner h-100 pb-4 d-flex flex-column">
                   <div className="service-icon-box">
-                    <i className="fa-solid fa-video"></i>
+                    <i className="fa-solid fa-boxes-stacked"></i>
                   </div>
-                  <h4 className="mt-2 font-weight-600">Proctoring</h4>
+                  <h4 className="mt-2 font-weight-600">Inventory control</h4>
                   <div className="sepratar"></div>
                   <p className="mb-3">
-                    Live and AI proctoring options — tab switching detection,
-                    face monitoring, and suspicious activity flags.
+                    Track products, consumables, and low-stock alerts to avoid
+                    runouts.
                   </p>
                   <ul className="ps-3 mb-0 mt-auto">
-                    <li>Live proctoring</li>
-                    <li>AI-based monitoring</li>
-                    <li>Violation reports</li>
+                    <li>Stock levels &amp; alerts</li>
+                    <li>Usage per service</li>
+                    <li>Supplier management</li>
                   </ul>
                 </div>
               </div>
@@ -176,18 +174,18 @@ function SmartExam() {
               <div className="col-md-6 col-lg-4 mt-1-9 feature-box-04">
                 <div className="feature-box-inner h-100 pb-4 d-flex flex-column">
                   <div className="service-icon-box">
-                    <i className="fa-solid fa-chart-bar"></i>
+                    <i className="fa-solid fa-chart-pie"></i>
                   </div>
-                  <h4 className="mt-2 font-weight-600">Reports &amp; analytics</h4>
+                  <h4 className="mt-2 font-weight-600">Reports &amp; insights</h4>
                   <div className="sepratar"></div>
                   <p className="mb-3">
-                    Result sheets, rank lists, subject-wise analysis, and
-                    item-level difficulty insights.
+                    Revenue, staff performance, popular services, and trends
+                    at a glance.
                   </p>
                   <ul className="ps-3 mb-0 mt-auto">
-                    <li>Result &amp; rank reports</li>
-                    <li>Item analysis</li>
-                    <li>Export to Excel/PDF</li>
+                    <li>Daily &amp; monthly reports</li>
+                    <li>Staff commission tracking</li>
+                    <li>Multi-outlet analytics</li>
                   </ul>
                 </div>
               </div>
@@ -195,18 +193,18 @@ function SmartExam() {
               <div className="col-md-6 col-lg-4 mt-1-9 feature-box-04">
                 <div className="feature-box-inner h-100 pb-4 d-flex flex-column">
                   <div className="service-icon-box">
-                    <i className="fa-solid fa-mobile-screen"></i>
+                    <i className="fa-solid fa-store"></i>
                   </div>
-                  <h4 className="mt-2 font-weight-600">Online &amp; offline</h4>
+                  <h4 className="mt-2 font-weight-600">Multi-outlet support</h4>
                   <div className="sepratar"></div>
                   <p className="mb-3">
-                    Conduct exams online or in labs. OMR support for
-                    paper-based assessments with digital result processing.
+                    Manage multiple branches, centralised dashboards, and
+                    outlet-wise comparisons.
                   </p>
                   <ul className="ps-3 mb-0 mt-auto">
-                    <li>Web &amp; mobile support</li>
-                    <li>OMR integration</li>
-                    <li>Offline mode for labs</li>
+                    <li>Branch-wise data</li>
+                    <li>Centralised reporting</li>
+                    <li>Role-based access</li>
                   </ul>
                 </div>
               </div>
@@ -225,25 +223,25 @@ function SmartExam() {
               <div className="col-md-6 mt-1-9">
                 <div className="border-dotted p-3">
                   <i className="fa fa-check-circle text-success me-3 fs-4" />
-                  Save time with automated grading and reports
+                  Fewer no-shows with automated reminders
                 </div>
               </div>
               <div className="col-md-6 mt-1-9">
                 <div className="border-dotted p-3">
                   <i className="fa fa-check-circle text-success me-3 fs-4" />
-                  Fair assessments with proctoring and randomisation
+                  Higher client retention with loyalty programs
                 </div>
               </div>
               <div className="col-md-6 mt-1-9">
                 <div className="border-dotted p-3">
                   <i className="fa fa-check-circle text-success me-3 fs-4" />
-                  Better insights with analytics and item analysis
+                  Better staff productivity with clear schedules
                 </div>
               </div>
               <div className="col-md-6 mt-1-9">
                 <div className="border-dotted p-3">
                   <i className="fa fa-check-circle text-success me-3 fs-4" />
-                  Scalable for large batches and multiple institutes
+                  GST-ready billing and compliance
                 </div>
               </div>
             </div>
@@ -267,7 +265,7 @@ function SmartExam() {
               ></div>
               <div className="card-body d-flex flex-column flex-md-row justify-content-between align-items-center p-4 p-md-5 position-relative">
                 <h3 className="card-title text-white fw-bold mb-3 mb-md-0">
-                  Ready to streamline your exam process?
+                  Ready to modernize your salon operations?
                 </h3>
                 <Link
                   to="/contact"
@@ -285,4 +283,4 @@ function SmartExam() {
   );
 }
 
-export default SmartExam;
+export default SalonSoftware;

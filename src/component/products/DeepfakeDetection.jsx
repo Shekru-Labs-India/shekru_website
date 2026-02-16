@@ -1,11 +1,12 @@
 import React from "react";
-import Navbar2 from "./Navbar2";
 import { Link } from "react-router-dom";
-import bg15 from "../assets/img/bg/bg15.jpg";
-import analytics from "../assets/img/content/analytics.png";
-import circuitPattern from "../assets/img/bg/electric-services-38.png";
+import Navbar2 from "../Navbar2";
 
-function SmartKYC() {
+import bg13 from "../../assets/img/bg/bg13.jpg";
+import analytics from "../../assets/img/content/analytics.png";
+import circuitPattern from "../../assets/img/bg/electric-services-38.png";
+
+function DeepfakeDetection() {
   return (
     <>
       <Navbar2 />
@@ -15,12 +16,12 @@ function SmartKYC() {
         <section
           className="page-title-section2 bg-img cover-background"
           data-overlay-dark={6}
-          style={{ backgroundImage: `url(${bg15})` }}
+          style={{ backgroundImage: `url(${bg13})` }}
         >
           <div className="container">
             <div className="row">
               <div className="col-md-12">
-                <h1>Smart KYC System</h1>
+                <h1>Deepfake Detection</h1>
               </div>
               <div className="col-md-12">
                 <ul className="ps-0">
@@ -31,7 +32,7 @@ function SmartKYC() {
                     <a href="#!">Products</a>
                   </li>
                   <li>
-                    <a href="#!">Smart KYC System</a>
+                    <a href="#!">Deepfake Detection</a>
                   </li>
                 </ul>
               </div>
@@ -46,18 +47,19 @@ function SmartKYC() {
               <div className="col-lg-6 mb-1-9 mb-lg-0">
                 <div className="section-heading title-style5 left half">
                   <h2 className="text-uppercase h3 font-weight-700">
-                    Fast, compliant &amp; secure onboarding
+                    Detect AI-generated media before it harms you
                   </h2>
                   <div className="square">
                     <span className="separator-left bg-primary" />
                     <span className="separator-right bg-primary" />
                   </div>
                 </div>
+
                 <p className="mb-1-9">
-                  Smart KYC System helps banks, NBFCs, fintechs and enterprises
-                  digitize customer onboarding. Reduce manual work with
-                  automated verification, maintain audit trails, and improve
-                  approval turnarounds.
+                  Our deepfake detection solution uses advanced AI to identify
+                  synthetic or manipulated media — images, videos, and audio.
+                  Protect your brand, verify identity, and prevent fraud in
+                  an era where AI-generated content is increasingly common.
                 </p>
 
                 <div className="d-flex flex-wrap gap-3">
@@ -65,7 +67,7 @@ function SmartKYC() {
                     <span>Request a demo</span>
                   </Link>
                   <Link to="/contact" className="butn white">
-                    <span>Talk to an expert</span>
+                    <span>Talk to our team</span>
                   </Link>
                 </div>
               </div>
@@ -73,7 +75,7 @@ function SmartKYC() {
               <div className="col-lg-6 text-center">
                 <img
                   src={analytics}
-                  alt="Smart KYC analytics"
+                  alt="Deepfake Detection"
                   className="img-fluid border-radius-5"
                   style={{ maxHeight: 420 }}
                 />
@@ -82,7 +84,7 @@ function SmartKYC() {
           </div>
         </section>
 
-        {/* KEY CAPABILITIES */}
+        {/* CAPABILITIES */}
         <section className="bg-light pt-6 pb-6">
           <div className="container">
             <div className="section-heading text-center">
@@ -93,13 +95,13 @@ function SmartKYC() {
               <div className="col-md-6 col-lg-4 mt-1-9 feature-box-04">
                 <div className="feature-box-inner h-100">
                   <div className="service-icon-box">
-                    <i className="fa-solid fa-id-card"></i>
+                    <i className="fa-solid fa-video"></i>
                   </div>
-                  <h4 className="mt-2 font-weight-600">Document capture</h4>
+                  <h4 className="mt-2 font-weight-600">Video analysis</h4>
                   <div className="sepratar"></div>
                   <p>
-                    Capture ID and address proofs from web, mobile or assisted
-                    channels with a consistent workflow.
+                    Detect face-swaps, lip-sync manipulations, and synthetic
+                    video frames with high accuracy.
                   </p>
                 </div>
               </div>
@@ -107,13 +109,13 @@ function SmartKYC() {
               <div className="col-md-6 col-lg-4 mt-1-9 feature-box-04">
                 <div className="feature-box-inner h-100">
                   <div className="service-icon-box">
-                    <i className="fa-solid fa-magnifying-glass"></i>
+                    <i className="fa-solid fa-image"></i>
                   </div>
-                  <h4 className="mt-2 font-weight-600">Automated checks</h4>
+                  <h4 className="mt-2 font-weight-600">Image verification</h4>
                   <div className="sepratar"></div>
                   <p>
-                    Run rule-based and API-based verifications for identity,
-                    sanctions, blacklists, and risk indicators.
+                    Identify AI-generated or manipulated photos for identity
+                    verification and compliance.
                   </p>
                 </div>
               </div>
@@ -121,41 +123,13 @@ function SmartKYC() {
               <div className="col-md-6 col-lg-4 mt-1-9 feature-box-04">
                 <div className="feature-box-inner h-100">
                   <div className="service-icon-box">
-                    <i className="fa-solid fa-user-shield"></i>
+                    <i className="fa-solid fa-microphone"></i>
                   </div>
-                  <h4 className="mt-2 font-weight-600">Risk-based workflow</h4>
+                  <h4 className="mt-2 font-weight-600">Audio forensics</h4>
                   <div className="sepratar"></div>
                   <p>
-                    Configure approvals and exceptions by customer type, product,
-                    region, or risk profile.
-                  </p>
-                </div>
-              </div>
-
-              <div className="col-md-6 col-lg-4 mt-1-9 feature-box-04">
-                <div className="feature-box-inner h-100">
-                  <div className="service-icon-box">
-                    <i className="fa-solid fa-clock-rotate-left"></i>
-                  </div>
-                  <h4 className="mt-2 font-weight-600">Audit trails</h4>
-                  <div className="sepratar"></div>
-                  <p>
-                    Full traceability for every action — timestamps, user
-                    activity, comments, and approvals.
-                  </p>
-                </div>
-              </div>
-
-              <div className="col-md-6 col-lg-4 mt-1-9 feature-box-04">
-                <div className="feature-box-inner h-100">
-                  <div className="service-icon-box">
-                    <i className="fa-solid fa-scale-balanced"></i>
-                  </div>
-                  <h4 className="mt-2 font-weight-600">Compliance ready</h4>
-                  <div className="sepratar"></div>
-                  <p>
-                    Built to align with KYC/AML needs, helping teams stay ready
-                    for audits and regulatory changes.
+                    Flag cloned or synthetic voice for call verification and
+                    fraud prevention.
                   </p>
                 </div>
               </div>
@@ -165,11 +139,39 @@ function SmartKYC() {
                   <div className="service-icon-box">
                     <i className="fa-solid fa-plug-circle-bolt"></i>
                   </div>
-                  <h4 className="mt-2 font-weight-600">Easy integration</h4>
+                  <h4 className="mt-2 font-weight-600">API integration</h4>
                   <div className="sepratar"></div>
                   <p>
-                    Integrate with core banking, CRM, and verification providers
-                    using secure APIs.
+                    Integrate detection into your KYC, onboarding, or content
+                    moderation workflows.
+                  </p>
+                </div>
+              </div>
+
+              <div className="col-md-6 col-lg-4 mt-1-9 feature-box-04">
+                <div className="feature-box-inner h-100">
+                  <div className="service-icon-box">
+                    <i className="fa-solid fa-shield-halved"></i>
+                  </div>
+                  <h4 className="mt-2 font-weight-600">Real-time scoring</h4>
+                  <div className="sepratar"></div>
+                  <p>
+                    Get confidence scores and explanations for audit trails
+                    and compliance.
+                  </p>
+                </div>
+              </div>
+
+              <div className="col-md-6 col-lg-4 mt-1-9 feature-box-04">
+                <div className="feature-box-inner h-100">
+                  <div className="service-icon-box">
+                    <i className="fa-solid fa-arrows-rotate"></i>
+                  </div>
+                  <h4 className="mt-2 font-weight-600">Continuous updates</h4>
+                  <div className="sepratar"></div>
+                  <p>
+                    Models evolve with new deepfake techniques to stay ahead
+                    of emerging threats.
                   </p>
                 </div>
               </div>
@@ -188,25 +190,25 @@ function SmartKYC() {
               <div className="col-md-6 mt-1-9">
                 <div className="border-dotted p-3">
                   <i className="fa fa-check-circle text-success me-3 fs-4" />
-                  Faster onboarding with reduced turnaround time
+                  Reduce fraud risk in identity verification
                 </div>
               </div>
               <div className="col-md-6 mt-1-9">
                 <div className="border-dotted p-3">
                   <i className="fa fa-check-circle text-success me-3 fs-4" />
-                  Lower fraud risk with better verification and controls
+                  Protect brand reputation from fake content
                 </div>
               </div>
               <div className="col-md-6 mt-1-9">
                 <div className="border-dotted p-3">
                   <i className="fa fa-check-circle text-success me-3 fs-4" />
-                  Reduced manual operations through automation
+                  Strengthen KYC and compliance workflows
                 </div>
               </div>
               <div className="col-md-6 mt-1-9">
                 <div className="border-dotted p-3">
                   <i className="fa fa-check-circle text-success me-3 fs-4" />
-                  Better visibility through reports and SLA tracking
+                  Audit-ready detection with explainability
                 </div>
               </div>
             </div>
@@ -230,7 +232,7 @@ function SmartKYC() {
               ></div>
               <div className="card-body d-flex flex-column flex-md-row justify-content-between align-items-center p-4 p-md-5 position-relative">
                 <h3 className="card-title text-white fw-bold mb-3 mb-md-0">
-                  Ready to modernize your KYC process?
+                  Ready to protect your business from deepfakes?
                 </h3>
                 <Link
                   to="/contact"
@@ -248,5 +250,4 @@ function SmartKYC() {
   );
 }
 
-export default SmartKYC;
-
+export default DeepfakeDetection;

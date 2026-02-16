@@ -1,12 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import Navbar2 from "./Navbar2";
+import Navbar2 from "../Navbar2";
 
-import bg15 from "../assets/img/bg/bg15.jpg";
-import analytics from "../assets/img/content/analytics.png";
-import circuitPattern from "../assets/img/bg/electric-services-38.png";
+import bg15 from "../../assets/img/bg/bg15.jpg";
+import analytics from "../../assets/img/content/analytics.png";
+import circuitPattern from "../../assets/img/bg/electric-services-38.png";
 
-function SalonSoftware() {
+function LegalAI() {
   return (
     <>
       <Navbar2 />
@@ -21,7 +21,7 @@ function SalonSoftware() {
           <div className="container">
             <div className="row">
               <div className="col-md-12">
-                <h1>Salon &amp; Spa Software</h1>
+                <h1>Legal AI</h1>
               </div>
               <div className="col-md-12">
                 <ul className="ps-0">
@@ -32,7 +32,7 @@ function SalonSoftware() {
                     <a href="#!">Products</a>
                   </li>
                   <li>
-                    <a href="#!">Salon &amp; Spa Software</a>
+                    <a href="#!">Legal AI</a>
                   </li>
                 </ul>
               </div>
@@ -47,7 +47,7 @@ function SalonSoftware() {
               <div className="col-lg-6 mb-1-9 mb-lg-0">
                 <div className="section-heading title-style5 left half">
                   <h2 className="text-uppercase h3 font-weight-700">
-                    Run your salon like a pro
+                    AI-powered legal research and analysis
                   </h2>
                   <div className="square">
                     <span className="separator-left bg-primary" />
@@ -56,10 +56,10 @@ function SalonSoftware() {
                 </div>
 
                 <p className="mb-1-9">
-                  Our salon and spa software streamlines appointments, staff
-                  schedules, inventory, and billing — all in one place. From
-                  single-chair salons to multi-location chains, get the right
-                  tools to grow your business and delight your clients.
+                  Our Legal AI platform helps law firms, corporates, and legal
+                  teams accelerate research, contract review, and due diligence.
+                  Find relevant precedents, extract clauses, and flag risks
+                  faster — so you can focus on strategy and client outcomes.
                 </p>
 
                 <div className="d-flex flex-wrap gap-3">
@@ -75,7 +75,7 @@ function SalonSoftware() {
               <div className="col-lg-6 text-center">
                 <img
                   src={analytics}
-                  alt="Salon & Spa Software"
+                  alt="Legal AI"
                   className="img-fluid border-radius-5"
                   style={{ maxHeight: 420 }}
                 />
@@ -84,13 +84,14 @@ function SalonSoftware() {
           </div>
         </section>
 
-        {/* KEY FEATURES */}
+        {/* CAPABILITIES */}
         <section className="bg-light pt-6 pb-6">
           <div className="container">
             <div className="section-heading text-center">
-              <h2>Key Features</h2>
+              <h2>Key Capabilities</h2>
               <p className="mb-0">
-                Everything you need to manage appointments, staff, and revenue.
+                Built for the modern legal workflow — research, review, and
+                compliance.
               </p>
             </div>
 
@@ -98,18 +99,18 @@ function SalonSoftware() {
               <div className="col-md-6 col-lg-4 mt-1-9 feature-box-04">
                 <div className="feature-box-inner h-100 pb-4 d-flex flex-column">
                   <div className="service-icon-box">
-                    <i className="fa-solid fa-calendar-days"></i>
+                    <i className="fa-solid fa-magnifying-glass"></i>
                   </div>
-                  <h4 className="mt-2 font-weight-600">Appointment booking</h4>
+                  <h4 className="mt-2 font-weight-600">Legal research</h4>
                   <div className="sepratar"></div>
                   <p className="mb-3">
-                    Online and walk-in bookings with calendar sync, reminders,
-                    and waitlist management.
+                    Search across case law, statutes, and regulations with
+                    semantic understanding and relevance ranking.
                   </p>
                   <ul className="ps-3 mb-0 mt-auto">
-                    <li>Multi-staff scheduling</li>
-                    <li>SMS &amp; email reminders</li>
-                    <li>No-show tracking</li>
+                    <li>Precedent discovery</li>
+                    <li>Citation analysis</li>
+                    <li>Jurisdiction-specific</li>
                   </ul>
                 </div>
               </div>
@@ -117,18 +118,18 @@ function SalonSoftware() {
               <div className="col-md-6 col-lg-4 mt-1-9 feature-box-04">
                 <div className="feature-box-inner h-100 pb-4 d-flex flex-column">
                   <div className="service-icon-box">
-                    <i className="fa-solid fa-users"></i>
+                    <i className="fa-solid fa-file-contract"></i>
                   </div>
-                  <h4 className="mt-2 font-weight-600">Client management</h4>
+                  <h4 className="mt-2 font-weight-600">Contract review</h4>
                   <div className="sepratar"></div>
                   <p className="mb-3">
-                    Client profiles, preferences, visit history, and loyalty
-                    programs for repeat business.
+                    Extract clauses, compare against standard templates, and
+                    flag deviations and risks.
                   </p>
                   <ul className="ps-3 mb-0 mt-auto">
-                    <li>Visit history &amp; notes</li>
-                    <li>Membership &amp; packages</li>
-                    <li>Birthday &amp; anniversary alerts</li>
+                    <li>Clause extraction</li>
+                    <li>Risk scoring</li>
+                    <li>Redlining support</li>
                   </ul>
                 </div>
               </div>
@@ -136,18 +137,18 @@ function SalonSoftware() {
               <div className="col-md-6 col-lg-4 mt-1-9 feature-box-04">
                 <div className="feature-box-inner h-100 pb-4 d-flex flex-column">
                   <div className="service-icon-box">
-                    <i className="fa-solid fa-cash-register"></i>
+                    <i className="fa-solid fa-scale-balanced"></i>
                   </div>
-                  <h4 className="mt-2 font-weight-600">Billing &amp; POS</h4>
+                  <h4 className="mt-2 font-weight-600">Due diligence</h4>
                   <div className="sepratar"></div>
                   <p className="mb-3">
-                    Quick checkout, split bills, GST-ready invoices, and payment
-                    tracking.
+                    Accelerate M&amp;A and compliance checks with automated
+                    document analysis and summarisation.
                   </p>
                   <ul className="ps-3 mb-0 mt-auto">
-                    <li>Service &amp; product pricing</li>
-                    <li>Discounts &amp; combos</li>
-                    <li>Day-end reports</li>
+                    <li>Document summarisation</li>
+                    <li>Entity extraction</li>
+                    <li>Timeline generation</li>
                   </ul>
                 </div>
               </div>
@@ -155,18 +156,18 @@ function SalonSoftware() {
               <div className="col-md-6 col-lg-4 mt-1-9 feature-box-04">
                 <div className="feature-box-inner h-100 pb-4 d-flex flex-column">
                   <div className="service-icon-box">
-                    <i className="fa-solid fa-boxes-stacked"></i>
+                    <i className="fa-solid fa-bell"></i>
                   </div>
-                  <h4 className="mt-2 font-weight-600">Inventory control</h4>
+                  <h4 className="mt-2 font-weight-600">Compliance alerts</h4>
                   <div className="sepratar"></div>
                   <p className="mb-3">
-                    Track products, consumables, and low-stock alerts to avoid
-                    runouts.
+                    Track regulatory changes and deadlines with automated
+                    monitoring and notifications.
                   </p>
                   <ul className="ps-3 mb-0 mt-auto">
-                    <li>Stock levels &amp; alerts</li>
-                    <li>Usage per service</li>
-                    <li>Supplier management</li>
+                    <li>Regulatory updates</li>
+                    <li>Deadline tracking</li>
+                    <li>Obligation mapping</li>
                   </ul>
                 </div>
               </div>
@@ -174,18 +175,18 @@ function SalonSoftware() {
               <div className="col-md-6 col-lg-4 mt-1-9 feature-box-04">
                 <div className="feature-box-inner h-100 pb-4 d-flex flex-column">
                   <div className="service-icon-box">
-                    <i className="fa-solid fa-chart-pie"></i>
+                    <i className="fa-solid fa-lock"></i>
                   </div>
-                  <h4 className="mt-2 font-weight-600">Reports &amp; insights</h4>
+                  <h4 className="mt-2 font-weight-600">Secure &amp; compliant</h4>
                   <div className="sepratar"></div>
                   <p className="mb-3">
-                    Revenue, staff performance, popular services, and trends
-                    at a glance.
+                    Enterprise-grade security with role-based access, audit
+                    trails, and data residency options.
                   </p>
                   <ul className="ps-3 mb-0 mt-auto">
-                    <li>Daily &amp; monthly reports</li>
-                    <li>Staff commission tracking</li>
-                    <li>Multi-outlet analytics</li>
+                    <li>Confidentiality controls</li>
+                    <li>Audit logs</li>
+                    <li>On-premise option</li>
                   </ul>
                 </div>
               </div>
@@ -193,18 +194,18 @@ function SalonSoftware() {
               <div className="col-md-6 col-lg-4 mt-1-9 feature-box-04">
                 <div className="feature-box-inner h-100 pb-4 d-flex flex-column">
                   <div className="service-icon-box">
-                    <i className="fa-solid fa-store"></i>
+                    <i className="fa-solid fa-plug"></i>
                   </div>
-                  <h4 className="mt-2 font-weight-600">Multi-outlet support</h4>
+                  <h4 className="mt-2 font-weight-600">Integrations</h4>
                   <div className="sepratar"></div>
                   <p className="mb-3">
-                    Manage multiple branches, centralised dashboards, and
-                    outlet-wise comparisons.
+                    Connect with DMS, matter management, and collaboration
+                    tools via APIs.
                   </p>
                   <ul className="ps-3 mb-0 mt-auto">
-                    <li>Branch-wise data</li>
-                    <li>Centralised reporting</li>
-                    <li>Role-based access</li>
+                    <li>DMS integration</li>
+                    <li>Document upload &amp; sync</li>
+                    <li>Workflow automation</li>
                   </ul>
                 </div>
               </div>
@@ -223,25 +224,25 @@ function SalonSoftware() {
               <div className="col-md-6 mt-1-9">
                 <div className="border-dotted p-3">
                   <i className="fa fa-check-circle text-success me-3 fs-4" />
-                  Fewer no-shows with automated reminders
+                  Faster research with AI-powered search
                 </div>
               </div>
               <div className="col-md-6 mt-1-9">
                 <div className="border-dotted p-3">
                   <i className="fa fa-check-circle text-success me-3 fs-4" />
-                  Higher client retention with loyalty programs
+                  Reduced contract review time with automation
                 </div>
               </div>
               <div className="col-md-6 mt-1-9">
                 <div className="border-dotted p-3">
                   <i className="fa fa-check-circle text-success me-3 fs-4" />
-                  Better staff productivity with clear schedules
+                  Better risk visibility with clause extraction
                 </div>
               </div>
               <div className="col-md-6 mt-1-9">
                 <div className="border-dotted p-3">
                   <i className="fa fa-check-circle text-success me-3 fs-4" />
-                  GST-ready billing and compliance
+                  Stay compliant with regulatory updates
                 </div>
               </div>
             </div>
@@ -265,7 +266,7 @@ function SalonSoftware() {
               ></div>
               <div className="card-body d-flex flex-column flex-md-row justify-content-between align-items-center p-4 p-md-5 position-relative">
                 <h3 className="card-title text-white fw-bold mb-3 mb-md-0">
-                  Ready to modernize your salon operations?
+                  Ready to accelerate your legal work?
                 </h3>
                 <Link
                   to="/contact"
@@ -283,4 +284,4 @@ function SalonSoftware() {
   );
 }
 
-export default SalonSoftware;
+export default LegalAI;

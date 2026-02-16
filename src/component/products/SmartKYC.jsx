@@ -1,12 +1,11 @@
 import React from "react";
+import Navbar2 from "../Navbar2";
 import { Link } from "react-router-dom";
-import Navbar2 from "./Navbar2";
+import bg15 from "../../assets/img/bg/bg15.jpg";
+import analytics from "../../assets/img/content/analytics.png";
+import circuitPattern from "../../assets/img/bg/electric-services-38.png";
 
-import bg13 from "../assets/img/bg/bg13.jpg";
-import analytics from "../assets/img/content/analytics.png";
-import circuitPattern from "../assets/img/bg/electric-services-38.png";
-
-function CCTVSurveillance() {
+function SmartKYC() {
   return (
     <>
       <Navbar2 />
@@ -16,12 +15,12 @@ function CCTVSurveillance() {
         <section
           className="page-title-section2 bg-img cover-background"
           data-overlay-dark={6}
-          style={{ backgroundImage: `url(${bg13})` }}
+          style={{ backgroundImage: `url(${bg15})` }}
         >
           <div className="container">
             <div className="row">
               <div className="col-md-12">
-                <h1>CCTV Surveillance &amp; Analytics</h1>
+                <h1>Smart KYC System</h1>
               </div>
               <div className="col-md-12">
                 <ul className="ps-0">
@@ -32,7 +31,7 @@ function CCTVSurveillance() {
                     <a href="#!">Products</a>
                   </li>
                   <li>
-                    <a href="#!">CCTV Surveillance</a>
+                    <a href="#!">Smart KYC System</a>
                   </li>
                 </ul>
               </div>
@@ -47,20 +46,18 @@ function CCTVSurveillance() {
               <div className="col-lg-6 mb-1-9 mb-lg-0">
                 <div className="section-heading title-style5 left half">
                   <h2 className="text-uppercase h3 font-weight-700">
-                    Smart surveillance that sees more
+                    Fast, compliant &amp; secure onboarding
                   </h2>
                   <div className="square">
                     <span className="separator-left bg-primary" />
                     <span className="separator-right bg-primary" />
                   </div>
                 </div>
-
                 <p className="mb-1-9">
-                  Our CCTV surveillance and analytics platform turns video feeds
-                  into actionable insights. From retail and warehouses to
-                  campuses and public spaces — detect events, count people,
-                  monitor zones, and respond faster with AI-powered video
-                  intelligence.
+                  Smart KYC System helps banks, NBFCs, fintechs and enterprises
+                  digitize customer onboarding. Reduce manual work with
+                  automated verification, maintain audit trails, and improve
+                  approval turnarounds.
                 </p>
 
                 <div className="d-flex flex-wrap gap-3">
@@ -68,7 +65,7 @@ function CCTVSurveillance() {
                     <span>Request a demo</span>
                   </Link>
                   <Link to="/contact" className="butn white">
-                    <span>Talk to our team</span>
+                    <span>Talk to an expert</span>
                   </Link>
                 </div>
               </div>
@@ -76,7 +73,7 @@ function CCTVSurveillance() {
               <div className="col-lg-6 text-center">
                 <img
                   src={analytics}
-                  alt="CCTV Surveillance & Analytics"
+                  alt="Smart KYC analytics"
                   className="img-fluid border-radius-5"
                   style={{ maxHeight: 420 }}
                 />
@@ -85,55 +82,24 @@ function CCTVSurveillance() {
           </div>
         </section>
 
-        {/* FEATURES */}
+        {/* KEY CAPABILITIES */}
         <section className="bg-light pt-6 pb-6">
           <div className="container">
             <div className="section-heading text-center">
-              <h2>Key Features</h2>
-              <p className="mb-0">
-                AI-powered video analytics for security and operations.
-              </p>
+              <h2>Key Capabilities</h2>
             </div>
 
             <div className="row feature-boxes-container mt-n1-9">
               <div className="col-md-6 col-lg-4 mt-1-9 feature-box-04">
                 <div className="feature-box-inner h-100">
                   <div className="service-icon-box">
-                    <i className="fa-solid fa-video"></i>
+                    <i className="fa-solid fa-id-card"></i>
                   </div>
-                  <h4 className="mt-2 font-weight-600">Live monitoring</h4>
+                  <h4 className="mt-2 font-weight-600">Document capture</h4>
                   <div className="sepratar"></div>
                   <p>
-                    Centralised dashboard for multi-camera feeds with
-                    real-time alerts and event playback.
-                  </p>
-                </div>
-              </div>
-
-              <div className="col-md-6 col-lg-4 mt-1-9 feature-box-04">
-                <div className="feature-box-inner h-100">
-                  <div className="service-icon-box">
-                    <i className="fa-solid fa-person-walking"></i>
-                  </div>
-                  <h4 className="mt-2 font-weight-600">People counting</h4>
-                  <div className="sepratar"></div>
-                  <p>
-                    Footfall analytics for retail, events, and facilities with
-                    zone-based counting and heatmaps.
-                  </p>
-                </div>
-              </div>
-
-              <div className="col-md-6 col-lg-4 mt-1-9 feature-box-04">
-                <div className="feature-box-inner h-100">
-                  <div className="service-icon-box">
-                    <i className="fa-solid fa-triangle-exclamation"></i>
-                  </div>
-                  <h4 className="mt-2 font-weight-600">Event detection</h4>
-                  <div className="sepratar"></div>
-                  <p>
-                    Intrusion alerts, loitering detection, line-crossing, and
-                    custom rules for your site.
+                    Capture ID and address proofs from web, mobile or assisted
+                    channels with a consistent workflow.
                   </p>
                 </div>
               </div>
@@ -143,11 +109,11 @@ function CCTVSurveillance() {
                   <div className="service-icon-box">
                     <i className="fa-solid fa-magnifying-glass"></i>
                   </div>
-                  <h4 className="mt-2 font-weight-600">Search &amp; forensics</h4>
+                  <h4 className="mt-2 font-weight-600">Automated checks</h4>
                   <div className="sepratar"></div>
                   <p>
-                    Search footage by time, camera, or event type. Quick
-                    retrieval for investigations.
+                    Run rule-based and API-based verifications for identity,
+                    sanctions, blacklists, and risk indicators.
                   </p>
                 </div>
               </div>
@@ -155,13 +121,13 @@ function CCTVSurveillance() {
               <div className="col-md-6 col-lg-4 mt-1-9 feature-box-04">
                 <div className="feature-box-inner h-100">
                   <div className="service-icon-box">
-                    <i className="fa-solid fa-chart-line"></i>
+                    <i className="fa-solid fa-user-shield"></i>
                   </div>
-                  <h4 className="mt-2 font-weight-600">Analytics &amp; reports</h4>
+                  <h4 className="mt-2 font-weight-600">Risk-based workflow</h4>
                   <div className="sepratar"></div>
                   <p>
-                    Occupancy trends, peak hours, and incident reports for
-                    data-driven decisions.
+                    Configure approvals and exceptions by customer type, product,
+                    region, or risk profile.
                   </p>
                 </div>
               </div>
@@ -169,13 +135,41 @@ function CCTVSurveillance() {
               <div className="col-md-6 col-lg-4 mt-1-9 feature-box-04">
                 <div className="feature-box-inner h-100">
                   <div className="service-icon-box">
-                    <i className="fa-solid fa-cloud"></i>
+                    <i className="fa-solid fa-clock-rotate-left"></i>
                   </div>
-                  <h4 className="mt-2 font-weight-600">Cloud &amp; on-prem</h4>
+                  <h4 className="mt-2 font-weight-600">Audit trails</h4>
                   <div className="sepratar"></div>
                   <p>
-                    Flexible deployment — cloud-hosted or on-premise to meet
-                    your security and compliance needs.
+                    Full traceability for every action — timestamps, user
+                    activity, comments, and approvals.
+                  </p>
+                </div>
+              </div>
+
+              <div className="col-md-6 col-lg-4 mt-1-9 feature-box-04">
+                <div className="feature-box-inner h-100">
+                  <div className="service-icon-box">
+                    <i className="fa-solid fa-scale-balanced"></i>
+                  </div>
+                  <h4 className="mt-2 font-weight-600">Compliance ready</h4>
+                  <div className="sepratar"></div>
+                  <p>
+                    Built to align with KYC/AML needs, helping teams stay ready
+                    for audits and regulatory changes.
+                  </p>
+                </div>
+              </div>
+
+              <div className="col-md-6 col-lg-4 mt-1-9 feature-box-04">
+                <div className="feature-box-inner h-100">
+                  <div className="service-icon-box">
+                    <i className="fa-solid fa-plug-circle-bolt"></i>
+                  </div>
+                  <h4 className="mt-2 font-weight-600">Easy integration</h4>
+                  <div className="sepratar"></div>
+                  <p>
+                    Integrate with core banking, CRM, and verification providers
+                    using secure APIs.
                   </p>
                 </div>
               </div>
@@ -194,25 +188,25 @@ function CCTVSurveillance() {
               <div className="col-md-6 mt-1-9">
                 <div className="border-dotted p-3">
                   <i className="fa fa-check-circle text-success me-3 fs-4" />
-                  Proactive security with real-time alerts
+                  Faster onboarding with reduced turnaround time
                 </div>
               </div>
               <div className="col-md-6 mt-1-9">
                 <div className="border-dotted p-3">
                   <i className="fa fa-check-circle text-success me-3 fs-4" />
-                  Better operational insights from footfall data
+                  Lower fraud risk with better verification and controls
                 </div>
               </div>
               <div className="col-md-6 mt-1-9">
                 <div className="border-dotted p-3">
                   <i className="fa fa-check-circle text-success me-3 fs-4" />
-                  Faster incident response with event-based search
+                  Reduced manual operations through automation
                 </div>
               </div>
               <div className="col-md-6 mt-1-9">
                 <div className="border-dotted p-3">
                   <i className="fa fa-check-circle text-success me-3 fs-4" />
-                  Scalable across multiple sites and cameras
+                  Better visibility through reports and SLA tracking
                 </div>
               </div>
             </div>
@@ -236,7 +230,7 @@ function CCTVSurveillance() {
               ></div>
               <div className="card-body d-flex flex-column flex-md-row justify-content-between align-items-center p-4 p-md-5 position-relative">
                 <h3 className="card-title text-white fw-bold mb-3 mb-md-0">
-                  Ready to make your surveillance smarter?
+                  Ready to modernize your KYC process?
                 </h3>
                 <Link
                   to="/contact"
@@ -254,4 +248,5 @@ function CCTVSurveillance() {
   );
 }
 
-export default CCTVSurveillance;
+export default SmartKYC;
+

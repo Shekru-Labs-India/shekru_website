@@ -1,9 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import transportCover from "../assets/img/content/transportCover.png";
-import retail from "../assets/img/content/retail.png";
-import ecommSolution from "../assets/img/content/ecomSolution.png";
-import Navbar2 from "./Navbar2";
+import transportCover from "../../assets/img/content/transportCover.png";
+import retail from "../../assets/img/content/retail.png";
+import ecommSolution from "../../assets/img/content/ecomSolution.png";
+import Navbar2 from "../Navbar2";
 
 
 function  ECommerce() {
