@@ -111,6 +111,18 @@ function Navbar2() {
                           </li>
                           <li>
                             <NavLink
+                              to="/hrms"
+                              className={({ isActive }) =>
+                                `nav-link custom-nav-link ${
+                                  isActive ? "text-primary" : ""
+                                }`
+                              }
+                            >
+                              HRMS
+                            </NavLink>
+                          </li>
+                          <li>
+                            <NavLink
                               to="/core-banking-solution"
                               className={({ isActive }) =>
                                 `nav-link custom-nav-link ${

@@ -23,6 +23,7 @@ import AutoProfito from './component/AutoProfito';
 import CoreBankingSolution from './component/CoreBankingSolution';
 import BigData from './component/BigData';
 import SmartKYC from './component/SmartKYC';
+import HRMS from './component/HRMS';
 
 
 function App() {
@@ -50,6 +51,7 @@ function App() {
         <Route path="/core-banking-solution" element={<CoreBankingSolution />} />
         <Route path="/big-data" element={<BigData />} />
         <Route path="/smart-kyc" element={<SmartKYC />} />
+        <Route path="/hrms" element={<HRMS />} />
 
       </Routes>
       <Footer/>

@@ -134,18 +134,18 @@ function Products() {
           </div>
 
           <div className="col-md-6 col-lg-4 mt-1-9 feature-box-04">
+            <Link to="/hrms">
             <div className="feature-box-inner h-100">
               <img src={hrm} alt="" style={{ width: "50px", height: "50px" }} />
-              <h4 className="mt-2  font-weight-600">HRM</h4>
+              <h4 className="mt-2  font-weight-600">HRMS</h4>
               <div className="sepratar "></div>
               <p className="mb-md-4 mb-lg-0">
                 Best HRMS & Payroll Software — Manage Entire Employee Lifecycle
                 On One HRMS Platform. Automate & Simplify Your HR Process.
               </p>
-              <Link to="#" className="text-dark fs-1 ">
-                →
-              </Link>
+              <span className="text-dark fs-1 ">→</span>
             </div>
+            </Link>
           </div>
           <div className="col-md-6 col-lg-4 mt-1-9 feature-box-04">
             <div className="feature-box-inner h-100">
