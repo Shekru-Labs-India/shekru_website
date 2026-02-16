@@ -30,6 +30,11 @@ import DeepfakeDetection from './component/products/DeepfakeDetection';
 import LegalAI from './component/products/LegalAI';
 import CCTVSurveillance from './component/products/CCTVSurveillance';
 import SmartExam from './component/products/SmartExam';
+import AgenticAI from './component/ai/AgenticAI';
+import VisionAI from './component/ai/VisionAI';
+import GenAI from './component/ai/GenAI';
+import Digitization from './component/ai/Digitization';
+import BlockchainAI from './component/ai/BlockchainAI';
 
 
 function App() {
@@ -64,6 +69,11 @@ function App() {
         <Route path="/legal-ai" element={<LegalAI />} />
         <Route path="/cctv-surveillance" element={<CCTVSurveillance />} />
         <Route path="/smart-exam" element={<SmartExam />} />
+        <Route path="/ai/agentic" element={<AgenticAI />} />
+        <Route path="/ai/vision" element={<VisionAI />} />
+        <Route path="/ai/gen" element={<GenAI />} />
+        <Route path="/ai/digitization" element={<Digitization />} />
+        <Route path="/ai/blockchain" element={<BlockchainAI />} />
 
       </Routes>
       <Footer/>

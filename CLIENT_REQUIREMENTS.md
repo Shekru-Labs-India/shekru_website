@@ -15,11 +15,11 @@ This file tracks the requested website changes and their implementation status.
 
 ### AI Section
 
-New section / page presenting AI capabilities:
+New section / pages presenting AI capabilities:
 
-- [ ] Agentic AI
-- [ ] Vision AI
-- [ ] Gen AI
-- [ ] Digitization
-- [ ] Blockchain
+- [x] Agentic AI
+- [x] Vision AI
+- [x] Gen AI
+- [x] Digitization
+- [x] Blockchain
 

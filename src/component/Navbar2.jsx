@@ -234,6 +234,81 @@ function Navbar2() {
 
                       <li>
                         <NavLink
+                          to="/ai/agentic"
+                          className={({ isActive }) =>
+                            `nav-link custom-nav-link ${
+                              isActive ? "text-primary" : ""
+                            }`
+                          }
+                        >
+                          AI
+                        </NavLink>
+                        <ul className="">
+                          <li>
+                            <NavLink
+                              to="/ai/agentic"
+                              className={({ isActive }) =>
+                                `nav-link custom-nav-link ${
+                                  isActive ? "text-primary" : ""
+                                }`
+                              }
+                            >
+                              Agentic AI
+                            </NavLink>
+                          </li>
+                          <li>
+                            <NavLink
+                              to="/ai/vision"
+                              className={({ isActive }) =>
+                                `nav-link custom-nav-link ${
+                                  isActive ? "text-primary" : ""
+                                }`
+                              }
+                            >
+                              Vision AI
+                            </NavLink>
+                          </li>
+                          <li>
+                            <NavLink
+                              to="/ai/gen"
+                              className={({ isActive }) =>
+                                `nav-link custom-nav-link ${
+                                  isActive ? "text-primary" : ""
+                                }`
+                              }
+                            >
+                              Gen AI
+                            </NavLink>
+                          </li>
+                          <li>
+                            <NavLink
+                              to="/ai/digitization"
+                              className={({ isActive }) =>
+                                `nav-link custom-nav-link ${
+                                  isActive ? "text-primary" : ""
+                                }`
+                              }
+                            >
+                              Digitization
+                            </NavLink>
+                          </li>
+                          <li>
+                            <NavLink
+                              to="/ai/blockchain"
+                              className={({ isActive }) =>
+                                `nav-link custom-nav-link ${
+                                  isActive ? "text-primary" : ""
+                                }`
+                              }
+                            >
+                              Blockchain
+                            </NavLink>
+                          </li>
+                        </ul>
+                      </li>
+
+                      <li>
+                        <NavLink
                           to="/partners"
                           className={({ isActive }) =>
                             `nav-link custom-nav-link ${
