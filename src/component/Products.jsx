@@ -118,19 +118,20 @@ function Products() {
 
         <div className="row feature-boxes-container mt-n1-9">
           <div className="col-md-6 col-lg-4 mt-1-9 feature-box-04">
-            <div className="feature-box-inner h-100">
-              <img src={erp} alt="" style={{ width: "50px", height: "50px" }} />
-              <h4 className="mt-2  font-weight-600">ERP</h4>
-              <div className="sepratar"></div>
-              <p>
-                Affordable ERP alternative — Upgrade to a better ERP alternative
-                with advanced integration and automation workflows. Get started
-                for free.
-              </p>
-              <Link to="#" className="text-dark fs-1">
-                →
-              </Link>
-            </div>
+            <Link to="/construction-erp">
+              <div className="feature-box-inner h-100">
+                <img src={erp} alt="" style={{ width: "50px", height: "50px" }} />
+                <h4 className="mt-2  font-weight-600">
+                  Construction &amp; Real Estate ERP
+                </h4>
+                <div className="sepratar"></div>
+                <p>
+                  ERP tailor-made for contractors and developers to manage
+                  projects, materials, subcontractors and unit sales in one place.
+                </p>
+                <span className="text-dark fs-1">→</span>
+              </div>
+            </Link>
           </div>
 
           <div className="col-md-6 col-lg-4 mt-1-9 feature-box-04">

@@ -197,6 +197,11 @@ function Footer() {
                     <Link to="/hrms">HRMS</Link>
                   </li>
                   <li>
+                    <Link to="/construction-erp">
+                      Construction &amp; Real Estate ERP
+                    </Link>
+                  </li>
+                  <li>
                     <Link to="/eCommerce">E-Commerce</Link>
                   </li>
                   <li>

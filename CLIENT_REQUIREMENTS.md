@@ -6,7 +6,7 @@ This file tracks the requested website changes and their implementation status.
 
 - [x] Smart KYC system
 - [x] HRMS
-- [ ] Construction & Real Estate (ERP)
+- [x] Construction & Real Estate (ERP)
 - [ ] One software for Salon
 - [ ] Deepfake detection
 - [ ] Legal AI

@@ -123,6 +123,18 @@ function Navbar2() {
                           </li>
                           <li>
                             <NavLink
+                              to="/construction-erp"
+                              className={({ isActive }) =>
+                                `nav-link custom-nav-link ${
+                                  isActive ? "text-primary" : ""
+                                }`
+                              }
+                            >
+                              Construction &amp; Real Estate ERP
+                            </NavLink>
+                          </li>
+                          <li>
+                            <NavLink
                               to="/core-banking-solution"
                               className={({ isActive }) =>
                                 `nav-link custom-nav-link ${

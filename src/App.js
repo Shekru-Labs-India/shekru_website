@@ -24,6 +24,7 @@ import CoreBankingSolution from './component/CoreBankingSolution';
 import BigData from './component/BigData';
 import SmartKYC from './component/SmartKYC';
 import HRMS from './component/HRMS';
+import ConstructionERP from './component/ConstructionERP';
 
 
 function App() {
@@ -52,6 +53,7 @@ function App() {
         <Route path="/big-data" element={<BigData />} />
         <Route path="/smart-kyc" element={<SmartKYC />} />
         <Route path="/hrms" element={<HRMS />} />
+        <Route path="/construction-erp" element={<ConstructionERP />} />
 
       </Routes>
       <Footer/>
