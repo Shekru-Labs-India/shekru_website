@@ -118,6 +118,9 @@ function Digitization() {
           <div className="container">
             <div className="section-heading text-center">
               <h2>Digitization areas</h2>
+              <p className="mb-0">
+                Comprehensive digitization services for modern businesses
+              </p>
             </div>
             <div className="row feature-boxes-container mt-n1-9">
               <div className="col-md-6 col-lg-4 mt-1-9 feature-box-04">
@@ -131,6 +134,12 @@ function Digitization() {
                     Convert contracts, forms, and scanned documents into
                     structured, searchable data.
                   </p>
+                  <ul className="ps-3 mb-0 mt-2">
+                    <li>OCR and text extraction</li>
+                    <li>Document classification</li>
+                    <li>Data validation and verification</li>
+                    <li>Searchable database creation</li>
+                  </ul>
                 </div>
               </div>
               <div className="col-md-6 col-lg-4 mt-1-9 feature-box-04">
@@ -144,6 +153,12 @@ function Digitization() {
                     Bring data from legacy systems, spreadsheets and manual
                     trackers into unified stores.
                   </p>
+                  <ul className="ps-3 mb-0 mt-2">
+                    <li>Legacy system migration</li>
+                    <li>Data cleansing and normalization</li>
+                    <li>Unified data warehouse</li>
+                    <li>API integration</li>
+                  </ul>
                 </div>
               </div>
               <div className="col-md-6 col-lg-4 mt-1-9 feature-box-04">
@@ -157,6 +172,230 @@ function Digitization() {
                     Map human-driven workflows into digital steps that AI and
                     automation can execute and monitor.
                   </p>
+                  <ul className="ps-3 mb-0 mt-2">
+                    <li>Workflow documentation</li>
+                    <li>Process automation design</li>
+                    <li>Digital transformation</li>
+                    <li>BPMN modeling</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* USE CASES */}
+        <section className="pt-6 pb-6">
+          <div className="container">
+            <div className="section-heading text-center">
+              <h2>Digitization Use Cases</h2>
+              <p className="mb-0">
+                Transform legacy processes into modern digital workflows
+              </p>
+            </div>
+
+            <div className="row mt-n1-9">
+              <div className="col-md-6 col-lg-4 mt-1-9">
+                <div className="feature-box-inner h-100">
+                  <div className="service-icon-box">
+                    <i className="fa-solid fa-file-invoice"></i>
+                  </div>
+                  <h4 className="mt-2 font-weight-600">Invoice Processing</h4>
+                  <div className="sepratar"></div>
+                  <p>
+                    Digitize paper invoices, extract data automatically, and
+                    integrate with accounting systems. Eliminate manual data entry
+                    and reduce processing time by 80%.
+                  </p>
+                </div>
+              </div>
+
+              <div className="col-md-6 col-lg-4 mt-1-9">
+                <div className="feature-box-inner h-100">
+                  <div className="service-icon-box">
+                    <i className="fa-solid fa-folder-open"></i>
+                  </div>
+                  <h4 className="mt-2 font-weight-600">Records Management</h4>
+                  <div className="sepratar"></div>
+                  <p>
+                    Convert paper records, forms, and documents into searchable
+                    digital archives. Enable quick retrieval and compliance with
+                    retention policies.
+                  </p>
+                </div>
+              </div>
+
+              <div className="col-md-6 col-lg-4 mt-1-9">
+                <div className="feature-box-inner h-100">
+                  <div className="service-icon-box">
+                    <i className="fa-solid fa-clipboard-list"></i>
+                  </div>
+                  <h4 className="mt-2 font-weight-600">Form Digitization</h4>
+                  <div className="sepratar"></div>
+                  <p>
+                    Transform paper forms into digital workflows with automated
+                    data capture, validation, and routing. Improve accuracy and
+                    reduce processing time.
+                  </p>
+                </div>
+              </div>
+
+              <div className="col-md-6 col-lg-4 mt-1-9">
+                <div className="feature-box-inner h-100">
+                  <div className="service-icon-box">
+                    <i className="fa-solid fa-handshake"></i>
+                  </div>
+                  <h4 className="mt-2 font-weight-600">Contract Management</h4>
+                  <div className="sepratar"></div>
+                  <p>
+                    Digitize contracts, extract key terms, track renewals, and
+                    manage compliance. Enable AI-powered contract analysis and
+                    automated alerts.
+                  </p>
+                </div>
+              </div>
+
+              <div className="col-md-6 col-lg-4 mt-1-9">
+                <div className="feature-box-inner h-100">
+                  <div className="service-icon-box">
+                    <i className="fa-solid fa-user-tie"></i>
+                  </div>
+                  <h4 className="mt-2 font-weight-600">HR Records</h4>
+                  <div className="sepratar"></div>
+                  <p>
+                    Digitize employee files, performance records, and HR
+                    documents. Enable self-service access and automated workflows
+                    for HR processes.
+                  </p>
+                </div>
+              </div>
+
+              <div className="col-md-6 col-lg-4 mt-1-9">
+                <div className="feature-box-inner h-100">
+                  <div className="service-icon-box">
+                    <i className="fa-solid fa-chart-line"></i>
+                  </div>
+                  <h4 className="mt-2 font-weight-600">Legacy System Migration</h4>
+                  <div className="sepratar"></div>
+                  <p>
+                    Migrate data from legacy systems to modern platforms. Ensure
+                    data integrity, preserve historical records, and enable
+                    modern analytics.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* BENEFITS */}
+        <section className="bg-light pt-6 pb-6">
+          <div className="container">
+            <div className="section-heading text-center">
+              <h2>Benefits of Digitization</h2>
+              <p className="mb-0">
+                Unlock the value of your data and processes
+              </p>
+            </div>
+
+            <div className="row mt-n1-9">
+              <div className="col-md-6 col-lg-4 mt-1-9">
+                <div className="border-dotted p-4 h-100">
+                  <i className="fa fa-check-circle text-success me-3 fs-4" />
+                  <strong>80% Time Savings</strong>
+                  <p className="mb-0 mt-2">
+                    Reduce manual data entry and processing time by up to 80%.
+                    Automate routine tasks and free up staff for value-added work.
+                  </p>
+                </div>
+              </div>
+              <div className="col-md-6 col-lg-4 mt-1-9">
+                <div className="border-dotted p-4 h-100">
+                  <i className="fa fa-check-circle text-success me-3 fs-4" />
+                  <strong>Improved Accuracy</strong>
+                  <p className="mb-0 mt-2">
+                    Eliminate human errors in data entry and processing. Ensure
+                    data consistency and quality across all digitized records.
+                  </p>
+                </div>
+              </div>
+              <div className="col-md-6 col-lg-4 mt-1-9">
+                <div className="border-dotted p-4 h-100">
+                  <i className="fa fa-check-circle text-success me-3 fs-4" />
+                  <strong>Better Accessibility</strong>
+                  <p className="mb-0 mt-2">
+                    Access information instantly from anywhere. Enable search,
+                    retrieval, and sharing of digitized documents and data.
+                  </p>
+                </div>
+              </div>
+              <div className="col-md-6 col-lg-4 mt-1-9">
+                <div className="border-dotted p-4 h-100">
+                  <i className="fa fa-check-circle text-success me-3 fs-4" />
+                  <strong>AI-Ready Data</strong>
+                  <p className="mb-0 mt-2">
+                    Structure data for AI and automation. Enable intelligent
+                    workflows, analytics, and decision-making systems.
+                  </p>
+                </div>
+              </div>
+              <div className="col-md-6 col-lg-4 mt-1-9">
+                <div className="border-dotted p-4 h-100">
+                  <i className="fa fa-check-circle text-success me-3 fs-4" />
+                  <strong>Cost Reduction</strong>
+                  <p className="mb-0 mt-2">
+                    Reduce storage costs, eliminate paper handling, and minimize
+                    manual processing. Achieve significant operational savings.
+                  </p>
+                </div>
+              </div>
+              <div className="col-md-6 col-lg-4 mt-1-9">
+                <div className="border-dotted p-4 h-100">
+                  <i className="fa fa-check-circle text-success me-3 fs-4" />
+                  <strong>Compliance &amp; Security</strong>
+                  <p className="mb-0 mt-2">
+                    Maintain compliance with data retention policies. Implement
+                    access controls and audit trails for sensitive information.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* STATISTICS */}
+        <section className="pt-6 pb-6">
+          <div className="container">
+            <div className="section-heading text-center">
+              <h2>Digitization Impact</h2>
+              <p className="mb-0">
+                Real results from digitization projects
+              </p>
+            </div>
+
+            <div className="row mt-n1-9">
+              <div className="col-md-6 col-lg-3 mt-1-9">
+                <div className="text-center border-dotted p-4">
+                  <h2 className="text-primary font-weight-700 mb-2">80%</h2>
+                  <p className="mb-0">Time reduction</p>
+                </div>
+              </div>
+              <div className="col-md-6 col-lg-3 mt-1-9">
+                <div className="text-center border-dotted p-4">
+                  <h2 className="text-primary font-weight-700 mb-2">95%</h2>
+                  <p className="mb-0">Accuracy improvement</p>
+                </div>
+              </div>
+              <div className="col-md-6 col-lg-3 mt-1-9">
+                <div className="text-center border-dotted p-4">
+                  <h2 className="text-primary font-weight-700 mb-2">1M+</h2>
+                  <p className="mb-0">Documents digitized</p>
+                </div>
+              </div>
+              <div className="col-md-6 col-lg-3 mt-1-9">
+                <div className="text-center border-dotted p-4">
+                  <h2 className="text-primary font-weight-700 mb-2">60%</h2>
+                  <p className="mb-0">Cost savings</p>
                 </div>
               </div>
             </div>

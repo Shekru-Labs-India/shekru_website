@@ -118,6 +118,9 @@ function GenAI() {
           <div className="container">
             <div className="section-heading text-center">
               <h2>Capabilities</h2>
+              <p className="mb-0">
+                Comprehensive generative AI solutions for your business
+              </p>
             </div>
 
             <div className="row feature-boxes-container mt-n1-9">
@@ -132,6 +135,12 @@ function GenAI() {
                     Domain-tuned chatbots that answer questions using your
                     knowledge base with proper grounding and citations.
                   </p>
+                  <ul className="ps-3 mb-0 mt-2">
+                    <li>Customer support chatbots</li>
+                    <li>Internal knowledge assistants</li>
+                    <li>Multi-language support</li>
+                    <li>Context-aware conversations</li>
+                  </ul>
                 </div>
               </div>
 
@@ -146,6 +155,12 @@ function GenAI() {
                     Draft emails, proposals, reports, and knowledge articles that
                     follow your tone and templates.
                   </p>
+                  <ul className="ps-3 mb-0 mt-2">
+                    <li>Document drafting and editing</li>
+                    <li>Marketing content creation</li>
+                    <li>Technical documentation</li>
+                    <li>Personalized communications</li>
+                  </ul>
                 </div>
               </div>
 
@@ -160,6 +175,232 @@ function GenAI() {
                     Assistants that can reason over your operational data to
                     produce summaries, highlights and insights.
                   </p>
+                  <ul className="ps-3 mb-0 mt-2">
+                    <li>Data summarization</li>
+                    <li>Report generation</li>
+                    <li>Trend analysis</li>
+                    <li>Business intelligence</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* USE CASES */}
+        <section className="pt-6 pb-6">
+          <div className="container">
+            <div className="section-heading text-center">
+              <h2>Generative AI Use Cases</h2>
+              <p className="mb-0">
+                Transform workflows with AI-powered content generation
+              </p>
+            </div>
+
+            <div className="row mt-n1-9">
+              <div className="col-md-6 col-lg-4 mt-1-9">
+                <div className="feature-box-inner h-100">
+                  <div className="service-icon-box">
+                    <i className="fa-solid fa-headset"></i>
+                  </div>
+                  <h4 className="mt-2 font-weight-600">Customer Support</h4>
+                  <div className="sepratar"></div>
+                  <p>
+                    AI-powered chatbots that understand customer queries, access
+                    knowledge bases, and provide accurate responses 24/7.
+                    Reduce support costs while improving response times.
+                  </p>
+                </div>
+              </div>
+
+              <div className="col-md-6 col-lg-4 mt-1-9">
+                <div className="feature-box-inner h-100">
+                  <div className="service-icon-box">
+                    <i className="fa-solid fa-bullhorn"></i>
+                  </div>
+                  <h4 className="mt-2 font-weight-600">Marketing Content</h4>
+                  <div className="sepratar"></div>
+                  <p>
+                    Generate marketing copy, social media posts, email campaigns,
+                    and product descriptions. Maintain brand voice while scaling
+                    content production.
+                  </p>
+                </div>
+              </div>
+
+              <div className="col-md-6 col-lg-4 mt-1-9">
+                <div className="feature-box-inner h-100">
+                  <div className="service-icon-box">
+                    <i className="fa-solid fa-file-lines"></i>
+                  </div>
+                  <h4 className="mt-2 font-weight-600">Documentation</h4>
+                  <div className="sepratar"></div>
+                  <p>
+                    Create technical documentation, user guides, API references,
+                    and knowledge base articles. Keep documentation up-to-date
+                    automatically.
+                  </p>
+                </div>
+              </div>
+
+              <div className="col-md-6 col-lg-4 mt-1-9">
+                <div className="feature-box-inner h-100">
+                  <div className="service-icon-box">
+                    <i className="fa-solid fa-envelope"></i>
+                  </div>
+                  <h4 className="mt-2 font-weight-600">Email &amp; Communication</h4>
+                  <div className="sepratar"></div>
+                  <p>
+                    Draft professional emails, responses, and communications.
+                    Personalize messages at scale and maintain consistent tone
+                    across all interactions.
+                  </p>
+                </div>
+              </div>
+
+              <div className="col-md-6 col-lg-4 mt-1-9">
+                <div className="feature-box-inner h-100">
+                  <div className="service-icon-box">
+                    <i className="fa-solid fa-chart-bar"></i>
+                  </div>
+                  <h4 className="mt-2 font-weight-600">Business Reports</h4>
+                  <div className="sepratar"></div>
+                  <p>
+                    Generate executive summaries, performance reports, and
+                    analysis documents. Transform data into narrative insights
+                    automatically.
+                  </p>
+                </div>
+              </div>
+
+              <div className="col-md-6 col-lg-4 mt-1-9">
+                <div className="feature-box-inner h-100">
+                  <div className="service-icon-box">
+                    <i className="fa-solid fa-code"></i>
+                  </div>
+                  <h4 className="mt-2 font-weight-600">Code Generation</h4>
+                  <div className="sepratar"></div>
+                  <p>
+                    Generate code snippets, functions, and scripts based on
+                    natural language descriptions. Accelerate development and
+                    reduce coding time.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* BENEFITS */}
+        <section className="bg-light pt-6 pb-6">
+          <div className="container">
+            <div className="section-heading text-center">
+              <h2>Benefits of Generative AI</h2>
+              <p className="mb-0">
+                Unlock productivity and creativity with AI-powered content
+              </p>
+            </div>
+
+            <div className="row mt-n1-9">
+              <div className="col-md-6 col-lg-4 mt-1-9">
+                <div className="border-dotted p-4 h-100">
+                  <i className="fa fa-check-circle text-success me-3 fs-4" />
+                  <strong>10x Faster Content Creation</strong>
+                  <p className="mb-0 mt-2">
+                    Generate high-quality content in minutes instead of hours.
+                    Scale content production without proportional increase in
+                    resources.
+                  </p>
+                </div>
+              </div>
+              <div className="col-md-6 col-lg-4 mt-1-9">
+                <div className="border-dotted p-4 h-100">
+                  <i className="fa fa-check-circle text-success me-3 fs-4" />
+                  <strong>Consistent Quality</strong>
+                  <p className="mb-0 mt-2">
+                    Maintain consistent tone, style, and quality across all
+                    generated content. Ensure brand voice compliance automatically.
+                  </p>
+                </div>
+              </div>
+              <div className="col-md-6 col-lg-4 mt-1-9">
+                <div className="border-dotted p-4 h-100">
+                  <i className="fa fa-check-circle text-success me-3 fs-4" />
+                  <strong>Cost Efficiency</strong>
+                  <p className="mb-0 mt-2">
+                    Reduce content creation costs by up to 70%. Free up creative
+                    teams to focus on strategy and high-value work.
+                  </p>
+                </div>
+              </div>
+              <div className="col-md-6 col-lg-4 mt-1-9">
+                <div className="border-dotted p-4 h-100">
+                  <i className="fa fa-check-circle text-success me-3 fs-4" />
+                  <strong>Personalization at Scale</strong>
+                  <p className="mb-0 mt-2">
+                    Create personalized content for thousands of customers
+                    simultaneously. Tailor messages based on individual preferences
+                    and behavior.
+                  </p>
+                </div>
+              </div>
+              <div className="col-md-6 col-lg-4 mt-1-9">
+                <div className="border-dotted p-4 h-100">
+                  <i className="fa fa-check-circle text-success me-3 fs-4" />
+                  <strong>24/7 Availability</strong>
+                  <p className="mb-0 mt-2">
+                    AI assistants available round the clock to answer questions,
+                    generate content, and support operations without breaks.
+                  </p>
+                </div>
+              </div>
+              <div className="col-md-6 col-lg-4 mt-1-9">
+                <div className="border-dotted p-4 h-100">
+                  <i className="fa fa-check-circle text-success me-3 fs-4" />
+                  <strong>Multilingual Support</strong>
+                  <p className="mb-0 mt-2">
+                    Generate content in multiple languages automatically. Expand
+                    your reach to global audiences without translation overhead.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* STATISTICS */}
+        <section className="pt-6 pb-6">
+          <div className="container">
+            <div className="section-heading text-center">
+              <h2>Impact Metrics</h2>
+              <p className="mb-0">
+                Real results from Gen AI implementations
+              </p>
+            </div>
+
+            <div className="row mt-n1-9">
+              <div className="col-md-6 col-lg-3 mt-1-9">
+                <div className="text-center border-dotted p-4">
+                  <h2 className="text-primary font-weight-700 mb-2">10x</h2>
+                  <p className="mb-0">Faster content creation</p>
+                </div>
+              </div>
+              <div className="col-md-6 col-lg-3 mt-1-9">
+                <div className="text-center border-dotted p-4">
+                  <h2 className="text-primary font-weight-700 mb-2">70%</h2>
+                  <p className="mb-0">Cost reduction</p>
+                </div>
+              </div>
+              <div className="col-md-6 col-lg-3 mt-1-9">
+                <div className="text-center border-dotted p-4">
+                  <h2 className="text-primary font-weight-700 mb-2">90%</h2>
+                  <p className="mb-0">Customer satisfaction</p>
+                </div>
+              </div>
+              <div className="col-md-6 col-lg-3 mt-1-9">
+                <div className="text-center border-dotted p-4">
+                  <h2 className="text-primary font-weight-700 mb-2">50+</h2>
+                  <p className="mb-0">Languages supported</p>
                 </div>
               </div>
             </div>

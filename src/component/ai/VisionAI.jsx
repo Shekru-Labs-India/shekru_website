@@ -118,6 +118,9 @@ function VisionAI() {
           <div className="container">
             <div className="section-heading text-center">
               <h2>Capabilities</h2>
+              <p className="mb-0">
+                Advanced computer vision solutions for diverse applications
+              </p>
             </div>
 
             <div className="row feature-boxes-container mt-n1-9">
@@ -132,6 +135,12 @@ function VisionAI() {
                     Detect events, count people or vehicles, and monitor zones
                     across multi-camera deployments.
                   </p>
+                  <ul className="ps-3 mb-0 mt-2">
+                    <li>Object detection and tracking</li>
+                    <li>People and vehicle counting</li>
+                    <li>Zone monitoring and intrusion detection</li>
+                    <li>Behavioral analysis</li>
+                  </ul>
                 </div>
               </div>
 
@@ -146,6 +155,12 @@ function VisionAI() {
                     Classify, segment, and extract information from images like
                     scans, documents, or product photos.
                   </p>
+                  <ul className="ps-3 mb-0 mt-2">
+                    <li>Image classification and tagging</li>
+                    <li>Object detection and recognition</li>
+                    <li>Text extraction (OCR)</li>
+                    <li>Content moderation</li>
+                  </ul>
                 </div>
               </div>
 
@@ -160,6 +175,232 @@ function VisionAI() {
                     Configure alerting pipelines into your existing systems when
                     Vision AI detects predefined conditions.
                   </p>
+                  <ul className="ps-3 mb-0 mt-2">
+                    <li>Custom alert rules</li>
+                    <li>Multi-channel notifications</li>
+                    <li>Alert prioritization</li>
+                    <li>Integration with monitoring systems</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* USE CASES */}
+        <section className="pt-6 pb-6">
+          <div className="container">
+            <div className="section-heading text-center">
+              <h2>Vision AI Applications</h2>
+              <p className="mb-0">
+                Real-world applications across industries
+              </p>
+            </div>
+
+            <div className="row mt-n1-9">
+              <div className="col-md-6 col-lg-4 mt-1-9">
+                <div className="feature-box-inner h-100">
+                  <div className="service-icon-box">
+                    <i className="fa-solid fa-shield-halved"></i>
+                  </div>
+                  <h4 className="mt-2 font-weight-600">Security &amp; Surveillance</h4>
+                  <div className="sepratar"></div>
+                  <p>
+                    Monitor premises, detect intrusions, track unauthorized
+                    access, and identify suspicious activities in real-time.
+                    Enhance security operations with intelligent video analytics.
+                  </p>
+                </div>
+              </div>
+
+              <div className="col-md-6 col-lg-4 mt-1-9">
+                <div className="feature-box-inner h-100">
+                  <div className="service-icon-box">
+                    <i className="fa-solid fa-store"></i>
+                  </div>
+                  <h4 className="mt-2 font-weight-600">Retail Analytics</h4>
+                  <div className="sepratar"></div>
+                  <p>
+                    Track footfall, analyze customer behavior, optimize store
+                    layouts, and prevent theft. Gain insights into shopping
+                    patterns and improve customer experience.
+                  </p>
+                </div>
+              </div>
+
+              <div className="col-md-6 col-lg-4 mt-1-9">
+                <div className="feature-box-inner h-100">
+                  <div className="service-icon-box">
+                    <i className="fa-solid fa-industry"></i>
+                  </div>
+                  <h4 className="mt-2 font-weight-600">Quality Control</h4>
+                  <div className="sepratar"></div>
+                  <p>
+                    Inspect products for defects, verify specifications, and
+                    ensure quality standards. Automate visual inspection in
+                    manufacturing and production lines.
+                  </p>
+                </div>
+              </div>
+
+              <div className="col-md-6 col-lg-4 mt-1-9">
+                <div className="feature-box-inner h-100">
+                  <div className="service-icon-box">
+                    <i className="fa-solid fa-hospital"></i>
+                  </div>
+                  <h4 className="mt-2 font-weight-600">Medical Imaging</h4>
+                  <div className="sepratar"></div>
+                  <p>
+                    Analyze X-rays, MRIs, CT scans, and pathology images. Assist
+                    radiologists with diagnosis, detect anomalies, and support
+                    medical decision-making.
+                  </p>
+                </div>
+              </div>
+
+              <div className="col-md-6 col-lg-4 mt-1-9">
+                <div className="feature-box-inner h-100">
+                  <div className="service-icon-box">
+                    <i className="fa-solid fa-truck"></i>
+                  </div>
+                  <h4 className="mt-2 font-weight-600">Traffic Management</h4>
+                  <div className="sepratar"></div>
+                  <p>
+                    Monitor traffic flow, detect violations, manage parking, and
+                    optimize traffic signals. Improve urban mobility and reduce
+                    congestion.
+                  </p>
+                </div>
+              </div>
+
+              <div className="col-md-6 col-lg-4 mt-1-9">
+                <div className="feature-box-inner h-100">
+                  <div className="service-icon-box">
+                    <i className="fa-solid fa-file-image"></i>
+                  </div>
+                  <h4 className="mt-2 font-weight-600">Document Processing</h4>
+                  <div className="sepratar"></div>
+                  <p>
+                    Extract data from forms, invoices, receipts, and documents.
+                    Automate data entry, classification, and archival processes.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* BENEFITS */}
+        <section className="bg-light pt-6 pb-6">
+          <div className="container">
+            <div className="section-heading text-center">
+              <h2>Benefits of Vision AI</h2>
+              <p className="mb-0">
+                Transform visual data into actionable intelligence
+              </p>
+            </div>
+
+            <div className="row mt-n1-9">
+              <div className="col-md-6 col-lg-4 mt-1-9">
+                <div className="border-dotted p-4 h-100">
+                  <i className="fa fa-check-circle text-success me-3 fs-4" />
+                  <strong>24/7 Monitoring</strong>
+                  <p className="mb-0 mt-2">
+                    Continuous monitoring without fatigue. Vision AI systems work
+                    around the clock, detecting events and anomalies that humans
+                    might miss.
+                  </p>
+                </div>
+              </div>
+              <div className="col-md-6 col-lg-4 mt-1-9">
+                <div className="border-dotted p-4 h-100">
+                  <i className="fa fa-check-circle text-success me-3 fs-4" />
+                  <strong>Real-time Detection</strong>
+                  <p className="mb-0 mt-2">
+                    Instant detection and alerting of events as they happen.
+                    Respond to incidents faster and prevent issues from
+                    escalating.
+                  </p>
+                </div>
+              </div>
+              <div className="col-md-6 col-lg-4 mt-1-9">
+                <div className="border-dotted p-4 h-100">
+                  <i className="fa fa-check-circle text-success me-3 fs-4" />
+                  <strong>Cost Efficiency</strong>
+                  <p className="mb-0 mt-2">
+                    Reduce manual monitoring costs and improve operational
+                    efficiency. One Vision AI system can monitor multiple cameras
+                    simultaneously.
+                  </p>
+                </div>
+              </div>
+              <div className="col-md-6 col-lg-4 mt-1-9">
+                <div className="border-dotted p-4 h-100">
+                  <i className="fa fa-check-circle text-success me-3 fs-4" />
+                  <strong>Accuracy &amp; Consistency</strong>
+                  <p className="mb-0 mt-2">
+                    Consistent analysis without human bias or fatigue. High
+                    accuracy rates in object detection and classification tasks.
+                  </p>
+                </div>
+              </div>
+              <div className="col-md-6 col-lg-4 mt-1-9">
+                <div className="border-dotted p-4 h-100">
+                  <i className="fa fa-check-circle text-success me-3 fs-4" />
+                  <strong>Scalability</strong>
+                  <p className="mb-0 mt-2">
+                    Scale to handle thousands of cameras and millions of images.
+                    Process large volumes of visual data efficiently.
+                  </p>
+                </div>
+              </div>
+              <div className="col-md-6 col-lg-4 mt-1-9">
+                <div className="border-dotted p-4 h-100">
+                  <i className="fa fa-check-circle text-success me-3 fs-4" />
+                  <strong>Actionable Insights</strong>
+                  <p className="mb-0 mt-2">
+                    Extract meaningful insights from visual data. Generate
+                    reports, analytics, and trends to support decision-making.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* STATISTICS */}
+        <section className="pt-6 pb-6">
+          <div className="container">
+            <div className="section-heading text-center">
+              <h2>Proven Performance</h2>
+              <p className="mb-0">
+                Real results from Vision AI implementations
+              </p>
+            </div>
+
+            <div className="row mt-n1-9">
+              <div className="col-md-6 col-lg-3 mt-1-9">
+                <div className="text-center border-dotted p-4">
+                  <h2 className="text-primary font-weight-700 mb-2">95%</h2>
+                  <p className="mb-0">Detection accuracy</p>
+                </div>
+              </div>
+              <div className="col-md-6 col-lg-3 mt-1-9">
+                <div className="text-center border-dotted p-4">
+                  <h2 className="text-primary font-weight-700 mb-2">10x</h2>
+                  <p className="mb-0">Faster than manual review</p>
+                </div>
+              </div>
+              <div className="col-md-6 col-lg-3 mt-1-9">
+                <div className="text-center border-dotted p-4">
+                  <h2 className="text-primary font-weight-700 mb-2">70%</h2>
+                  <p className="mb-0">Cost reduction</p>
+                </div>
+              </div>
+              <div className="col-md-6 col-lg-3 mt-1-9">
+                <div className="text-center border-dotted p-4">
+                  <h2 className="text-primary font-weight-700 mb-2">1000+</h2>
+                  <p className="mb-0">Cameras monitored</p>
                 </div>
               </div>
             </div>
