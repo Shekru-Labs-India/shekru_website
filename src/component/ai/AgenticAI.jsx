@@ -1,14 +1,34 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Navbar2 from "../Navbar2";
+import SEO from "../SEO";
 
 import bg15 from "../../assets/img/bg/bg15.jpg";
 import analytics from "../../assets/img/content/analytics.png";
 import circuitPattern from "../../assets/img/bg/electric-services-38.png";
 
 function AgenticAI() {
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "AI Consulting Service",
+    "name": "Agentic AI Solutions",
+    "description": "Autonomous AI agents that combine large language models with tools, workflows, and memory to execute multi-step processes. Design and implement agents for operations automation, workflow management, and intelligent decision-making.",
+    "provider": {
+      "@type": "Organization",
+      "name": "Shekru Labs"
+    }
+  };
+
   return (
     <>
+      <SEO
+        title="Agentic AI - Autonomous AI Agents for Workflow Automation"
+        description="Build autonomous AI agents that combine LLMs with tools and workflows to execute multi-step processes. Operations copilots, workflow automation, and intelligent decision-making systems. Custom AI agent development."
+        keywords="agentic AI, autonomous AI agents, AI workflow automation, LLM agents, AI copilots, intelligent automation, AI agent development, workflow AI, autonomous systems"
+        canonicalUrl="/#/ai/agentic"
+        structuredData={structuredData}
+      />
       <Navbar2 />
       <div className="main-wrapper">
         {/* PAGE TITLE */}
@@ -57,7 +77,19 @@ function AgenticAI() {
                   Agentic AI combines large language models with tools,
                   workflows, and memory to execute multi-step processes
                   autonomously. We design and implement agents that can monitor,
-                  decide, and act reliably in your environment.
+                  decide, and act reliably in your environment. Unlike
+                  traditional chatbots that respond to single queries, agentic
+                  AI systems can plan, execute complex workflows, interact with
+                  multiple systems, and adapt to changing conditions.
+                </p>
+                <p className="mb-1-9">
+                  Our agentic AI solutions are built with safety and reliability
+                  at their core. We implement guardrails, validation checks,
+                  and human-in-the-loop mechanisms to ensure agents operate within
+                  defined boundaries. Whether you need operations copilots,
+                  customer service automation, or intelligent process
+                  orchestration, we design agents that understand your business
+                  context and execute tasks with precision and accountability.
                 </p>
                 <div className="d-flex flex-wrap gap-3">
                   <Link to="/contact" className="butn primary">

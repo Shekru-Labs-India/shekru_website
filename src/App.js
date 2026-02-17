@@ -4,6 +4,7 @@ import Contact from './component/Contact';
 import Services from './component/Services';
 import AboutUs from './component/AboutUs';
 import { HashRouter as Router, Route, Routes } from 'react-router-dom';
+import { HelmetProvider } from 'react-helmet-async';
 import Technologies from './component/Technologies';
 import SuccessStories from './component/SuccessStories';
 import Partners from './component/Partners';
@@ -39,6 +40,7 @@ import BlockchainAI from './component/ai/BlockchainAI';
 
 function App() {
   return (
+    <HelmetProvider>
     <Router>
       <ScriptsManager/>
      < ScrollToTop/>    
@@ -80,6 +82,7 @@ function App() {
       <ScrollToTopButton/>
       
     </Router>
+    </HelmetProvider>
   );
 }
 

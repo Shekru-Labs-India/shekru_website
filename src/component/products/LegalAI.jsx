@@ -1,14 +1,43 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Navbar2 from "../Navbar2";
+import SEO from "../SEO";
 
 import bg15 from "../../assets/img/bg/bg15.jpg";
 import analytics from "../../assets/img/content/analytics.png";
 import circuitPattern from "../../assets/img/bg/electric-services-38.png";
 
 function LegalAI() {
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Legal AI Platform",
+    "applicationCategory": "BusinessApplication",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "description": "AI-powered legal research and analysis platform for law firms and corporate legal teams. Accelerate contract review, due diligence, legal research, and document analysis with advanced natural language processing.",
+    "featureList": [
+      "Legal document analysis",
+      "Contract review and extraction",
+      "Case law research",
+      "Due diligence automation",
+      "Risk identification",
+      "Legal precedent search"
+    ]
+  };
+
   return (
     <>
+      <SEO
+        title="Legal AI - AI-Powered Legal Research & Contract Analysis Platform"
+        description="Advanced Legal AI platform for law firms and corporate legal teams. Accelerate legal research, contract review, due diligence, and document analysis. Reduce legal research time by 80% with AI-powered insights."
+        keywords="legal AI, legal research software, contract analysis AI, legal document review, due diligence software, legal tech, AI for lawyers, contract management AI, legal automation"
+        canonicalUrl="/#/legal-ai"
+        structuredData={structuredData}
+      />
       <Navbar2 />
 
       <div className="main-wrapper">
@@ -60,6 +89,19 @@ function LegalAI() {
                   teams accelerate research, contract review, and due diligence.
                   Find relevant precedents, extract clauses, and flag risks
                   faster — so you can focus on strategy and client outcomes.
+                  Built with advanced natural language processing and machine
+                  learning, our platform understands legal terminology, case law
+                  patterns, and regulatory requirements.
+                </p>
+                <p className="mb-1-9">
+                  From contract analysis to legal research, our Legal AI reduces
+                  manual review time by up to 80% while improving accuracy and
+                  consistency. The platform can analyze thousands of documents in
+                  minutes, identify key clauses, extract important dates and
+                  obligations, flag potential risks, and suggest relevant case
+                  law and precedents. Whether you're handling M&A due diligence,
+                  contract negotiations, or litigation preparation, Legal AI
+                  empowers your team to work smarter and deliver better results.
                 </p>
 
                 <div className="d-flex flex-wrap gap-3">

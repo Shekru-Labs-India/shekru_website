@@ -1,14 +1,34 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Navbar2 from "../Navbar2";
+import SEO from "../SEO";
 
 import bg13 from "../../assets/img/bg/bg13.jpg";
 import analytics from "../../assets/img/content/analytics.png";
 import circuitPattern from "../../assets/img/bg/electric-services-38.png";
 
 function Digitization() {
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "Digital Transformation Service",
+    "name": "AI-Powered Digitization Services",
+    "description": "Digitize legacy processes, paper documents, and data sources to enable AI-powered automation and insights. Transform analog workflows into digital, AI-ready systems.",
+    "provider": {
+      "@type": "Organization",
+      "name": "Shekru Labs"
+    }
+  };
+
   return (
     <>
+      <SEO
+        title="AI-Powered Digitization - Transform Legacy Processes to Digital"
+        description="Digitize paper documents, legacy systems, and analog processes to enable AI automation. Transform your business processes from manual workflows to intelligent, data-driven systems. Document digitization and process automation."
+        keywords="digitization services, document digitization, process digitization, legacy system modernization, digital transformation, AI-ready data, document scanning, OCR services, process automation"
+        canonicalUrl="/#/ai/digitization"
+        structuredData={structuredData}
+      />
       <Navbar2 />
       <div className="main-wrapper">
         {/* PAGE TITLE */}
@@ -57,7 +77,20 @@ function Digitization() {
                   We help you digitize processes, content, and data sources so
                   that AI can reason over them — unlocking automation and
                   insights that are not possible in spreadsheets and documents
-                  alone.
+                  alone. Many organizations have valuable data locked in paper
+                  documents, legacy systems, or unstructured formats that prevent
+                  them from leveraging AI and automation effectively.
+                </p>
+                <p className="mb-1-9">
+                  Our digitization services combine document scanning, OCR
+                  (Optical Character Recognition), data extraction, and process
+                  mapping to transform analog workflows into digital,
+                  AI-ready systems. We help you structure unstructured data,
+                  migrate legacy systems, and create digital workflows that
+                  enable intelligent automation. Whether you're digitizing
+                  customer records, invoices, contracts, or operational
+                  processes, we ensure data quality, security, and
+                  interoperability with modern AI systems.
                 </p>
                 <div className="d-flex flex-wrap gap-3">
                   <Link to="/contact" className="butn primary">

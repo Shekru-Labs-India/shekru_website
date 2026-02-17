@@ -1,14 +1,45 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Navbar2 from "../Navbar2";
+import SEO from "../SEO";
 
 import bg15 from "../../assets/img/bg/bg15.jpg";
 import hrmImg from "../../assets/img/content/HRM.jpg";
 import circuitPattern from "../../assets/img/bg/electric-services-38.png";
 
 function HRMS() {
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "HRMS - Human Resource Management System",
+    "applicationCategory": "BusinessApplication",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "description": "Comprehensive HRMS platform for managing complete employee lifecycle - onboarding, attendance, leave, payroll, performance, recruitment, and compliance. Cloud-based HR software with employee self-service portal.",
+    "featureList": [
+      "Employee onboarding and lifecycle management",
+      "Attendance and leave management",
+      "Automated payroll processing",
+      "Performance management and appraisals",
+      "Recruitment and applicant tracking",
+      "Expense management",
+      "Asset tracking",
+      "HR analytics and reporting"
+    ]
+  };
+
   return (
     <>
+      <SEO
+        title="HRMS - Human Resource Management System | Complete HR Software"
+        description="Comprehensive HRMS platform for employee lifecycle management. Features include payroll automation, attendance tracking, performance management, recruitment, and compliance. Cloud-based HR software trusted by 500+ companies in India."
+        keywords="HRMS software, HR management system, payroll software, attendance management, employee management system, HR software India, cloud HRMS, performance management system, recruitment software, HR automation"
+        canonicalUrl="/#/hrms"
+        structuredData={structuredData}
+      />
       <Navbar2 />
 
       <div className="main-wrapper">
@@ -59,6 +90,20 @@ function HRMS() {
                   Our HRMS helps you manage the complete employee lifecycle —
                   from onboarding to payroll and performance — with clean
                   workflows and clear visibility for HR and leadership teams.
+                  Built for modern organizations, our cloud-based HRMS automates
+                  routine HR tasks, ensures statutory compliance, and provides
+                  actionable insights through comprehensive analytics and
+                  reporting.
+                </p>
+                <p className="mb-1-9">
+                  Whether you're a growing startup or an established enterprise,
+                  our modular HRMS scales with your needs. Start with core
+                  modules like attendance and payroll, then add performance
+                  management, recruitment, or expense tracking as your
+                  organization grows. With role-based access controls, mobile
+                  self-service portal, and seamless integrations, empower your
+                  HR team to focus on strategic initiatives while the system
+                  handles operational efficiency.
                 </p>
 
                 <div className="row mt-n1-9 mb-1-9">
@@ -418,48 +463,305 @@ function HRMS() {
           </div>
         </section>
 
-        {/* WHY HRMS */}
+        {/* STATISTICS */}
         <section className="pt-6 pb-6">
           <div className="container">
             <div className="section-heading text-center">
-              <h2>Why teams choose our HRMS</h2>
+              <h2>Trusted by Growing Organizations</h2>
+              <p className="mb-0">
+                Real results from companies using our HRMS platform
+              </p>
             </div>
 
             <div className="row mt-n1-9">
-              <div className="col-md-6 mt-1-9">
-                <div className="border-dotted p-3">
-                  <i className="fa fa-check-circle text-success me-3 fs-4" />
-                  Fewer manual tasks with automated workflows
+              <div className="col-md-6 col-lg-3 mt-1-9">
+                <div className="text-center border-dotted p-4">
+                  <h2 className="text-primary font-weight-700 mb-2">500+</h2>
+                  <p className="mb-0">Companies using HRMS</p>
                 </div>
               </div>
-              <div className="col-md-6 mt-1-9">
-                <div className="border-dotted p-3">
-                  <i className="fa fa-check-circle text-success me-3 fs-4" />
-                  Better compliance with clear approvals and auditability
+              <div className="col-md-6 col-lg-3 mt-1-9">
+                <div className="text-center border-dotted p-4">
+                  <h2 className="text-primary font-weight-700 mb-2">50K+</h2>
+                  <p className="mb-0">Employees managed</p>
                 </div>
               </div>
-              <div className="col-md-6 mt-1-9">
-                <div className="border-dotted p-3">
-                  <i className="fa fa-check-circle text-success me-3 fs-4" />
-                  Faster payroll cycles with fewer errors
+              <div className="col-md-6 col-lg-3 mt-1-9">
+                <div className="text-center border-dotted p-4">
+                  <h2 className="text-primary font-weight-700 mb-2">60%</h2>
+                  <p className="mb-0">Reduction in HR admin time</p>
                 </div>
               </div>
-              <div className="col-md-6 mt-1-9">
-                <div className="border-dotted p-3">
-                  <i className="fa fa-check-circle text-success me-3 fs-4" />
-                  Role-based access to keep employee data secure
+              <div className="col-md-6 col-lg-3 mt-1-9">
+                <div className="text-center border-dotted p-4">
+                  <h2 className="text-primary font-weight-700 mb-2">99.5%</h2>
+                  <p className="mb-0">Payroll accuracy rate</p>
                 </div>
               </div>
-              <div className="col-md-6 mt-1-9">
-                <div className="border-dotted p-3">
+            </div>
+          </div>
+        </section>
+
+        {/* WHY HRMS */}
+        <section className="bg-light pt-6 pb-6">
+          <div className="container">
+            <div className="section-heading text-center">
+              <h2>Why teams choose our HRMS</h2>
+              <p className="mb-0">
+                Comprehensive benefits that drive productivity and compliance
+              </p>
+            </div>
+
+            <div className="row mt-n1-9">
+              <div className="col-md-6 col-lg-4 mt-1-9">
+                <div className="border-dotted p-4 h-100">
                   <i className="fa fa-check-circle text-success me-3 fs-4" />
-                  Better employee experience with self-service tools
+                  <strong>Automated Workflows</strong>
+                  <p className="mb-0 mt-2">
+                    Fewer manual tasks with automated workflows for leave
+                    approvals, payroll processing, and employee lifecycle events.
+                    Save up to 60% of HR administrative time.
+                  </p>
                 </div>
               </div>
-              <div className="col-md-6 mt-1-9">
-                <div className="border-dotted p-3">
+              <div className="col-md-6 col-lg-4 mt-1-9">
+                <div className="border-dotted p-4 h-100">
                   <i className="fa fa-check-circle text-success me-3 fs-4" />
-                  Scales across locations, teams, and policies
+                  <strong>Regulatory Compliance</strong>
+                  <p className="mb-0 mt-2">
+                    Better compliance with clear approvals and auditability.
+                    Automated statutory calculations for PF, ESI, PT, TDS ensure
+                    error-free compliance.
+                  </p>
+                </div>
+              </div>
+              <div className="col-md-6 col-lg-4 mt-1-9">
+                <div className="border-dotted p-4 h-100">
+                  <i className="fa fa-check-circle text-success me-3 fs-4" />
+                  <strong>Accurate Payroll</strong>
+                  <p className="mb-0 mt-2">
+                    Faster payroll cycles with fewer errors. Automated
+                    calculations, validation checks, and approval workflows
+                    ensure 99.5% payroll accuracy.
+                  </p>
+                </div>
+              </div>
+              <div className="col-md-6 col-lg-4 mt-1-9">
+                <div className="border-dotted p-4 h-100">
+                  <i className="fa fa-check-circle text-success me-3 fs-4" />
+                  <strong>Data Security</strong>
+                  <p className="mb-0 mt-2">
+                    Role-based access to keep employee data secure. Granular
+                    permissions ensure sensitive information is only accessible
+                    to authorized personnel.
+                  </p>
+                </div>
+              </div>
+              <div className="col-md-6 col-lg-4 mt-1-9">
+                <div className="border-dotted p-4 h-100">
+                  <i className="fa fa-check-circle text-success me-3 fs-4" />
+                  <strong>Employee Self-Service</strong>
+                  <p className="mb-0 mt-2">
+                    Better employee experience with self-service tools. Employees
+                    can access payslips, apply for leave, update information,
+                    and view benefits from anywhere.
+                  </p>
+                </div>
+              </div>
+              <div className="col-md-6 col-lg-4 mt-1-9">
+                <div className="border-dotted p-4 h-100">
+                  <i className="fa fa-check-circle text-success me-3 fs-4" />
+                  <strong>Scalable Platform</strong>
+                  <p className="mb-0 mt-2">
+                    Scales across locations, teams, and policies. Support for
+                    multiple companies, branches, departments, and custom
+                    organizational hierarchies.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* INDUSTRIES */}
+        <section className="pt-6 pb-6">
+          <div className="container">
+            <div className="section-heading text-center">
+              <h2>Industries We Serve</h2>
+              <p className="mb-0">
+                HRMS solutions tailored for different industry needs
+              </p>
+            </div>
+
+            <div className="row mt-n1-9">
+              <div className="col-md-6 col-lg-3 mt-1-9">
+                <div className="text-center p-4 border-dotted">
+                  <i className="fa-solid fa-laptop-code fs-1 text-primary mb-3"></i>
+                  <h5 className="font-weight-600">IT &amp; Technology</h5>
+                  <p className="mb-0 small">
+                    Manage remote teams, project-based allocations, and flexible
+                    work policies
+                  </p>
+                </div>
+              </div>
+              <div className="col-md-6 col-lg-3 mt-1-9">
+                <div className="text-center p-4 border-dotted">
+                  <i className="fa-solid fa-industry fs-1 text-primary mb-3"></i>
+                  <h5 className="font-weight-600">Manufacturing</h5>
+                  <p className="mb-0 small">
+                    Shift management, attendance tracking, and production-linked
+                    payroll
+                  </p>
+                </div>
+              </div>
+              <div className="col-md-6 col-lg-3 mt-1-9">
+                <div className="text-center p-4 border-dotted">
+                  <i className="fa-solid fa-store fs-1 text-primary mb-3"></i>
+                  <h5 className="font-weight-600">Retail &amp; E-commerce</h5>
+                  <p className="mb-0 small">
+                    Multi-location support, sales commission, and flexible
+                    scheduling
+                  </p>
+                </div>
+              </div>
+              <div className="col-md-6 col-lg-3 mt-1-9">
+                <div className="text-center p-4 border-dotted">
+                  <i className="fa-solid fa-graduation-cap fs-1 text-primary mb-3"></i>
+                  <h5 className="font-weight-600">Education</h5>
+                  <p className="mb-0 small">
+                    Academic calendar integration, contract management, and
+                    fee-based payroll
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        {/* FAQ */}
+        <section className="bg-light pt-6 pb-6">
+          <div className="container">
+            <div className="section-heading text-center">
+              <h2>Frequently Asked Questions</h2>
+            </div>
+
+            <div className="row mt-n1-9">
+              <div className="col-lg-10 mx-auto mt-1-9">
+                <div className="accordion" id="hrmsFAQ">
+                  <div className="accordion-item">
+                    <h3 className="accordion-header">
+                      <button
+                        className="accordion-button"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#hrmsFaq1"
+                      >
+                        What is HRMS and what modules does it include?
+                      </button>
+                    </h3>
+                    <div
+                      id="hrmsFaq1"
+                      className="accordion-collapse collapse show"
+                      data-bs-parent="#hrmsFAQ"
+                    >
+                      <div className="accordion-body">
+                        HRMS (Human Resource Management System) is a comprehensive
+                        platform that manages the entire employee lifecycle. Our
+                        HRMS includes modules for employee onboarding, attendance
+                        and leave management, payroll processing, performance
+                        management, recruitment, expense management, asset tracking,
+                        and HR analytics. You can start with core modules and add
+                        others as needed, making it flexible for organizations of
+                        all sizes.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="accordion-item">
+                    <h3 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#hrmsFaq2"
+                      >
+                        Does the HRMS support statutory compliance for payroll?
+                      </button>
+                    </h3>
+                    <div
+                      id="hrmsFaq2"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#hrmsFAQ"
+                    >
+                      <div className="accordion-body">
+                        Yes, our HRMS is designed to handle statutory compliance
+                        requirements including PF (Provident Fund), ESI (Employee
+                        State Insurance), Professional Tax, TDS (Tax Deducted at
+                        Source), and LWF (Labour Welfare Fund) calculations. The
+                        system generates statutory reports, challans, and returns
+                        as per government regulations. We regularly update the
+                        system to reflect changes in statutory rules and
+                        regulations.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="accordion-item">
+                    <h3 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#hrmsFaq3"
+                      >
+                        Can employees access the HRMS through mobile devices?
+                      </button>
+                    </h3>
+                    <div
+                      id="hrmsFaq3"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#hrmsFAQ"
+                    >
+                      <div className="accordion-body">
+                        Absolutely. Our HRMS includes a responsive web interface
+                        that works seamlessly on mobile devices, tablets, and
+                        desktops. Employees can access their self-service portal to
+                        apply for leave, view payslips, update personal
+                        information, submit expense claims, and check attendance
+                        records from anywhere, anytime. The mobile-friendly
+                        interface ensures a smooth user experience across all
+                        devices.
+                      </div>
+                    </div>
+                  </div>
+
+                  <div className="accordion-item">
+                    <h3 className="accordion-header">
+                      <button
+                        className="accordion-button collapsed"
+                        type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#hrmsFaq4"
+                      >
+                        How long does it take to implement the HRMS?
+                      </button>
+                    </h3>
+                    <div
+                      id="hrmsFaq4"
+                      className="accordion-collapse collapse"
+                      data-bs-parent="#hrmsFAQ"
+                    >
+                      <div className="accordion-body">
+                        Implementation timeline typically ranges from 2-6 weeks
+                        depending on the modules selected, number of employees, and
+                        integration requirements. The process includes data
+                        migration, system configuration, workflow setup, user
+                        training, and UAT. Our implementation team works closely
+                        with your HR team to ensure a smooth transition with
+                        minimal disruption to daily operations.
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

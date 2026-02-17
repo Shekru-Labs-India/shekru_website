@@ -1,14 +1,34 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Navbar2 from "../Navbar2";
+import SEO from "../SEO";
 
 import bg13 from "../../assets/img/bg/bg13.jpg";
 import analytics from "../../assets/img/content/analytics.png";
 import circuitPattern from "../../assets/img/bg/electric-services-38.png";
 
 function VisionAI() {
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "AI Consulting Service",
+    "name": "Vision AI Solutions",
+    "description": "Computer vision solutions for real-time image and video analysis. Detect, classify, and track objects, events, and patterns in CCTV streams, medical images, and digital content.",
+    "provider": {
+      "@type": "Organization",
+      "name": "Shekru Labs"
+    }
+  };
+
   return (
     <>
+      <SEO
+        title="Vision AI - Computer Vision Solutions for Image & Video Analysis"
+        description="Advanced computer vision solutions for real-time image and video analysis. Detect events, classify objects, track movements, and extract insights from CCTV streams, medical images, and digital content."
+        keywords="vision AI, computer vision, image analysis AI, video analytics AI, object detection, image recognition, computer vision services, AI image processing, video AI"
+        canonicalUrl="/#/ai/vision"
+        structuredData={structuredData}
+      />
       <Navbar2 />
       <div className="main-wrapper">
         {/* PAGE TITLE */}
@@ -56,7 +76,21 @@ function VisionAI() {
                 <p className="mb-1-9">
                   From CCTV streams to medical images, our Vision AI solutions
                   can detect, classify, and track what matters in real time,
-                  turning pixels into decisions.
+                  turning pixels into decisions. Built with state-of-the-art
+                  deep learning models, our computer vision systems can process
+                  images and videos at scale, identifying patterns, objects,
+                  events, and anomalies that would be impossible for humans to
+                  monitor continuously.
+                </p>
+                <p className="mb-1-9">
+                  Our Vision AI solutions are deployed across industries for
+                  security surveillance, quality control, medical imaging,
+                  retail analytics, and document processing. We customize models
+                  to your specific use case, ensuring high accuracy and
+                  performance. Whether you need real-time video analytics,
+                  automated image classification, or intelligent content
+                  moderation, our Vision AI platform provides the intelligence
+                  layer that transforms visual data into actionable insights.
                 </p>
                 <div className="d-flex flex-wrap gap-3">
                   <Link to="/contact" className="butn primary">

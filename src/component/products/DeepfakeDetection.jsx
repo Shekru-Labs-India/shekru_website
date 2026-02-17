@@ -1,14 +1,43 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Navbar2 from "../Navbar2";
+import SEO from "../SEO";
 
 import bg13 from "../../assets/img/bg/bg13.jpg";
 import analytics from "../../assets/img/content/analytics.png";
 import circuitPattern from "../../assets/img/bg/electric-services-38.png";
 
 function DeepfakeDetection() {
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Deepfake Detection System",
+    "applicationCategory": "SecurityApplication",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "description": "AI-powered deepfake detection solution to identify synthetic or manipulated media including images, videos, and audio. Protect your brand, verify identity, and prevent fraud from AI-generated content.",
+    "featureList": [
+      "Image deepfake detection",
+      "Video manipulation detection",
+      "Audio deepfake detection",
+      "Real-time analysis",
+      "API integration",
+      "Fraud prevention"
+    ]
+  };
+
   return (
     <>
+      <SEO
+        title="Deepfake Detection - AI-Powered Media Verification & Fraud Prevention"
+        description="Advanced deepfake detection system using AI to identify synthetic or manipulated images, videos, and audio. Protect your brand, verify identity, and prevent fraud. Real-time analysis with API integration."
+        keywords="deepfake detection, AI fraud detection, media verification, synthetic media detection, deepfake detection API, video manipulation detection, image authenticity verification, AI security"
+        canonicalUrl="/#/deepfake-detection"
+        structuredData={structuredData}
+      />
       <Navbar2 />
 
       <div className="main-wrapper">
@@ -59,7 +88,19 @@ function DeepfakeDetection() {
                   Our deepfake detection solution uses advanced AI to identify
                   synthetic or manipulated media — images, videos, and audio.
                   Protect your brand, verify identity, and prevent fraud in
-                  an era where AI-generated content is increasingly common.
+                  an era where AI-generated content is increasingly common. As
+                  deepfake technology becomes more sophisticated, organizations
+                  need robust detection mechanisms to maintain trust and security.
+                </p>
+                <p className="mb-1-9">
+                  Our deepfake detection system leverages state-of-the-art machine
+                  learning models trained on millions of authentic and synthetic
+                  media samples. It can detect subtle artifacts, inconsistencies,
+                  and manipulation patterns that are invisible to the human eye.
+                  Whether you're verifying user identity, protecting brand
+                  reputation, or preventing financial fraud, our solution provides
+                  real-time analysis with high accuracy and low false positive
+                  rates.
                 </p>
 
                 <div className="d-flex flex-wrap gap-3">

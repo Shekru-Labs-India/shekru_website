@@ -1,14 +1,43 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Navbar2 from "../Navbar2";
+import SEO from "../SEO";
 
 import bg13 from "../../assets/img/bg/bg13.jpg";
 import analytics from "../../assets/img/content/analytics.png";
 import circuitPattern from "../../assets/img/bg/electric-services-38.png";
 
 function CCTVSurveillance() {
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "CCTV Surveillance & Analytics Platform",
+    "applicationCategory": "SecurityApplication",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "description": "AI-powered CCTV surveillance and video analytics platform. Detect events, count people, monitor zones, and get real-time alerts. Suitable for retail, warehouses, campuses, and public spaces.",
+    "featureList": [
+      "Real-time video analytics",
+      "People and vehicle counting",
+      "Zone monitoring and alerts",
+      "Event detection",
+      "Multi-camera management",
+      "Cloud and on-premise deployment"
+    ]
+  };
+
   return (
     <>
+      <SEO
+        title="CCTV Surveillance & Analytics - AI-Powered Video Intelligence Platform"
+        description="Advanced CCTV surveillance and video analytics platform with AI-powered intelligence. Detect events, count people, monitor zones, and get real-time alerts. Trusted by retail stores, warehouses, campuses, and public spaces."
+        keywords="CCTV surveillance software, video analytics, AI surveillance, smart CCTV, video monitoring system, security camera software, video analytics platform, intelligent surveillance, CCTV management system"
+        canonicalUrl="/#/cctv-surveillance"
+        structuredData={structuredData}
+      />
       <Navbar2 />
 
       <div className="main-wrapper">
@@ -60,7 +89,21 @@ function CCTVSurveillance() {
                   into actionable insights. From retail and warehouses to
                   campuses and public spaces — detect events, count people,
                   monitor zones, and respond faster with AI-powered video
-                  intelligence.
+                  intelligence. Traditional CCTV systems record hours of footage
+                  that often goes unmonitored, but our AI-powered platform
+                  actively analyzes video streams in real-time to identify
+                  important events and patterns.
+                </p>
+                <p className="mb-1-9">
+                  Built with advanced computer vision and machine learning
+                  algorithms, our surveillance platform can detect loitering,
+                  unauthorized access, crowd density, vehicle movement, and
+                  suspicious activities. It integrates seamlessly with existing
+                  CCTV infrastructure, supporting IP cameras, analog cameras with
+                  encoders, and cloud-based video streams. Get instant alerts on
+                  your mobile device or dashboard when predefined events occur,
+                  enabling proactive security management and operational
+                  optimization.
                 </p>
 
                 <div className="d-flex flex-wrap gap-3">

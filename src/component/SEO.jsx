@@ -1,0 +1,58 @@
+import React from "react";
+import { Helmet } from "react-helmet-async";
+
+function SEO({
+  title,
+  description,
+  keywords,
+  canonicalUrl,
+  ogImage,
+  ogType = "website",
+  structuredData,
+}) {
+  const siteUrl = "https://shekruweb.com";
+  const fullTitle = title
+    ? `${title} | Shekru Labs`
+    : "Shekru Labs - Leading IT Solutions Provider";
+  const fullCanonicalUrl = canonicalUrl
+    ? `${siteUrl}${canonicalUrl}`
+    : siteUrl;
+  const fullOgImage = ogImage
+    ? `${siteUrl}${ogImage}`
+    : `${siteUrl}/logo-social.png`;
+
+  return (
+    <Helmet>
+      {/* Primary Meta Tags */}
+      <title>{fullTitle}</title>
+      <meta name="title" content={fullTitle} />
+      <meta name="description" content={description} />
+      {keywords && <meta name="keywords" content={keywords} />}
+      <link rel="canonical" href={fullCanonicalUrl} />
+
+      {/* Open Graph / Facebook */}
+      <meta property="og:type" content={ogType} />
+      <meta property="og:url" content={fullCanonicalUrl} />
+      <meta property="og:title" content={fullTitle} />
+      <meta property="og:description" content={description} />
+      <meta property="og:image" content={fullOgImage} />
+      <meta property="og:site_name" content="Shekru Labs" />
+
+      {/* Twitter */}
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:url" content={fullCanonicalUrl} />
+      <meta name="twitter:title" content={fullTitle} />
+      <meta name="twitter:description" content={description} />
+      <meta name="twitter:image" content={fullOgImage} />
+
+      {/* Structured Data */}
+      {structuredData && (
+        <script type="application/ld+json">
+          {JSON.stringify(structuredData)}
+        </script>
+      )}
+    </Helmet>
+  );
+}
+
+export default SEO;

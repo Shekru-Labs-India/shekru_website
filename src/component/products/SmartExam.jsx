@@ -1,14 +1,43 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Navbar2 from "../Navbar2";
+import SEO from "../SEO";
 
 import bg15 from "../../assets/img/bg/bg15.jpg";
 import analytics from "../../assets/img/content/analytics.png";
 import circuitPattern from "../../assets/img/bg/electric-services-38.png";
 
 function SmartExam() {
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Smart Exam - Online Examination System",
+    "applicationCategory": "EducationalApplication",
+    "offers": {
+      "@type": "Offer",
+      "price": "0",
+      "priceCurrency": "USD"
+    },
+    "description": "Comprehensive online and offline examination management system for schools, colleges, and training institutes. Features include question bank management, exam scheduling, auto-grading, proctoring, and analytics.",
+    "featureList": [
+      "Question bank management",
+      "Online and offline exam creation",
+      "Automated grading",
+      "Proctoring and anti-cheating",
+      "Exam scheduling and management",
+      "Analytics and reporting"
+    ]
+  };
+
   return (
     <>
+      <SEO
+        title="Smart Exam - Online Examination Management System for Schools & Colleges"
+        description="Complete examination management system for educational institutions. Create question banks, schedule online/offline exams, auto-grade answers, and generate reports. Features proctoring, anti-cheating, and comprehensive analytics."
+        keywords="online exam software, examination management system, online test platform, exam software for schools, online assessment system, exam proctoring software, question bank software, online examination India"
+        canonicalUrl="/#/smart-exam"
+        structuredData={structuredData}
+      />
       <Navbar2 />
 
       <div className="main-wrapper">
@@ -61,7 +90,20 @@ function SmartExam() {
                   question banks, schedule exams, auto-grade answers, and
                   generate reports — all from a single platform. Reduce
                   manual work and ensure fairness with proctoring and
-                  analytics.
+                  analytics. Whether you're conducting entrance exams, semester
+                  assessments, or certification tests, our platform provides
+                  the tools you need to manage the complete examination lifecycle.
+                </p>
+                <p className="mb-1-9">
+                  With features like question randomization, time limits, answer
+                  shuffling, and AI-powered proctoring, Smart Exam ensures exam
+                  integrity while providing a smooth experience for both
+                  administrators and students. The platform supports multiple
+                  question types including MCQ, descriptive, coding, and file
+                  uploads. Automated grading for objective questions saves
+                  significant time, while manual grading workflows support
+                  subjective assessments. Comprehensive analytics help identify
+                  learning gaps and improve teaching effectiveness.
                 </p>
 
                 <div className="d-flex flex-wrap gap-3">

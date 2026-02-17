@@ -1,14 +1,34 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Navbar2 from "../Navbar2";
+import SEO from "../SEO";
 
 import bg15 from "../../assets/img/bg/bg15.jpg";
 import analytics from "../../assets/img/content/analytics.png";
 import circuitPattern from "../../assets/img/bg/electric-services-38.png";
 
 function BlockchainAI() {
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "serviceType": "AI Consulting Service",
+    "name": "Blockchain & AI Solutions",
+    "description": "Combine blockchain's immutability and transparency with AI's intelligence. Build systems where decisions, events, and data are both intelligent and verifiable through distributed ledger technology.",
+    "provider": {
+      "@type": "Organization",
+      "name": "Shekru Labs"
+    }
+  };
+
   return (
     <>
+      <SEO
+        title="Blockchain & AI - Trust, Transparency & Intelligent Systems"
+        description="Combine blockchain's auditability with AI's pattern recognition. Build intelligent systems where decisions and data are both smart and verifiable. Blockchain AI integration for supply chain, finance, and identity management."
+        keywords="blockchain AI, blockchain and AI integration, smart contracts AI, decentralized AI, blockchain analytics, AI on blockchain, blockchain solutions, distributed ledger AI"
+        canonicalUrl="/#/ai/blockchain"
+        structuredData={structuredData}
+      />
       <Navbar2 />
       <div className="main-wrapper">
         {/* PAGE TITLE */}
@@ -57,6 +77,20 @@ function BlockchainAI() {
                   Combine blockchain&apos;s auditability with AI&apos;s pattern
                   recognition. We help you design systems where decisions,
                   events, and data are both intelligent and verifiable.
+                  Blockchain provides the immutable, transparent ledger while AI
+                  adds intelligence, pattern recognition, and automated
+                  decision-making capabilities.
+                </p>
+                <p className="mb-1-9">
+                  Our Blockchain & AI solutions are ideal for use cases where
+                  trust, transparency, and intelligence are critical. We design
+                  systems where AI models make decisions based on blockchain data,
+                  smart contracts execute AI-driven logic, and distributed
+                  ledgers provide verifiable audit trails for AI decisions.
+                  Whether you're building supply chain transparency systems,
+                  financial fraud detection platforms, or identity verification
+                  solutions, combining blockchain and AI creates powerful,
+                  trustworthy systems that are both intelligent and accountable.
                 </p>
                 <div className="d-flex flex-wrap gap-3">
                   <Link to="/contact" className="butn primary">
