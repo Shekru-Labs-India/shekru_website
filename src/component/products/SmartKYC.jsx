@@ -3,6 +3,7 @@ import Navbar2 from "../Navbar2";
 import SEO from "../SEO";
 import { Link } from "react-router-dom";
 import analytics from "../../assets/img/content/analytics.png";
+import heroSmartKyc from "../../assets/img/bg/hero/smart-kyc-hero.jpg";
 import circuitPattern from "../../assets/img/bg/electric-services-38.png";
 
 function SmartKYC() {
@@ -48,10 +49,7 @@ function SmartKYC() {
         <section
           className="page-title-section2 bg-img cover-background"
           data-overlay-dark={6}
-          style={{
-            backgroundImage:
-              'url("https://images.pexels.com/photos/4968633/pexels-photo-4968633.jpeg?auto=compress&cs=tinysrgb&w=1600")',
-          }}
+          style={{ backgroundImage: `url(${heroSmartKyc})` }}
         >
           <div className="container">
             <div className="row">

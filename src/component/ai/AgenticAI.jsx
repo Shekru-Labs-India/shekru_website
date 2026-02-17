@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import Navbar2 from "../Navbar2";
 import SEO from "../SEO";
 
+import heroAgentic from "../../assets/img/bg/hero/agentic-ai-hero.jpg";
 import analytics from "../../assets/img/content/analytics.png";
 import circuitPattern from "../../assets/img/bg/electric-services-38.png";
 
@@ -34,10 +35,7 @@ function AgenticAI() {
         <section
           className="page-title-section2 bg-img cover-background"
           data-overlay-dark={6}
-          style={{
-            backgroundImage:
-              'url("https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg?auto=compress&cs=tinysrgb&w=1600")',
-          }}
+          style={{ backgroundImage: `url(${heroAgentic})` }}
         >
           <div className="container">
             <div className="row">

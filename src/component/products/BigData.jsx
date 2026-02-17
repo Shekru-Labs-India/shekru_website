@@ -84,7 +84,7 @@ function BigData() {
                   }}
                 >
                   <img
-                    src="https://tridentdatabaseproviders.in/students.jpg"
+                    src={`${process.env.PUBLIC_URL}/img/bigdata/students.jpg`}
                     className="rounded-circle me-4"
                     style={{
                       width: "64px",
@@ -125,7 +125,7 @@ function BigData() {
                   }}
                 >
                   <img
-                    src="https://tridentdatabaseproviders.in/stock.jpeg"
+                    src={`${process.env.PUBLIC_URL}/img/bigdata/stock.jpeg`}
                     className="rounded-circle me-4"
                     style={{
                       width: "64px",
@@ -168,7 +168,7 @@ function BigData() {
                   }}
                 >
                   <img
-                    src="https://tridentdatabaseproviders.in/estate.jpg"
+                    src={`${process.env.PUBLIC_URL}/img/bigdata/estate.jpg`}
                     className="rounded-circle me-4"
                     style={{
                       width: "64px",
@@ -209,7 +209,7 @@ function BigData() {
                   }}
                 >
                   <img
-                    src="https://tridentdatabaseproviders.in/credit%20card.jpg"
+                    src={`${process.env.PUBLIC_URL}/img/bigdata/credit-card.jpg`}
                     className="rounded-circle me-4"
                     style={{
                       width: "64px",
@@ -252,7 +252,7 @@ function BigData() {
                   }}
                 >
                   <img
-                    src="https://tridentdatabaseproviders.in/car.jpeg"
+                    src={`${process.env.PUBLIC_URL}/img/bigdata/car.jpeg`}
                     className="rounded-circle me-4"
                     style={{
                       width: "64px",
@@ -293,7 +293,7 @@ function BigData() {
                   }}
                 >
                   <img
-                    src="https://tridentdatabaseproviders.in/job.png"
+                    src={`${process.env.PUBLIC_URL}/img/bigdata/job.png`}
                     className="rounded-circle me-4"
                     style={{
                       width: "64px",
@@ -336,7 +336,7 @@ function BigData() {
                   }}
                 >
                   <img
-                    src="https://tridentdatabaseproviders.in/buisnessman.jpg"
+                    src={`${process.env.PUBLIC_URL}/img/bigdata/businessman.jpg`}
                     className="rounded-circle me-4"
                     style={{
                       width: "64px",
@@ -379,7 +379,7 @@ function BigData() {
                   }}
                 >
                   <img
-                    src="https://tridentdatabaseproviders.in/salaried.png"
+                    src={`${process.env.PUBLIC_URL}/img/bigdata/salaried.png`}
                     className="rounded-circle me-4"
                     style={{
                       width: "64px",
@@ -422,7 +422,7 @@ function BigData() {
                   }}
                 >
                   <img
-                    src="https://tridentdatabaseproviders.in/salaried.png"
+                    src={`${process.env.PUBLIC_URL}/img/bigdata/salaried.png`}
                     className="rounded-circle me-4"
                     style={{
                       width: "64px",
@@ -970,7 +970,7 @@ function BigData() {
             <div className="col-lg-3 col-md-6 p-4">
               <div className="h-100 d-flex flex-column align-items-center text-center">
                 <img
-                  src="https://tridentdatabaseproviders.in/sumeet.jpg"
+                    src={`${process.env.PUBLIC_URL}/img/bigdata/sumeet.jpg`}
                   className="rounded-circle mb-4"
                   style={{ width: "224px", height: "224px", objectFit: "cover" }}
                   alt="Reviewer"
@@ -996,7 +996,7 @@ function BigData() {
             <div className="col-lg-3 col-md-6 p-4">
               <div className="h-100 d-flex flex-column align-items-center text-center">
                 <img
-                  src="https://tridentdatabaseproviders.in/aarav.jpg"
+                    src={`${process.env.PUBLIC_URL}/img/bigdata/aarav.jpg`}
                   className="rounded-circle mb-4"
                   style={{ width: "224px", height: "224px", objectFit: "cover" }}
                   alt="Reviewer"
@@ -1022,7 +1022,7 @@ function BigData() {
             <div className="col-lg-3 col-md-6 p-4">
               <div className="h-100 d-flex flex-column align-items-center text-center">
                 <img
-                  src="https://tridentdatabaseproviders.in/suhani.jpg"
+                    src={`${process.env.PUBLIC_URL}/img/bigdata/suhani.jpg`}
                   className="rounded-circle mb-4"
                   style={{ width: "224px", height: "224px", objectFit: "cover" }}
                   alt="Reviewer"
@@ -1048,7 +1048,7 @@ function BigData() {
             <div className="col-lg-3 col-md-6 p-4">
               <div className="h-100 d-flex flex-column align-items-center text-center">
                 <img
-                  src="https://tridentdatabaseproviders.in/priya.jpg"
+                    src={`${process.env.PUBLIC_URL}/img/bigdata/priya.jpg`}
                   className="rounded-circle mb-4"
                   style={{ width: "224px", height: "224px", objectFit: "cover" }}
                   alt="Reviewer"
