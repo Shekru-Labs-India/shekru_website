@@ -269,7 +269,7 @@ function Footer() {
       <div className="container-fluid bg-dark mx-0 py-4">
         <div className="row mx-0 text-center">
           <div className="col-lg-6 col-md-6 text-white">
-            <p> &#169; Copyright All Rights Reserved. 2024.</p>
+            <p> &#169; Copyright All Rights Reserved. 2026.</p>
           </div>
           <div className="col-lg-6 col-md-6 text-white">
             <div className="d-flex flex-wrap justify-content-center">
